@@ -1,0 +1,24 @@
+capability,theme,kirofit,macromint,fitledger,nutripilot,pulsecoach,leanloop,vitalworks,category_table_stakes,kirofit_gap_severity,notes
+Weight trend chart,weight_trend_chart,none,yes,yes,yes,yes,yes,partial,yes,high,weightKg is a scalar — no history to plot
+History beyond 7 days,history_range_limit,gated_unimplemented,yes,yes,yes,yes,yes,yes,yes,high,premium gate exists with no implementation
+Offline logging,offline_mode,none,partial,yes,partial,partial,partial,no,emerging,medium,network-only fetch policy; no outbox
+Wearable sync (HealthKit/Health Connect),wearable_integration,none,yes,yes,partial,yes,partial,yes,yes,high,"requires native shells; Capacitor configured, no store builds"
+Reminders/notifications,reminders_missing,none,yes,yes,yes,yes,yes,yes,yes,medium,no push or local notification path
+Streaks/gamification,streaks_gamification,none,yes,yes,partial,yes,partial,yes,emerging,medium,no engagement loop
+Working paid subscription,billing_missing,none,yes,yes,yes,yes,yes,yes,yes,critical,handleUpgrade is a placeholder toast; no tier claim writer
+Data export (CSV/JSON),data_export_missing,advertised_absent,yes,yes,yes,yes,yes,yes,yes,high,advertised on SubscriptionPage; not implemented
+Analytics/insights screen,analytics_missing,advertised_absent,yes,yes,yes,yes,yes,yes,yes,high,gated as premium with no route or page
+Custom activity types,custom_activities,type_only,yes,yes,partial,yes,yes,partial,yes,medium,"CustomActivityType exists in TS types, no UI"
+Enterprise SSO (SAML/OIDC),sso_required,none,no,no,no,no,no,yes,enterprise_only,high,Cognito supports federation; unconfigured
+Cohort participation reporting,data_export_missing,none,no,no,partial,no,no,yes,enterprise_only,high,blocks Helios expansion
+Admin audit log,admin_audit_log,none,no,no,no,no,no,yes,enterprise_only,medium,no CloudTrail data events on media bucket
+Published VPAT/accessibility conformance,accessibility_a11y,none,partial,no,no,no,yes,yes,rising,high,axe serious violations on dashboard
+Native iOS/Android app in stores,native_mobile_apps,none,yes,yes,yes,yes,yes,yes,yes,medium,web-only; Capacitor 8 configured
+Community/challenges,community_challenges,gated_unimplemented,partial,yes,no,yes,no,yes,segment_specific,low,SMB demand; enterprise buyers object to leaderboards
+Guest/browse-before-signup mode,guest_onboarding,yes,no,no,partial,no,no,no,differentiator,none,Kiro Fit advantage — undermined by lossy guest sync
+Design quality / theming,ui_quality,strong,partial,partial,partial,yes,partial,no,differentiator,none,repeatedly praised in reviews and NPS verbatims
+Single-deploy self-host (one cdk deploy),deployability,yes,no,no,no,no,no,no,differentiator,none,unusual in category; relevant to enterprise data-residency asks
+Generated exercise plan,exercise_plan_generation,no,yes,yes,yes,yes,partial,yes,yes,critical,5 of 6 ship a generated plan; PulseCoach and VitalWorks make it the paid headline.
+Weekly / monthly progress report,progress_reports_periodic,no,yes,yes,yes,yes,yes,yes,yes,critical,Universal in the category. Kiro Fit cannot render any period other than the current week.
+Per-user imperial/metric units,unit_system_imperial,no,yes,yes,yes,yes,yes,yes,yes,critical,Universal. Two-day fix against a US-majority revenue pool.
+Generated narrative / AI coaching,genai_charter,no,yes,yes,yes,yes,no,partial,emerging,high,Four vendors ship generated text; published unit economics are $0.01-0.05 per MAU.

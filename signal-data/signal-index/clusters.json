@@ -1,0 +1,486 @@
+{
+  "generated_at": "2026-08-27",
+  "clusters": [
+    {
+      "cluster_id": "CL-03",
+      "title": "Make progress legible",
+      "theme_count": 3,
+      "signal_count": 68,
+      "max_theme_weight": 0.9707,
+      "mean_theme_weight": 0.8182,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "progress_reports_periodic",
+          "rank": 1,
+          "weight": 0.9707,
+          "status": "mapped",
+          "class_count": 6
+        },
+        {
+          "theme": "analytics_missing",
+          "rank": 8,
+          "weight": 0.8327,
+          "status": "processed",
+          "class_count": 6
+        },
+        {
+          "theme": "weight_trend_chart",
+          "rank": 18,
+          "weight": 0.6513,
+          "status": "processed",
+          "class_count": 5
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-11",
+      "title": "Meet users in their own units",
+      "theme_count": 1,
+      "signal_count": 27,
+      "max_theme_weight": 0.9522,
+      "mean_theme_weight": 0.9522,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "unit_system_imperial",
+          "rank": 2,
+          "weight": 0.9522,
+          "status": "mapped",
+          "class_count": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-01",
+      "title": "Coach the plan, not just the log",
+      "theme_count": 2,
+      "signal_count": 36,
+      "max_theme_weight": 0.946,
+      "mean_theme_weight": 0.7949,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "exercise_plan_generation",
+          "rank": 3,
+          "weight": 0.946,
+          "status": "mapped",
+          "class_count": 6
+        },
+        {
+          "theme": "custom_activities",
+          "rank": 20,
+          "weight": 0.6438,
+          "status": "processed",
+          "class_count": 4
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-06",
+      "title": "Unblock the corporate wellness segment",
+      "theme_count": 4,
+      "signal_count": 60,
+      "max_theme_weight": 0.9318,
+      "mean_theme_weight": 0.7564,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "accessibility_a11y",
+          "rank": 4,
+          "weight": 0.9318,
+          "status": "mapped",
+          "class_count": 6
+        },
+        {
+          "theme": "sso_required",
+          "rank": 7,
+          "weight": 0.8624,
+          "status": "mapped",
+          "class_count": 6
+        },
+        {
+          "theme": "dark_mode_contrast",
+          "rank": 19,
+          "weight": 0.6509,
+          "status": "mapped",
+          "class_count": 4
+        },
+        {
+          "theme": "admin_audit_log",
+          "rank": 22,
+          "weight": 0.5805,
+          "status": "processed",
+          "class_count": 4
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-02",
+      "title": "Let users own and correct their data",
+      "theme_count": 2,
+      "signal_count": 32,
+      "max_theme_weight": 0.9052,
+      "mean_theme_weight": 0.8979,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "gdpr_dsar",
+          "rank": 5,
+          "weight": 0.9052,
+          "status": "mapped",
+          "class_count": 6
+        },
+        {
+          "theme": "data_export_missing",
+          "rank": 6,
+          "weight": 0.8906,
+          "status": "mapped",
+          "class_count": 5
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-05",
+      "title": "Turn purchase intent into revenue",
+      "theme_count": 2,
+      "signal_count": 26,
+      "max_theme_weight": 0.828,
+      "mean_theme_weight": 0.5539,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "billing_missing",
+          "rank": 9,
+          "weight": 0.828,
+          "status": "mapped",
+          "class_count": 6
+        },
+        {
+          "theme": "pricing_pressure",
+          "rank": 36,
+          "weight": 0.2799,
+          "status": "processed",
+          "class_count": 2
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-04",
+      "title": "Stop losing data at sign-up",
+      "theme_count": 4,
+      "signal_count": 56,
+      "max_theme_weight": 0.7622,
+      "mean_theme_weight": 0.6233,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "guest_sync_loss",
+          "rank": 10,
+          "weight": 0.7622,
+          "status": "mapped",
+          "class_count": 5
+        },
+        {
+          "theme": "offline_mode",
+          "rank": 13,
+          "weight": 0.7404,
+          "status": "processed",
+          "class_count": 6
+        },
+        {
+          "theme": "guest_sync_duplicates",
+          "rank": 21,
+          "weight": 0.5848,
+          "status": "processed",
+          "class_count": 3
+        },
+        {
+          "theme": "guest_onboarding",
+          "rank": 32,
+          "weight": 0.4059,
+          "status": "processed",
+          "class_count": 3
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-07",
+      "title": "Query data the way users read it",
+      "theme_count": 2,
+      "signal_count": 30,
+      "max_theme_weight": 0.7572,
+      "mean_theme_weight": 0.7081,
+      "classes_represented": [
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "history_range_limit",
+          "rank": 11,
+          "weight": 0.7572,
+          "status": "mapped",
+          "class_count": 4
+        },
+        {
+          "theme": "history_latency",
+          "rank": 17,
+          "weight": 0.6589,
+          "status": "mapped",
+          "class_count": 5
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-12",
+      "title": "Apply GenAI where it pays for itself",
+      "theme_count": 1,
+      "signal_count": 20,
+      "max_theme_weight": 0.7464,
+      "mean_theme_weight": 0.7464,
+      "classes_represented": [
+        "ambient",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "genai_charter",
+          "rank": 12,
+          "weight": 0.7464,
+          "status": "processed",
+          "class_count": 5
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-10",
+      "title": "Deferred and watch",
+      "theme_count": 3,
+      "signal_count": 34,
+      "max_theme_weight": 0.7145,
+      "mean_theme_weight": 0.6118,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "wearable_integration",
+          "rank": 14,
+          "weight": 0.7145,
+          "status": "processed",
+          "class_count": 5
+        },
+        {
+          "theme": "community_challenges",
+          "rank": 23,
+          "weight": 0.5676,
+          "status": "rejected",
+          "class_count": 4
+        },
+        {
+          "theme": "native_mobile_apps",
+          "rank": 25,
+          "weight": 0.5532,
+          "status": "rejected",
+          "class_count": 5
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-09",
+      "title": "Build an engagement loop",
+      "theme_count": 3,
+      "signal_count": 28,
+      "max_theme_weight": 0.6835,
+      "mean_theme_weight": 0.5721,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "reminders_missing",
+          "rank": 15,
+          "weight": 0.6835,
+          "status": "processed",
+          "class_count": 5
+        },
+        {
+          "theme": "discover_stale_content",
+          "rank": 26,
+          "weight": 0.5368,
+          "status": "processed",
+          "class_count": 4
+        },
+        {
+          "theme": "streaks_gamification",
+          "rank": 29,
+          "weight": 0.4959,
+          "status": "processed",
+          "class_count": 3
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-08",
+      "title": "Operate the system we deployed",
+      "theme_count": 7,
+      "signal_count": 59,
+      "max_theme_weight": 0.6611,
+      "mean_theme_weight": 0.4886,
+      "classes_represented": [
+        "ambient",
+        "behavioral",
+        "customer_demand",
+        "defect",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "observability_gap",
+          "rank": 16,
+          "weight": 0.6611,
+          "status": "processed",
+          "class_count": 3
+        },
+        {
+          "theme": "photo_upload_failure",
+          "rank": 24,
+          "weight": 0.5588,
+          "status": "processed",
+          "class_count": 3
+        },
+        {
+          "theme": "public_profile_pii",
+          "rank": 27,
+          "weight": 0.5322,
+          "status": "mapped",
+          "class_count": 3
+        },
+        {
+          "theme": "dependency_currency",
+          "rank": 28,
+          "weight": 0.5237,
+          "status": "processed",
+          "class_count": 4
+        },
+        {
+          "theme": "instrumentation_gap",
+          "rank": 31,
+          "weight": 0.4754,
+          "status": "processed",
+          "class_count": 3
+        },
+        {
+          "theme": "error_messaging",
+          "rank": 33,
+          "weight": 0.3885,
+          "status": "processed",
+          "class_count": 2
+        },
+        {
+          "theme": "server_validation_gap",
+          "rank": 35,
+          "weight": 0.2806,
+          "status": "processed",
+          "class_count": 2
+        }
+      ]
+    },
+    {
+      "cluster_id": "CL-00",
+      "title": "Strengths to protect",
+      "theme_count": 2,
+      "signal_count": 15,
+      "max_theme_weight": 0.4912,
+      "mean_theme_weight": 0.4244,
+      "classes_represented": [
+        "ambient",
+        "customer_demand",
+        "market",
+        "strategic"
+      ],
+      "themes": [
+        {
+          "theme": "ui_quality_positive",
+          "rank": 30,
+          "weight": 0.4912,
+          "status": "processed",
+          "class_count": 3
+        },
+        {
+          "theme": "deployability",
+          "rank": 34,
+          "weight": 0.3577,
+          "status": "processed",
+          "class_count": 3
+        }
+      ]
+    }
+  ]
+}

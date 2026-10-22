@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kirofit.example/psr/signal.schema.json",
+  "title": "PSR normalized signal record",
+  "description": "Normalization target for every signal in the Kiro Fit Product Signal Repository. Extends the base schema in psr.md with the provenance, traceability and theme fields required by RFC-0001 §5.1 amendments.",
+  "type": "object",
+  "required": [
+    "signal_id",
+    "class",
+    "source",
+    "source_ref",
+    "raw_content",
+    "normalized_summary",
+    "theme",
+    "entities",
+    "created_at",
+    "provenance_tier",
+    "weight",
+    "linked_signals",
+    "status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "signal_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Deterministic UUIDv5 of source_ref under a fixed namespace, so re-running intake is idempotent."
+    },
+    "class": {
+      "type": "string",
+      "enum": ["customer_demand", "defect", "market", "behavioral", "strategic", "ambient"],
+      "description": "One of the six signal classes in psr.md."
+    },
+    "source": {
+      "type": "string",
+      "description": "System or channel the signal came from, e.g. zendesk, github, sentry, ab_test, okr, social_reddit.",
+      "examples": ["zendesk", "in_product_pfr", "survey", "churn_survey", "app_store_review", "customer_interview", "github", "sentry", "incident_review", "ci_test_signal", "security_review", "competitor_changelog", "tech_standards_watch", "analyst_report", "regulatory_watch", "product_analytics", "ab_test", "okr", "tech_debt_register", "partnership_commitment", "internal_decision_record", "social_reddit", "social_x", "social_hacker_news", "social_discord", "job_posting", "oss_momentum", "community_sweep"]
+    },
+    "source_ref": {
+      "type": "string",
+      "description": "Native identifier in the source system (ZD-10412, GH-381, EXP-2026-011, PC-001). A '#n' suffix disambiguates multi-theme records. This is the traceability anchor back to the raw file."
+    },
+    "raw_content": {
+      "type": "string",
+      "maxLength": 900,
+      "description": "Verbatim or near-verbatim source text, truncated. The unabridged content stays in the class folder (Signal Intake layer)."
+    },
+    "normalized_summary": {
+      "type": "string",
+      "description": "One-sentence, source-agnostic restatement."
+    },
+    "theme": {
+      "type": "string",
+      "description": "Controlled-vocabulary theme assigned by the intake classifier. Themes are the clustering key for the Signal Index.",
+      "examples": ["food_search_empty", "edit_delete_missing", "exercise_not_netted", "billing_missing", "sso_required"]
+    },
+    "entities": {
+      "type": "object",
+      "required": ["feature_area", "persona", "severity_tag", "cluster"],
+      "additionalProperties": false,
+      "properties": {
+        "feature_area": {
+          "type": "string",
+          "description": "Product surface, aligned to the repository layout (e.g. exercise/planning maps to ui/src/features/exercise)."
+        },
+        "persona": {
+          "type": "string",
+          "enum": ["casual_logger", "power_logger", "program_admin_smb", "program_admin_enterprise", "internal", "unknown"]
+        },
+        "severity_tag": {
+          "type": "string",
+          "enum": ["critical", "high", "medium", "low", "informational"]
+        },
+        "cluster": {
+          "type": "string",
+          "pattern": "^CL-[0-9]{2}$",
+          "description": "Opportunity cluster the theme belongs to (see signal-index/clusters.json)."
+        }
+      }
+    },
+    "customer_tier": {
+      "type": "string",
+      "enum": ["corporate_enterprise", "corporate_smb", "consumer_premium", "consumer_free", "unknown"],
+      "description": "Highest-value customer tier attached to this individual signal. Feeds the customer_tier scoring factor."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the signal was raised in its source system, not when it was ingested."
+    },
+    "provenance_tier": {
+      "type": "string",
+      "enum": ["tier1_first_party_instrumentation", "tier1_direct_customer", "tier2_secondary_research", "tier3_ambient_unverified"],
+      "description": "Provenance tier per RFC-0001 §5.1. Ambient signals are never actioned alone."
+    },
+    "code_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Paths (optionally path:symbol) in src/ that the signal implicates. Forward half of bidirectional traceability."
+    },
+    "metrics": {
+      "type": "object",
+      "description": "Source-specific quantitative payload preserved from intake (votes, csat, events, mrr_lost_usd, lift_pct, contract_value_usd_annual, ...).",
+      "additionalProperties": true
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Computed by the Signal Scoring Engine, never entered by hand. Equals the theme weight tempered by this signal's own recency."
+    },
+    "linked_signals": {
+      "type": "array",
+      "items": { "type": "string", "format": "uuid" },
+      "maxItems": 4,
+      "description": "Corroborating signals from other classes on the same theme. Presence of cross-class links is what earns the corroboration multiplier."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["raw", "processed", "mapped", "shipped", "rejected"],
+      "description": "raw = ingested only; processed = normalized and scored; mapped = has a backlog item or in-flight change; shipped = delivered; rejected = has a record in rejections.jsonl."
+    }
+  }
+}

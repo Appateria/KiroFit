@@ -1,0 +1,26 @@
+response_id,survey,surveyed_at,respondent_id,customer_tier,nps_score,csat_score,segment,verbatim,primary_theme,secondary_theme
+NPS-4401,nps_q2_2026,2026-05-04,usr_8812,consumer_premium,3,,power_logger,The design is genuinely lovely and it is fast. But a fitness app that never tells you what to train is a notebook with a purple theme.,ui_quality_positive,
+NPS-4423,nps_q2_2026,2026-05-05,usr_4417,consumer_premium,6,,wearable_user,"Would be a 10 with Apple Health sync. I already wear the watch, I should not retype the workout.",wearable_integration,
+NPS-4431,nps_q2_2026,2026-05-06,usr_7734,corporate_smb,5,,program_admin,Rolled it out to 60 staff. Two complaints dominate: no backdating and no export for reporting.,data_export_missing,
+NPS-4440,nps_q2_2026,2026-05-06,usr_5563,consumer_free,7,,casual_logger,Happy to pay but you will not let me. The upgrade button apologises at me.,billing_missing,
+NPS-4452,nps_q2_2026,2026-05-07,usr_9903,corporate_enterprise,4,,program_admin,Pilot is stalled at security review over SSO and at reporting over export. The app itself our people like.,sso_required,data_export_missing
+NPS-4477,nps_q2_2026,2026-05-08,usr_8890,consumer_free,5,,commuter,Works great until the tunnel. Then it forgets what I typed.,offline_mode,
+NPS-4501,nps_q2_2026,2026-05-09,usr_5589,consumer_free,6,,casual_logger,Dark mode looks stunning in screenshots and is unreadable in sunlight.,dark_mode_contrast,ui_quality_positive
+NPS-4514,nps_q2_2026,2026-05-09,usr_7742,consumer_free,7,,browser,Discover is nice content but it has not changed once since I joined.,discover_stale_content,
+NPS-4526,nps_q2_2026,2026-05-10,usr_2213,consumer_premium,2,,power_logger,I paid for analytics that do not exist. That is the definition of a broken promise.,analytics_missing,billing_missing
+NPS-4538,nps_q2_2026,2026-05-10,usr_6647,consumer_free,3,,accessibility_user,With VoiceOver the main number on the main screen is silent. I cannot use the app independently.,accessibility_a11y,
+NPS-4549,nps_q2_2026,2026-05-11,usr_1163,consumer_premium,8,,weight_loss,Good bones. Give me a weight chart and a streak and I would recommend it.,weight_trend_chart,streaks_gamification
+CSAT-9012,post_ticket_csat,2026-06-14,usr_7781,consumer_free,,1,new_user,Support was kind but told me my lost guest entries are unrecoverable. First week experience destroyed.,guest_sync_loss,
+CSAT-9027,post_ticket_csat,2026-06-18,usr_1129,consumer_premium,,2,power_logger,Agent confirmed iPhone photos are not supported. Nobody could tell me when that changes.,photo_upload_failure,
+CSAT-9044,post_ticket_csat,2026-06-22,usr_3378,consumer_free,,3,climber,Told to log climbing as Other. The burn estimate is then meaningless.,custom_activities,
+CSAT-9061,post_ticket_csat,2026-07-02,usr_3324,consumer_free,,2,casual_logger,History page slowness was acknowledged as known. Eight seconds for a week of data is a lot.,history_latency,
+CSAT-9078,post_ticket_csat,2026-07-11,usr_4462,consumer_free,,2,multi_device,"Duplicates from signing in on a second device were deleted by hand by the agent, one at a time.",guest_sync_duplicates,
+NPS-4622,nps_q3_2026,2026-08-05,usr_9971,corporate_enterprise,3,,program_admin,"Renewal conversation will hinge on SSO, export and Health Connect. All three are open.",sso_required,wearable_integration
+NPS-4648,nps_q3_2026,2026-08-06,usr_7768,consumer_premium,7,,streak_motivated,"No streak, no habit. That is the whole psychology of these apps.",streaks_gamification,
+NPS-4659,nps_q3_2026,2026-08-07,usr_1195,consumer_free,6,,mobile_first,Web only in 2026 feels like a beta. Put it in the App Store.,native_mobile_apps,
+NPS-4685,nps_q3_2026,2026-08-08,usr_6604,consumer_free,6,,casual_logger,Seven days of history behind a premium wall that does not work is a strange way to sell premium.,history_range_limit,analytics_missing
+NPS-4699,nps_q3_2026,2026-08-08,usr_4498,consumer_free,7,,casual_logger,Reminders. That is all I want. I like everything else.,reminders_missing,
+NPS-4460,nps_q3_2026,2026-08-06,usr_5510,consumer_free,4,,casual_logger,"It is a diary, not a coach. I wanted to be told what to do and it only tells me what I already did.",exercise_plan_generation,progress_reports_periodic
+NPS-4467,nps_q3_2026,2026-08-07,usr_2214,consumer_free,3,,casual_logger,Metric only. I am American. I gave up entering my weight correctly after a week.,unit_system_imperial,
+NPS-4474,nps_q3_2026,2026-08-09,usr_3341,consumer_premium,5,,power_logger,"No month view and no summary. I export nothing and remember nothing, so the streak is the only feedback I get.",progress_reports_periodic,history_range_limit
+CSAT-9088,post_ticket_csat,2026-08-20,usr_6120,consumer_free,,2,casual_logger,Support confirmed there is no plan feature and no AI anything. Politely told me to write my own programme.,genai_charter,exercise_plan_generation

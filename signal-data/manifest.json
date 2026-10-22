@@ -1,0 +1,549 @@
+{
+  "dataset": "Kiro Fit \u2014 Product Signal Repository (synthetic)",
+  "workload": "src/ (Kiro Fit: Ionic 8 + Vue 3 SPA on AWS CDK / AppSync / DynamoDB / Cognito)",
+  "spec": "psr.md",
+  "synthetic": true,
+  "generated_at": "2026-10-19T04:38:39Z",
+  "as_of_date": "2026-08-27",
+  "observation_window": {
+    "start": "2026-04-01",
+    "end": "2026-08-26"
+  },
+  "totals": {
+    "files": 54,
+    "bytes": 2081552,
+    "normalized_signals": 491,
+    "rejection_records": 4,
+    "themes": 36,
+    "distinct_sources": 31
+  },
+  "formats": {
+    "csv": 17,
+    "json": 5,
+    "jsonl": 11,
+    "log": 1,
+    "md": 13,
+    "py": 4,
+    "tsv": 1,
+    "yaml": 2
+  },
+  "signals_by_class": {
+    "ambient": 74,
+    "behavioral": 45,
+    "customer_demand": 136,
+    "defect": 65,
+    "market": 59,
+    "strategic": 112
+  },
+  "signals_by_status": {
+    "mapped": 259,
+    "processed": 214,
+    "rejected": 18
+  },
+  "signals_by_provenance_tier": {
+    "tier1_direct_customer": 212,
+    "tier1_first_party_instrumentation": 133,
+    "tier2_secondary_research": 72,
+    "tier3_ambient_unverified": 74
+  },
+  "signals_by_source": {
+    "okr": 39,
+    "tech_debt_register": 36,
+    "survey": 34,
+    "zendesk": 31,
+    "app_store_review": 24,
+    "github": 24,
+    "job_posting": 22,
+    "in_product_pfr": 22,
+    "competitor_feature_matrix": 20,
+    "partnership_commitment": 18,
+    "oss_momentum": 17,
+    "ab_test": 16,
+    "internal_decision_record": 16,
+    "product_analytics": 15,
+    "tech_standards_watch": 14,
+    "competitor_changelog": 14,
+    "churn_survey": 14,
+    "help_center_search": 14,
+    "security_review": 13,
+    "ci_test_signal": 12,
+    "customer_interview": 11,
+    "social_reddit": 10,
+    "sentry": 10,
+    "community_sweep": 8,
+    "analyst_report": 7,
+    "social_hacker_news": 6,
+    "incident_review": 6,
+    "social_discord": 6,
+    "social_x": 5,
+    "regulatory_watch": 4,
+    "okr_non_goal": 3
+  },
+  "top_themes": [
+    {
+      "rank": 1,
+      "theme": "progress_reports_periodic",
+      "weight": 0.9707,
+      "classes": 6,
+      "signals": 36,
+      "status": "mapped"
+    },
+    {
+      "rank": 2,
+      "theme": "unit_system_imperial",
+      "weight": 0.9522,
+      "classes": 6,
+      "signals": 27,
+      "status": "mapped"
+    },
+    {
+      "rank": 3,
+      "theme": "exercise_plan_generation",
+      "weight": 0.946,
+      "classes": 6,
+      "signals": 29,
+      "status": "mapped"
+    },
+    {
+      "rank": 4,
+      "theme": "accessibility_a11y",
+      "weight": 0.9318,
+      "classes": 6,
+      "signals": 25,
+      "status": "mapped"
+    },
+    {
+      "rank": 5,
+      "theme": "gdpr_dsar",
+      "weight": 0.9052,
+      "classes": 6,
+      "signals": 12,
+      "status": "mapped"
+    },
+    {
+      "rank": 6,
+      "theme": "data_export_missing",
+      "weight": 0.8906,
+      "classes": 5,
+      "signals": 20,
+      "status": "mapped"
+    },
+    {
+      "rank": 7,
+      "theme": "sso_required",
+      "weight": 0.8624,
+      "classes": 6,
+      "signals": 21,
+      "status": "mapped"
+    },
+    {
+      "rank": 8,
+      "theme": "analytics_missing",
+      "weight": 0.8327,
+      "classes": 6,
+      "signals": 20,
+      "status": "processed"
+    },
+    {
+      "rank": 9,
+      "theme": "billing_missing",
+      "weight": 0.828,
+      "classes": 6,
+      "signals": 24,
+      "status": "mapped"
+    },
+    {
+      "rank": 10,
+      "theme": "guest_sync_loss",
+      "weight": 0.7622,
+      "classes": 5,
+      "signals": 18,
+      "status": "mapped"
+    }
+  ],
+  "regeneration": [
+    "python3 signal-data/tools/generate_timeseries.py   # volumetric telemetry",
+    "python3 signal-data/tools/build_signal_store.py    # store + index",
+    "python3 signal-data/tools/validate.py              # checks + this manifest"
+  ],
+  "files": [
+    {
+      "path": "01-customer-demand/app-store-reviews.jsonl",
+      "format": "jsonl",
+      "bytes": 5579,
+      "records": 15,
+      "sha256_16": "3ce066622d3b8eac"
+    },
+    {
+      "path": "01-customer-demand/churn-exit-surveys.csv",
+      "format": "csv",
+      "bytes": 2511,
+      "records": 14,
+      "sha256_16": "a2fec73395817f89"
+    },
+    {
+      "path": "01-customer-demand/customer-interviews/2026-06-11-corporate-wellness-helios.md",
+      "format": "md",
+      "bytes": 3539,
+      "records": null,
+      "sha256_16": "057cf4cf070878b3"
+    },
+    {
+      "path": "01-customer-demand/customer-interviews/2026-07-14-consumer-power-users-panel.md",
+      "format": "md",
+      "bytes": 4273,
+      "records": null,
+      "sha256_16": "c97c3bb6c33f423d"
+    },
+    {
+      "path": "01-customer-demand/nps-csat-verbatims.csv",
+      "format": "csv",
+      "bytes": 4840,
+      "records": 25,
+      "sha256_16": "446410e8bef533c9"
+    },
+    {
+      "path": "01-customer-demand/product-feature-requests.jsonl",
+      "format": "jsonl",
+      "bytes": 10957,
+      "records": 22,
+      "sha256_16": "855e0e34877aa82e"
+    },
+    {
+      "path": "01-customer-demand/zendesk-tickets.csv",
+      "format": "csv",
+      "bytes": 8672,
+      "records": 31,
+      "sha256_16": "f28afdf86cc503f3"
+    },
+    {
+      "path": "02-defect-degradation/appsync-error-rates-daily.csv",
+      "format": "csv",
+      "bytes": 101121,
+      "records": 1480,
+      "sha256_16": "def4219733e271b9"
+    },
+    {
+      "path": "02-defect-degradation/appsync-latency-percentiles.tsv",
+      "format": "tsv",
+      "bytes": 45549,
+      "records": 740,
+      "sha256_16": "d9d52bb93d9abdd1"
+    },
+    {
+      "path": "02-defect-degradation/flaky-tests.csv",
+      "format": "csv",
+      "bytes": 2354,
+      "records": 12,
+      "sha256_16": "77df91845837663d"
+    },
+    {
+      "path": "02-defect-degradation/github-issues.jsonl",
+      "format": "jsonl",
+      "bytes": 16511,
+      "records": 24,
+      "sha256_16": "ec20861ce6157a73"
+    },
+    {
+      "path": "02-defect-degradation/incident-log.csv",
+      "format": "csv",
+      "bytes": 1458,
+      "records": 6,
+      "sha256_16": "6873551d3287f367"
+    },
+    {
+      "path": "02-defect-degradation/raw/cloudwatch-appsync-2026-07-27.log",
+      "format": "log",
+      "bytes": 3283,
+      "records": null,
+      "sha256_16": "d7f42e3d6728d1ed"
+    },
+    {
+      "path": "02-defect-degradation/security-findings.md",
+      "format": "md",
+      "bytes": 4850,
+      "records": null,
+      "sha256_16": "ae66c42387b304e8"
+    },
+    {
+      "path": "02-defect-degradation/sentry-frontend-errors.jsonl",
+      "format": "jsonl",
+      "bytes": 5138,
+      "records": 10,
+      "sha256_16": "27dd9147073be023"
+    },
+    {
+      "path": "03-market-competitive/analyst-note-2026-h2.md",
+      "format": "md",
+      "bytes": 5767,
+      "records": null,
+      "sha256_16": "38a8b851a4f4a82f"
+    },
+    {
+      "path": "03-market-competitive/competitor-feature-matrix.csv",
+      "format": "csv",
+      "bytes": 3436,
+      "records": 23,
+      "sha256_16": "7219bddbbccc713f"
+    },
+    {
+      "path": "03-market-competitive/competitor-releases.jsonl",
+      "format": "jsonl",
+      "bytes": 6805,
+      "records": 14,
+      "sha256_16": "266872c2590fe634"
+    },
+    {
+      "path": "03-market-competitive/regulatory-and-compliance-watch.md",
+      "format": "md",
+      "bytes": 4014,
+      "records": null,
+      "sha256_16": "54c75be72dba0fe1"
+    },
+    {
+      "path": "03-market-competitive/tech-standards-watch.csv",
+      "format": "csv",
+      "bytes": 4878,
+      "records": 14,
+      "sha256_16": "ed921667ee8dc789"
+    },
+    {
+      "path": "04-usage-behavioral/ab-test-results.jsonl",
+      "format": "jsonl",
+      "bytes": 8661,
+      "records": 8,
+      "sha256_16": "16e8883a19c62b21"
+    },
+    {
+      "path": "04-usage-behavioral/behavioral-readout-2026-08.md",
+      "format": "md",
+      "bytes": 6982,
+      "records": null,
+      "sha256_16": "071acc964bdaad2a"
+    },
+    {
+      "path": "04-usage-behavioral/cohort-retention-weekly.csv",
+      "format": "csv",
+      "bytes": 33829,
+      "records": 672,
+      "sha256_16": "49bb1336c7db7cde"
+    },
+    {
+      "path": "04-usage-behavioral/feature-adoption-daily.csv",
+      "format": "csv",
+      "bytes": 91811,
+      "records": 1332,
+      "sha256_16": "48dd9f62de987a72"
+    },
+    {
+      "path": "04-usage-behavioral/funnel-dropoff-weekly.csv",
+      "format": "csv",
+      "bytes": 42484,
+      "records": 525,
+      "sha256_16": "8af7a475befdaf00"
+    },
+    {
+      "path": "04-usage-behavioral/help-center-search-terms.csv",
+      "format": "csv",
+      "bytes": 3064,
+      "records": 38,
+      "sha256_16": "7c76831e3f52363d"
+    },
+    {
+      "path": "04-usage-behavioral/product-events-sample.jsonl",
+      "format": "jsonl",
+      "bytes": 636599,
+      "records": 2400,
+      "sha256_16": "2b754ec53037458b"
+    },
+    {
+      "path": "05-strategic-business/okrs-fy26.yaml",
+      "format": "yaml",
+      "bytes": 9881,
+      "records": null,
+      "sha256_16": "026ac369dcb16048"
+    },
+    {
+      "path": "05-strategic-business/partnership-commitments.csv",
+      "format": "csv",
+      "bytes": 2729,
+      "records": 9,
+      "sha256_16": "3e9c904819abd89f"
+    },
+    {
+      "path": "05-strategic-business/platform-decisions.md",
+      "format": "md",
+      "bytes": 7907,
+      "records": null,
+      "sha256_16": "e5f7c6175340104e"
+    },
+    {
+      "path": "05-strategic-business/pricing-and-packaging-constraints.md",
+      "format": "md",
+      "bytes": 4523,
+      "records": null,
+      "sha256_16": "205c36da410cb4c7"
+    },
+    {
+      "path": "05-strategic-business/tech-debt-register.csv",
+      "format": "csv",
+      "bytes": 6088,
+      "records": 21,
+      "sha256_16": "d0cf4b945b5e2659"
+    },
+    {
+      "path": "06-ambient-ecosystem/community-threads.md",
+      "format": "md",
+      "bytes": 4546,
+      "records": null,
+      "sha256_16": "99bfdf02164291d5"
+    },
+    {
+      "path": "06-ambient-ecosystem/competitor-job-postings.jsonl",
+      "format": "jsonl",
+      "bytes": 6448,
+      "records": 14,
+      "sha256_16": "6a10eca29c50fe65"
+    },
+    {
+      "path": "06-ambient-ecosystem/oss-momentum.csv",
+      "format": "csv",
+      "bytes": 3504,
+      "records": 17,
+      "sha256_16": "8635a90317b91ab0"
+    },
+    {
+      "path": "06-ambient-ecosystem/social-listening.jsonl",
+      "format": "jsonl",
+      "bytes": 7754,
+      "records": 16,
+      "sha256_16": "b6883883688f6d20"
+    },
+    {
+      "path": "07-tech-debt/README.md",
+      "format": "md",
+      "bytes": 4161,
+      "records": null,
+      "sha256_16": "b1dae378d6cf7ccc"
+    },
+    {
+      "path": "07-tech-debt/atx-findings-comprehensive.json",
+      "format": "json",
+      "bytes": 42940,
+      "records": null,
+      "sha256_16": "e80ce435f83a6500"
+    },
+    {
+      "path": "README.md",
+      "format": "md",
+      "bytes": 15005,
+      "records": null,
+      "sha256_16": "d1b2d5a69a3d79ba"
+    },
+    {
+      "path": "manifest.json",
+      "format": "json",
+      "bytes": 13496,
+      "records": null,
+      "sha256_16": "29df77101d4795b2"
+    },
+    {
+      "path": "psr-load-artifacts.py",
+      "format": "py",
+      "bytes": 30018,
+      "records": null,
+      "sha256_16": "db3f0e8529b6578e"
+    },
+    {
+      "path": "signal-index/clusters.json",
+      "format": "json",
+      "bytes": 11251,
+      "records": null,
+      "sha256_16": "c4109d56f0bd7e80"
+    },
+    {
+      "path": "signal-index/opportunity-briefs.md",
+      "format": "md",
+      "bytes": 18394,
+      "records": null,
+      "sha256_16": "f46a80753768e58f"
+    },
+    {
+      "path": "signal-index/scoring-config.yaml",
+      "format": "yaml",
+      "bytes": 3916,
+      "records": null,
+      "sha256_16": "ea6399452093e9a3"
+    },
+    {
+      "path": "signal-index/signal-index.csv",
+      "format": "csv",
+      "bytes": 17705,
+      "records": 36,
+      "sha256_16": "dbb9cf62a37e2738"
+    },
+    {
+      "path": "signal-index/signal-index.json",
+      "format": "json",
+      "bytes": 41539,
+      "records": null,
+      "sha256_16": "a3b9d4654d973019"
+    },
+    {
+      "path": "signal-index/sprint-delta-2026-09.md",
+      "format": "md",
+      "bytes": 7741,
+      "records": null,
+      "sha256_16": "eebde9eea44d92a2"
+    },
+    {
+      "path": "signal-store/rejections.jsonl",
+      "format": "jsonl",
+      "bytes": 3808,
+      "records": 4,
+      "sha256_16": "642f27e710e7ca83"
+    },
+    {
+      "path": "signal-store/signal.schema.json",
+      "format": "json",
+      "bytes": 5665,
+      "records": null,
+      "sha256_16": "7122f0c08d3f2215"
+    },
+    {
+      "path": "signal-store/signals.csv",
+      "format": "csv",
+      "bytes": 152310,
+      "records": 491,
+      "sha256_16": "819e16d68e7eb132"
+    },
+    {
+      "path": "signal-store/signals.jsonl",
+      "format": "jsonl",
+      "bytes": 493147,
+      "records": 491,
+      "sha256_16": "8bee3a59bb2b46a2"
+    },
+    {
+      "path": "tools/build_signal_store.py",
+      "format": "py",
+      "bytes": 65138,
+      "records": null,
+      "sha256_16": "93006d6968c8c48f"
+    },
+    {
+      "path": "tools/generate_timeseries.py",
+      "format": "py",
+      "bytes": 22617,
+      "records": null,
+      "sha256_16": "d73ebfc785498a1d"
+    },
+    {
+      "path": "tools/validate.py",
+      "format": "py",
+      "bytes": 10356,
+      "records": null,
+      "sha256_16": "bbcdfc47111c94a6"
+    }
+  ]
+}

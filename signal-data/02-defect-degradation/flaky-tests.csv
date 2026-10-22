@@ -1,0 +1,13 @@
+test_id,suite,spec_file,test_name,runs_30d,failures_30d,flake_rate_pct,first_flaked,suspected_cause,owning_area,quarantined
+FLK-004,unit,ui/src/features/exercise/services/exerciseService.test.ts,weekly summary groups by ISO week,405,44,10.86,2026-05-19,local timezone vs UTC week start,exercise,false
+FLK-005,unit,ui/src/features/exercise/stores/exerciseStore.test.ts,logActivity rolls back on mutation error,405,29,7.16,2026-06-03,unawaited promise in store action; race with pinia reset,exercise,false
+FLK-006,unit,ui/src/features/profile/services/profileService.test.ts,avatar upload rejects unsupported type,401,7,1.75,2026-07-01,allowlist fixture drifted from lambda allowlist,profile,false
+FLK-007,unit,ui/src/shared/services/integration.test.ts,apollo retries transient network failure,388,71,18.30,2026-04-22,no retry link configured; test asserts behaviour that does not exist,platform,true
+FLK-009,e2e,ui/tests/e2e/guest-sync.cy.ts,guest entries appear after sign-up,120,49,40.83,2026-04-27,sequential per-entry mutations time out non-deterministically,auth,true
+FLK-011,e2e,ui/tests/e2e/exercise-history.cy.ts,week view renders within 3s,120,71,59.17,2026-05-20,7-query fan-out exceeds the budget on CI network shaping,exercise,false
+FLK-012,e2e,ui/tests/e2e/subscription.cy.ts,upgrade starts checkout,120,120,100.00,2026-05-19,no checkout exists; placeholder toast only,settings,true
+FLK-013,e2e,ui/tests/e2e/a11y-dashboard.cy.ts,dashboard passes axe serious violations,120,118,98.33,2026-05-29,progressbar role and contrast violations,accessibility,false
+FLK-014,unit,ui/src/features/profile/composables/useProfileValidation.property.test.ts,bmi stable under unit conversion,395,9,2.28,2026-08-02,float rounding at 0.5 kg boundaries,profile,false
+FLK-015,e2e,ui/tests/e2e/offline.cy.ts,queued entry syncs on reconnect,120,120,100.00,2026-06-08,no mutation queue implemented,platform,true
+FLK-016,ui-unit,,HealthPreferencesSection > persists weight without unit conversion,,,18.4,2026-07-09,Assertion depends on locale-dependent number formatting; no unit system exists so the expectation encodes kg implicitly.,,false
+FLK-017,ui-unit,,ExerciseHistoryPage > week aggregation totals,,,26.1,2026-07-27,Totals recomputed client-side across 7 independent queries; ordering of resolved promises changes the running total under fake timers.,,false

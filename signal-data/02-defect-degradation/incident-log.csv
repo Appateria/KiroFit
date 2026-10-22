@@ -1,0 +1,7 @@
+incident_id,opened_at,resolved_at,severity,title,detected_by,mttd_minutes,mttr_minutes,users_affected,root_cause,theme,followup_issue
+INC-2026-018,2026-04-27T16:40:00Z,2026-04-28T11:20:00Z,SEV2,Guest sign-up data loss reports cluster,support_tickets,1140,1120,1740,Per-entry sync failures swallowed then localStorage cleared unconditionally,guest_sync_loss,381
+INC-2026-023,2026-05-20T13:10:00Z,2026-05-21T09:05:00Z,SEV3,iOS avatar uploads failing,support_tickets,2880,1195,2408,iOS 19 camera default HEIC not in presigned upload allowlist,photo_upload_failure,424
+INC-2026-029,2026-06-18T02:05:00Z,2026-06-24T17:30:00Z,SEV2,logExercise error rate step change after r-1.0.14,support_tickets,7200,9325,3140,Release shortened AppSync client timeout; sequential guest-sync loop now exceeds it,guest_sync_loss,413
+INC-2026-034,2026-07-02T08:55:00Z,2026-07-02T12:40:00Z,SEV3,Premium trialists report missing analytics screen,support_tickets,4320,225,412,featureGates advertises unimplemented premium features,analytics_missing,437
+INC-2026-041,2026-07-27T14:02:00Z,2026-07-27T18:45:00Z,SEV1,AppSync request throttling — widespread 429s,social_media,96,283,8144,Exercise history N+1 fan-out plus a corporate onboarding spike exceeded the default request rate,history_latency,431
+INC-2026-058,2026-08-23T11:20:00Z,,SEV2,Manual DynamoDB deletes required to satisfy erasure requests,compliance_review,0,,37,No delete mutation or account deletion path,gdpr_dsar,533

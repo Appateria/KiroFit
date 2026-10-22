@@ -1,0 +1,23 @@
+# Raw log excerpt — CloudWatch Logs, /aws/appsync/apis/KiroFit-production
+# Window: 2026-07-27T13:58:00Z .. 2026-07-27T14:12:00Z (INC-2026-041)
+# Retained verbatim in Signal Intake; normalized record links to INC-2026-041 and issue #431.
+2026-07-27T13:58:02.114Z INFO  RequestSummary { "requestId":"a41f-9c02","operation":"Query.exerciseEntries","latencyMs":214,"statusCode":200 }
+2026-07-27T13:58:02.221Z INFO  RequestSummary { "requestId":"a41f-9c03","operation":"Query.exerciseEntries","latencyMs":238,"statusCode":200 }
+2026-07-27T13:58:02.334Z INFO  RequestSummary { "requestId":"a41f-9c04","operation":"Query.exerciseEntries","latencyMs":301,"statusCode":200 }
+2026-07-27T13:58:02.442Z INFO  RequestSummary { "requestId":"a41f-9c05","operation":"Query.exerciseEntries","latencyMs":355,"statusCode":200 }
+2026-07-27T13:58:02.559Z INFO  RequestSummary { "requestId":"a41f-9c06","operation":"Query.exerciseEntries","latencyMs":402,"statusCode":200 }
+2026-07-27T13:58:02.671Z INFO  RequestSummary { "requestId":"a41f-9c07","operation":"Query.exerciseEntries","latencyMs":488,"statusCode":200 }
+2026-07-27T13:58:02.780Z INFO  RequestSummary { "requestId":"a41f-9c08","operation":"Query.exerciseEntries","latencyMs":534,"statusCode":200 }
+2026-07-27T13:58:02.781Z INFO  ClientNote { "note":"7 sequential exerciseEntries calls above originate from one ExerciseHistoryPage week render (one query per day)" }
+2026-07-27T14:02:11.007Z ERROR RequestSummary { "requestId":"b77c-1140","operation":"Query.exerciseEntries","latencyMs":18,"statusCode":429,"errorType":"ThrottlingException","message":"Request throttled" }
+2026-07-27T14:02:11.088Z ERROR RequestSummary { "requestId":"b77c-1141","operation":"Query.exerciseEntries","latencyMs":15,"statusCode":429,"errorType":"ThrottlingException","message":"Request throttled" }
+2026-07-27T14:02:11.163Z ERROR RequestSummary { "requestId":"b77c-1142","operation":"Query.healthProfile","latencyMs":14,"statusCode":429,"errorType":"ThrottlingException","message":"Request throttled" }
+2026-07-27T14:02:12.900Z WARN  Metric { "metric":"ThrottledRequests","value":1840,"unit":"Count","period":"1m" }
+2026-07-27T14:03:40.512Z WARN  Metric { "metric":"ThrottledRequests","value":6122,"unit":"Count","period":"1m" }
+2026-07-27T14:05:00.004Z WARN  Metric { "metric":"5XXError","value":6480,"unit":"Count","period":"1m" }
+2026-07-27T14:05:00.010Z INFO  Note { "note":"No CloudWatch alarm configured on ThrottledRequests or 5XXError (issue #526) — no page fired" }
+2026-07-27T14:07:33.918Z ERROR RequestSummary { "requestId":"c02d-4471","operation":"Mutation.logExercise","latencyMs":22,"statusCode":429,"errorType":"ThrottlingException","message":"Request throttled" }
+2026-07-27T14:08:01.220Z INFO  Note { "note":"Corporate onboarding batch (Aurora Manufacturing Co, 610 accounts) began 14:00Z; overlapped peak consumer traffic" }
+2026-07-27T14:11:47.663Z ERROR RequestSummary { "requestId":"c02d-4993","operation":"Query.exerciseEntries","latencyMs":19,"statusCode":429,"errorType":"ThrottlingException","message":"Request throttled" }
+2026-07-27T14:12:00.001Z WARN  Metric { "metric":"ThrottledRequests","value":7315,"unit":"Count","period":"1m" }
+# First internal awareness: 14:03Z social mention -> 15:38Z engineer paged manually. MTTD 96 min.

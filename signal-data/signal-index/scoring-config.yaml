@@ -1,0 +1,117 @@
+# Kiro Fit — Signal Scoring Engine (SSE) configuration
+#
+# Read directly by signal-data/tools/build_signal_store.py so that the published
+# scores and the documented weights cannot drift apart.
+#
+# Scoring model (per psr.md "Signal Scoring Engine"):
+#
+#   base   = sum(factor_weight * factor_score)              # factor scores are 0..1
+#   weight = base * corroboration_multiplier / max_multiplier
+#
+# Corroboration is deliberately modelled as a multiplier rather than another additive
+# factor: "one signal from five sources beats five signals from one source".
+#
+# Dividing by max_multiplier (the 6-class value) rather than clamping at 1.0 keeps weights
+# inside 0..1 while preserving discrimination at the top of the ranking. Clamping made the
+# top 15 themes tie at 1.000, which is useless for stack ranking.
+
+version: 3
+effective_date: 2026-08-27
+tuned_by: pm_rowan
+review_cadence: per_sprint
+
+factors:
+  frequency:
+    weight: 0.22
+    description: Distinct sources and total signal volume referencing the theme.
+    formula: 0.6 * min(1, distinct_sources / 8) + 0.4 * min(1, signal_count / 40)
+
+  recency:
+    weight: 0.12
+    description: Exponential decay from the most recent reinforcing signal.
+    half_life_days: 45
+    formula: 0.5 ** (days_since_last_reinforced / half_life_days)
+
+  customer_tier:
+    weight: 0.18
+    description: Highest-value customer tier that has raised the theme.
+    values:
+      corporate_enterprise: 1.00
+      corporate_smb: 0.80
+      consumer_premium: 0.65
+      consumer_free: 0.40
+      unknown: 0.30
+
+  severity:
+    weight: 0.18
+    description: Worst severity recorded across the theme's signals.
+    values:
+      critical: 1.00
+      high: 0.80
+      medium: 0.55
+      low: 0.30
+      informational: 0.15
+    source_mappings:
+      P0: critical
+      P1: high
+      P2: medium
+      P3: low
+      SEV1: critical
+      SEV2: high
+      SEV3: medium
+
+  strategic_alignment:
+    weight: 0.16
+    description: >
+      Proximity to a current OKR. Derived from 05-strategic-business/okrs-fy26.yaml:
+      the theme inherits the highest alignment_weight of any objective whose key
+      results list it under blocked_by_themes.
+    default_unmapped: 0.25
+    non_goal_value: 0.15
+
+  effort_inverse:
+    weight: 0.14
+    description: >
+      Quick-win lift. Derived from remediation_estimate_days in
+      05-strategic-business/tech-debt-register.csv (min across entries for the theme).
+    formula: 1 - min(days, 30) / 30
+    default_unknown: 0.50
+
+corroboration:
+  description: Multiplier applied to the additive base score, keyed on distinct signal classes.
+  normalize_by_max: true    # divide by the 6-class multiplier to keep weights in 0..1
+  multipliers:
+    "1": 1.00
+    "2": 1.25
+    "3": 1.45
+    "4": 1.60
+    "5": 1.75
+    "6": 1.85
+
+# Per-signal weight is the theme weight tempered by that individual signal's own recency,
+# so an old ticket does not inherit the full weight of a freshly reinforced theme.
+per_signal_weight:
+  formula: theme_weight * (0.7 + 0.3 * signal_recency)
+
+# Themes that describe an existing strength or context rather than a gap. Scored the same
+# way but tagged so the backlog view can exclude them.
+theme_kinds:
+  strength:
+    - ui_quality_positive
+    - guest_onboarding
+    - deployability
+  context:
+    - pricing_pressure
+    - dependency_currency
+
+# Governance rules from psr.md design principles, enforced by the builder.
+governance:
+  explicit_rejection_required: true       # every non-actioned theme needs a rejection record
+  rejection_default_expiry_days: 180      # rejections expire and re-enter scoring
+  decay_applies_to_all_classes: true
+  exploration_allocation_pct: 15          # share of sprint capacity reserved for non-top-ranked signals
+  provenance_tiers:
+    tier1_first_party_instrumentation: 1.00
+    tier1_direct_customer: 1.00
+    tier2_secondary_research: 0.85
+    tier3_ambient_unverified: 0.70

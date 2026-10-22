@@ -1,0 +1,15 @@
+exit_id,churned_at,user_id,customer_tier,tenure_days,last_active_feature,primary_reason_code,switched_to,verbatim,mrr_lost_usd
+EXIT-2117,2026-05-01,usr_7781,consumer_free,7,auth/guest-sync,data_loss,Cronometer,Lost my guest data on sign-up. If it loses data on day one I cannot trust it.,0
+EXIT-2124,2026-05-09,usr_4436,consumer_premium,88,exercise/log,no_wearable_sync,Strava + Apple Health,I stopped double entering my watch workouts. That was the end of it.,9.99
+EXIT-2138,2026-05-27,usr_9903_pilot_grp,corporate_smb,120,settings/export,no_reporting,Virgin Pulse,Wellness committee needed participation reporting. We could not produce a single report.,249.00
+EXIT-2146,2026-06-03,usr_6659,consumer_premium,53,settings/premium,paid_for_missing_features,Cronometer,Premium advertised analytics and export. Neither exists. Refund requested.,9.99
+EXIT-2153,2026-06-12,usr_8890,consumer_free,29,platform/offline,offline_unusable,Yazio,My gym is a basement. The app needs signal for everything.,0
+EXIT-2168,2026-06-30,usr_1147,consumer_premium,97,profile/analytics,no_progress_view,Happy Scale,"I could not see whether I was progressing. No charts, no trend.",9.99
+EXIT-2175,2026-07-09,usr_6647,consumer_free,34,platform/accessibility,inaccessible,Nutritionix,Unusable with a screen reader. I gave it a fair try.,0
+EXIT-2183,2026-07-19,usr_5541,consumer_free,22,platform/notifications,forgot_to_use,Lifesum,No reminders so I forgot. Habit never formed.,0
+EXIT-2190,2026-07-28,usr_2265,consumer_premium,71,exercise/history,history_locked,Garmin Connect,Seven days of history and the paid upgrade for more did nothing.,9.99
+EXIT-2198,2026-08-06,usr_9944,corporate_enterprise,146,auth/enterprise,security_review_failed,Wellhub,Security would not sign off without SSO and an audit trail. Pilot ended.,1490.00
+EXIT-2212,2026-08-22,usr_4462,consumer_free,58,auth/guest-sync,duplicate_data,LoseIt,Duplicates everywhere after using two devices and no way to delete them.,0
+EXIT-2201,2026-07-24,usr_5510,consumer_free,41,exercise/log,no_workout_guidance,PulseCoach,Moved to something that writes the week for me. Logging on its own was not worth the habit.,0
+EXIT-2208,2026-08-02,usr_2214,consumer_free,19,profile/units,wrong_units,FitLedger,"Could not enter pounds. Small thing, but it made every screen wrong for me.",0
+EXIT-2214,2026-08-15,usr_3341,consumer_premium,132,exercise/history,no_reporting,MacroMint,Four months in and I still cannot see a month at a time. I was maintaining a spreadsheet next to the app.,119

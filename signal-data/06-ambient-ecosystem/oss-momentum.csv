@@ -1,0 +1,18 @@
+repo,category,relevance_to_kirofit,stars,star_velocity_30d,open_issues,issue_velocity_30d,last_release,release_cadence_days,momentum,inferred_theme,note
+apollographql/apollo-client,graphql_client,already a dependency; cache and offline story,19840,96,712,64,2026-08-18,14,steady,offline_mode,apollo3-cache-persist remains the common offline pattern
+apollographql/apollo-cache-persist,graphql_client,persisted cache for the offline/draft work (ADR-007),3020,21,118,7,2026-04-22,120,flat,offline_mode,Low maintenance velocity — evaluate before adopting
+ionic-team/capacitor,mobile_shell,"already configured, unused",12610,74,398,41,2026-08-20,18,steady,native_mobile_apps,"Capacitor 8 current; store builds are CI work, not library work"
+ionic-team/ionic-framework,ui_framework,core UI dependency (v8),51900,88,1204,96,2026-08-24,10,steady,dependency_currency,v8 still current; no forced migration pressure
+vuejs/core,ui_framework,core dependency (Vue 3),49700,120,624,58,2026-08-25,9,steady,dependency_currency,"Stable; ecosystem pressure is on the build tool, not the framework"
+vitejs/vite,build_tool,two majors behind (v5 in use),74800,310,1108,142,2026-08-23,7,rising,dependency_currency,v7 current; 5.x backports winding down (TSW-002)
+eslint/eslint,linting,v8 in use and EOL,25600,54,382,36,2026-08-21,14,steady,dependency_currency,Flat config only from v9; plugin ecosystem has moved
+cypress-io/cypress,e2e_testing,v13 in use,47900,62,1094,88,2026-08-17,21,steady,dependency_currency,Newer majors needed for current Node runner images
+vitest-dev/vitest,unit_testing,v4 in use — current,14900,164,412,52,2026-08-26,7,rising,dependency_currency,Healthy; no action needed
+dequelabs/axe-core,accessibility,CI gate candidate for O4-KR3,6210,71,204,19,2026-08-15,28,rising,accessibility_a11y,WCAG 2.2 rules mature; cypress-axe integration is trivial
+pinia-plugin-persistedstate,state_persistence,simplest path to draft/outbox persistence,3480,66,74,11,2026-08-09,25,rising,offline_mode,"Aligns with ADR-007 scope (drafts, not sync engine)"
+aws-amplify/amplify-js,aws_client,alternative auth/data client (not used),9420,28,486,44,2026-08-12,20,flat,sso_required,Cognito federation is configurable without adopting Amplify
+aws-powertools/powertools-lambda-typescript,observability,structured logging/metrics for O5-KR1,3160,49,132,16,2026-08-19,21,rising,observability_gap,Cheapest route to metrics from the profile-photo Lambda
+convert-units/convert-units,units_conversion,Mass/length/distance conversion for a per-user unit system,1980,24,41,6,2026-06-30,120,steady,unit_system_imperial,"Small dependency; conversion is trivial enough to inline, the real work is the preference field and display plumbing."
+bedrock-samples/prompt-eval-harness,genai_tooling,Regression-testing generated plans and report narratives,7420,612,188,74,2026-08-18,14,rising,genai_charter,Fast-moving; the eval harness pattern is what makes a generated feature testable in CI and is the missing half of ADR-010.
+langfuse/langfuse,genai_observability,Per-user inference cost and latency tracking against the O6-KR2 ceiling,12890,741,264,98,2026-08-22,9,rising,genai_charter,Directly serves the cost-per-MAU key result; cheaper than building cost attribution in-house.
+apache/echarts,visualisation,Period-over-period charts for weekly and monthly reports,61200,388,2140,121,2026-07-28,45,steady,progress_reports_periodic,Mature option for the report surface; bundle size needs checking against the existing 1.38MB main chunk.

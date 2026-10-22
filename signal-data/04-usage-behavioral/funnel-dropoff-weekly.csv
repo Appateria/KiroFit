@@ -1,0 +1,526 @@
+funnel,week_start,step_index,step,users,pct_of_entered,step_conversion_pct,note
+guest_to_first_log,2026-04-01,0,app_open_guest,5315,98.15,100.0,
+guest_to_first_log,2026-04-01,1,dashboard_viewed,4981,91.99,93.72,
+guest_to_first_log,2026-04-01,2,log_cta_tapped,2825,52.17,56.72,
+guest_to_first_log,2026-04-01,3,signup_prompt_shown,2609,48.18,92.35,
+guest_to_first_log,2026-04-01,4,signup_started,932,17.21,35.72,
+guest_to_first_log,2026-04-01,5,signup_completed,661,12.21,70.92,
+guest_to_first_log,2026-04-01,6,guest_data_synced_ok,410,7.57,62.03,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-04-01,7,first_log_saved,381,7.04,92.93,
+guest_to_first_log,2026-04-08,0,app_open_guest,5831,102.3,100.0,
+guest_to_first_log,2026-04-08,1,dashboard_viewed,5319,93.32,91.22,
+guest_to_first_log,2026-04-08,2,log_cta_tapped,3004,52.7,56.48,
+guest_to_first_log,2026-04-08,3,signup_prompt_shown,2916,51.16,97.07,
+guest_to_first_log,2026-04-08,4,signup_started,947,16.61,32.48,
+guest_to_first_log,2026-04-08,5,signup_completed,666,11.68,70.33,
+guest_to_first_log,2026-04-08,6,guest_data_synced_ok,437,7.67,65.62,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-04-08,7,first_log_saved,396,6.95,90.62,
+guest_to_first_log,2026-04-15,0,app_open_guest,5386,98.12,100.0,
+guest_to_first_log,2026-04-15,1,dashboard_viewed,5012,91.31,93.06,
+guest_to_first_log,2026-04-15,2,log_cta_tapped,2763,50.34,55.13,
+guest_to_first_log,2026-04-15,3,signup_prompt_shown,2648,48.24,95.84,
+guest_to_first_log,2026-04-15,4,signup_started,914,16.65,34.52,
+guest_to_first_log,2026-04-15,5,signup_completed,639,11.64,69.91,
+guest_to_first_log,2026-04-15,6,guest_data_synced_ok,397,7.23,62.13,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-04-15,7,first_log_saved,376,6.85,94.71,
+guest_to_first_log,2026-04-22,0,app_open_guest,5845,102.89,100.0,
+guest_to_first_log,2026-04-22,1,dashboard_viewed,5201,91.55,88.98,
+guest_to_first_log,2026-04-22,2,log_cta_tapped,2919,51.38,56.12,
+guest_to_first_log,2026-04-22,3,signup_prompt_shown,2859,50.33,97.94,
+guest_to_first_log,2026-04-22,4,signup_started,964,16.97,33.72,
+guest_to_first_log,2026-04-22,5,signup_completed,713,12.55,73.96,
+guest_to_first_log,2026-04-22,6,guest_data_synced_ok,429,7.55,60.17,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-04-22,7,first_log_saved,392,6.9,91.38,
+guest_to_first_log,2026-04-29,0,app_open_guest,4613,97.67,100.0,
+guest_to_first_log,2026-04-29,1,dashboard_viewed,4625,97.93,100.26,
+guest_to_first_log,2026-04-29,2,log_cta_tapped,2372,50.22,51.29,
+guest_to_first_log,2026-04-29,3,signup_prompt_shown,2443,51.73,102.99,
+guest_to_first_log,2026-04-29,4,signup_started,783,16.58,32.05,
+guest_to_first_log,2026-04-29,5,signup_completed,569,12.05,72.67,
+guest_to_first_log,2026-04-29,6,guest_data_synced_ok,345,7.3,60.63,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-04-29,7,first_log_saved,330,6.99,95.65,
+guest_to_first_log,2026-05-06,0,app_open_guest,5764,102.47,100.0,
+guest_to_first_log,2026-05-06,1,dashboard_viewed,5196,92.37,90.15,
+guest_to_first_log,2026-05-06,2,log_cta_tapped,2790,49.6,53.7,
+guest_to_first_log,2026-05-06,3,signup_prompt_shown,2826,50.24,101.29,
+guest_to_first_log,2026-05-06,4,signup_started,995,17.69,35.21,
+guest_to_first_log,2026-05-06,5,signup_completed,688,12.23,69.15,
+guest_to_first_log,2026-05-06,6,guest_data_synced_ok,410,7.29,59.59,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-05-06,7,first_log_saved,391,6.95,95.37,
+guest_to_first_log,2026-05-13,0,app_open_guest,5523,103.64,100.0,
+guest_to_first_log,2026-05-13,1,dashboard_viewed,5015,94.11,90.8,
+guest_to_first_log,2026-05-13,2,log_cta_tapped,2759,51.77,55.01,
+guest_to_first_log,2026-05-13,3,signup_prompt_shown,2551,47.87,92.46,
+guest_to_first_log,2026-05-13,4,signup_started,880,16.51,34.5,
+guest_to_first_log,2026-05-13,5,signup_completed,633,11.88,71.93,
+guest_to_first_log,2026-05-13,6,guest_data_synced_ok,395,7.41,62.4,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-05-13,7,first_log_saved,359,6.74,90.89,
+guest_to_first_log,2026-05-20,0,app_open_guest,5386,99.74,100.0,
+guest_to_first_log,2026-05-20,1,dashboard_viewed,5180,95.93,96.18,
+guest_to_first_log,2026-05-20,2,log_cta_tapped,2736,50.67,52.82,
+guest_to_first_log,2026-05-20,3,signup_prompt_shown,2712,50.22,99.12,
+guest_to_first_log,2026-05-20,4,signup_started,930,17.22,34.29,
+guest_to_first_log,2026-05-20,5,signup_completed,629,11.65,67.63,
+guest_to_first_log,2026-05-20,6,guest_data_synced_ok,402,7.44,63.91,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-05-20,7,first_log_saved,359,6.65,89.3,
+guest_to_first_log,2026-05-27,0,app_open_guest,5513,97.64,100.0,
+guest_to_first_log,2026-05-27,1,dashboard_viewed,5492,97.27,99.62,
+guest_to_first_log,2026-05-27,2,log_cta_tapped,2959,52.41,53.88,
+guest_to_first_log,2026-05-27,3,signup_prompt_shown,2739,48.51,92.57,
+guest_to_first_log,2026-05-27,4,signup_started,988,17.5,36.07,
+guest_to_first_log,2026-05-27,5,signup_completed,659,11.67,66.7,
+guest_to_first_log,2026-05-27,6,guest_data_synced_ok,417,7.39,63.28,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-05-27,7,first_log_saved,384,6.8,92.09,
+guest_to_first_log,2026-06-03,0,app_open_guest,5323,97.94,100.0,
+guest_to_first_log,2026-06-03,1,dashboard_viewed,5179,95.29,97.29,
+guest_to_first_log,2026-06-03,2,log_cta_tapped,2790,51.33,53.87,
+guest_to_first_log,2026-06-03,3,signup_prompt_shown,2702,49.71,96.85,
+guest_to_first_log,2026-06-03,4,signup_started,920,16.93,34.05,
+guest_to_first_log,2026-06-03,5,signup_completed,631,11.61,68.59,
+guest_to_first_log,2026-06-03,6,guest_data_synced_ok,408,7.51,64.66,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-06-03,7,first_log_saved,374,6.88,91.67,
+guest_to_first_log,2026-06-10,0,app_open_guest,4720,98.83,100.0,
+guest_to_first_log,2026-06-10,1,dashboard_viewed,4521,94.66,95.78,
+guest_to_first_log,2026-06-10,2,log_cta_tapped,2432,50.92,53.79,
+guest_to_first_log,2026-06-10,3,signup_prompt_shown,2304,48.24,94.74,
+guest_to_first_log,2026-06-10,4,signup_started,830,17.38,36.02,
+guest_to_first_log,2026-06-10,5,signup_completed,579,12.12,69.76,
+guest_to_first_log,2026-06-10,6,guest_data_synced_ok,364,7.62,62.87,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-06-10,7,first_log_saved,330,6.91,90.66,
+guest_to_first_log,2026-06-17,0,app_open_guest,5513,97.25,100.0,
+guest_to_first_log,2026-06-17,1,dashboard_viewed,5322,93.88,96.54,
+guest_to_first_log,2026-06-17,2,log_cta_tapped,2817,49.69,52.93,
+guest_to_first_log,2026-06-17,3,signup_prompt_shown,2865,50.54,101.7,
+guest_to_first_log,2026-06-17,4,signup_started,957,16.88,33.4,
+guest_to_first_log,2026-06-17,5,signup_completed,710,12.52,74.19,
+guest_to_first_log,2026-06-17,6,guest_data_synced_ok,425,7.5,59.86,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-06-17,7,first_log_saved,387,6.83,91.06,
+guest_to_first_log,2026-06-24,0,app_open_guest,5231,97.27,100.0,
+guest_to_first_log,2026-06-24,1,dashboard_viewed,5021,93.36,95.99,
+guest_to_first_log,2026-06-24,2,log_cta_tapped,2800,52.06,55.77,
+guest_to_first_log,2026-06-24,3,signup_prompt_shown,2609,48.51,93.18,
+guest_to_first_log,2026-06-24,4,signup_started,884,16.44,33.88,
+guest_to_first_log,2026-06-24,5,signup_completed,666,12.38,75.34,
+guest_to_first_log,2026-06-24,6,guest_data_synced_ok,393,7.31,59.01,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-06-24,7,first_log_saved,365,6.79,92.88,
+guest_to_first_log,2026-07-01,0,app_open_guest,5080,98.47,100.0,
+guest_to_first_log,2026-07-01,1,dashboard_viewed,4708,91.26,92.68,
+guest_to_first_log,2026-07-01,2,log_cta_tapped,2716,52.65,57.69,
+guest_to_first_log,2026-07-01,3,signup_prompt_shown,2585,50.11,95.18,
+guest_to_first_log,2026-07-01,4,signup_started,864,16.75,33.42,
+guest_to_first_log,2026-07-01,5,signup_completed,637,12.35,73.73,
+guest_to_first_log,2026-07-01,6,guest_data_synced_ok,385,7.46,60.44,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-07-01,7,first_log_saved,347,6.73,90.13,
+guest_to_first_log,2026-07-08,0,app_open_guest,4926,101.19,100.0,
+guest_to_first_log,2026-07-08,1,dashboard_viewed,4692,96.38,95.25,
+guest_to_first_log,2026-07-08,2,log_cta_tapped,2586,53.12,55.12,
+guest_to_first_log,2026-07-08,3,signup_prompt_shown,2339,48.05,90.45,
+guest_to_first_log,2026-07-08,4,signup_started,842,17.3,36.0,
+guest_to_first_log,2026-07-08,5,signup_completed,575,11.81,68.29,
+guest_to_first_log,2026-07-08,6,guest_data_synced_ok,356,7.31,61.91,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-07-08,7,first_log_saved,327,6.72,91.85,
+guest_to_first_log,2026-07-15,0,app_open_guest,5224,101.54,100.0,
+guest_to_first_log,2026-07-15,1,dashboard_viewed,5052,98.19,96.71,
+guest_to_first_log,2026-07-15,2,log_cta_tapped,2566,49.87,50.79,
+guest_to_first_log,2026-07-15,3,signup_prompt_shown,2471,48.03,96.3,
+guest_to_first_log,2026-07-15,4,signup_started,885,17.2,35.82,
+guest_to_first_log,2026-07-15,5,signup_completed,618,12.01,69.83,
+guest_to_first_log,2026-07-15,6,guest_data_synced_ok,371,7.21,60.03,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-07-15,7,first_log_saved,348,6.76,93.8,
+guest_to_first_log,2026-07-22,0,app_open_guest,5473,100.31,100.0,
+guest_to_first_log,2026-07-22,1,dashboard_viewed,5165,94.67,94.37,
+guest_to_first_log,2026-07-22,2,log_cta_tapped,2727,49.98,52.8,
+guest_to_first_log,2026-07-22,3,signup_prompt_shown,2793,51.19,102.42,
+guest_to_first_log,2026-07-22,4,signup_started,964,17.67,34.51,
+guest_to_first_log,2026-07-22,5,signup_completed,681,12.48,70.64,
+guest_to_first_log,2026-07-22,6,guest_data_synced_ok,390,7.15,57.27,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-07-22,7,first_log_saved,380,6.96,97.44,
+guest_to_first_log,2026-07-29,0,app_open_guest,4695,97.65,100.0,
+guest_to_first_log,2026-07-29,1,dashboard_viewed,4602,95.72,98.02,
+guest_to_first_log,2026-07-29,2,log_cta_tapped,2499,51.98,54.3,
+guest_to_first_log,2026-07-29,3,signup_prompt_shown,2359,49.06,94.4,
+guest_to_first_log,2026-07-29,4,signup_started,803,16.7,34.04,
+guest_to_first_log,2026-07-29,5,signup_completed,571,11.88,71.11,
+guest_to_first_log,2026-07-29,6,guest_data_synced_ok,358,7.45,62.7,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-07-29,7,first_log_saved,328,6.82,91.62,
+guest_to_first_log,2026-08-05,0,app_open_guest,5023,100.0,100.0,
+guest_to_first_log,2026-08-05,1,dashboard_viewed,4858,96.72,96.72,
+guest_to_first_log,2026-08-05,2,log_cta_tapped,2645,52.66,54.45,
+guest_to_first_log,2026-08-05,3,signup_prompt_shown,2405,47.88,90.93,
+guest_to_first_log,2026-08-05,4,signup_started,886,17.64,36.84,
+guest_to_first_log,2026-08-05,5,signup_completed,622,12.38,70.2,
+guest_to_first_log,2026-08-05,6,guest_data_synced_ok,364,7.25,58.52,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-08-05,7,first_log_saved,338,6.73,92.86,
+guest_to_first_log,2026-08-12,0,app_open_guest,4927,99.82,100.0,
+guest_to_first_log,2026-08-12,1,dashboard_viewed,4830,97.85,98.03,
+guest_to_first_log,2026-08-12,2,log_cta_tapped,2475,50.14,51.24,
+guest_to_first_log,2026-08-12,3,signup_prompt_shown,2556,51.78,103.27,
+guest_to_first_log,2026-08-12,4,signup_started,877,17.77,34.31,
+guest_to_first_log,2026-08-12,5,signup_completed,587,11.89,66.93,
+guest_to_first_log,2026-08-12,6,guest_data_synced_ok,354,7.17,60.31,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-08-12,7,first_log_saved,346,7.01,97.74,
+guest_to_first_log,2026-08-19,0,app_open_guest,5536,103.3,100.0,
+guest_to_first_log,2026-08-19,1,dashboard_viewed,5002,93.34,90.35,
+guest_to_first_log,2026-08-19,2,log_cta_tapped,2638,49.23,52.74,
+guest_to_first_log,2026-08-19,3,signup_prompt_shown,2586,48.26,98.03,
+guest_to_first_log,2026-08-19,4,signup_started,936,17.47,36.19,
+guest_to_first_log,2026-08-19,5,signup_completed,658,12.28,70.3,
+guest_to_first_log,2026-08-19,6,guest_data_synced_ok,396,7.39,60.18,"leak: per-entry sync failures swallowed, cache cleared"
+guest_to_first_log,2026-08-19,7,first_log_saved,359,6.7,90.66,
+exercise_logging_session,2026-04-01,0,log_exercise_opened,9293,100.0,100.0,
+exercise_logging_session,2026-04-01,1,activity_type_selected,8034,86.45,86.45,
+exercise_logging_session,2026-04-01,2,duration_entered,7790,83.83,96.96,
+exercise_logging_session,2026-04-01,3,entry_saved,7038,75.73,90.35,
+exercise_logging_session,2026-04-01,4,dashboard_returned,6512,70.07,92.53,
+exercise_logging_session,2026-04-01,5,repeat_of_previous_session,6580,70.81,101.04,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-04-08,0,log_exercise_opened,9567,103.03,100.0,
+exercise_logging_session,2026-04-08,1,activity_type_selected,8163,87.91,85.32,
+exercise_logging_session,2026-04-08,2,duration_entered,7320,78.83,89.67,
+exercise_logging_session,2026-04-08,3,entry_saved,7061,76.04,96.46,
+exercise_logging_session,2026-04-08,4,dashboard_returned,6344,68.32,89.85,
+exercise_logging_session,2026-04-08,5,repeat_of_previous_session,6376,68.66,100.5,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-04-15,0,log_exercise_opened,9144,96.72,100.0,
+exercise_logging_session,2026-04-15,1,activity_type_selected,8217,86.92,89.86,
+exercise_logging_session,2026-04-15,2,duration_entered,7623,80.63,92.77,
+exercise_logging_session,2026-04-15,3,entry_saved,7042,74.49,92.38,
+exercise_logging_session,2026-04-15,4,dashboard_returned,6591,69.72,93.6,
+exercise_logging_session,2026-04-15,5,repeat_of_previous_session,6778,71.69,102.84,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-04-22,0,log_exercise_opened,9450,102.48,100.0,
+exercise_logging_session,2026-04-22,1,activity_type_selected,8303,90.04,87.86,
+exercise_logging_session,2026-04-22,2,duration_entered,7209,78.18,86.82,
+exercise_logging_session,2026-04-22,3,entry_saved,6712,72.79,93.11,
+exercise_logging_session,2026-04-22,4,dashboard_returned,6341,68.77,94.47,
+exercise_logging_session,2026-04-22,5,repeat_of_previous_session,6800,73.74,107.24,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-04-29,0,log_exercise_opened,9464,96.86,100.0,
+exercise_logging_session,2026-04-29,1,activity_type_selected,8942,91.52,94.48,
+exercise_logging_session,2026-04-29,2,duration_entered,8058,82.47,90.11,
+exercise_logging_session,2026-04-29,3,entry_saved,7375,75.48,91.52,
+exercise_logging_session,2026-04-29,4,dashboard_returned,6617,67.72,89.72,
+exercise_logging_session,2026-04-29,5,repeat_of_previous_session,6962,71.25,105.21,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-05-06,0,log_exercise_opened,9323,99.43,100.0,
+exercise_logging_session,2026-05-06,1,activity_type_selected,8394,89.53,90.04,
+exercise_logging_session,2026-05-06,2,duration_entered,7290,77.75,86.85,
+exercise_logging_session,2026-05-06,3,entry_saved,7017,74.84,96.26,
+exercise_logging_session,2026-05-06,4,dashboard_returned,6213,66.26,88.54,
+exercise_logging_session,2026-05-06,5,repeat_of_previous_session,6477,69.08,104.25,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-05-13,0,log_exercise_opened,8785,99.57,100.0,
+exercise_logging_session,2026-05-13,1,activity_type_selected,7685,87.1,87.48,
+exercise_logging_session,2026-05-13,2,duration_entered,7092,80.38,92.28,
+exercise_logging_session,2026-05-13,3,entry_saved,6583,74.61,92.82,
+exercise_logging_session,2026-05-13,4,dashboard_returned,5978,67.75,90.81,
+exercise_logging_session,2026-05-13,5,repeat_of_previous_session,6151,69.72,102.89,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-05-20,0,log_exercise_opened,9763,99.92,100.0,
+exercise_logging_session,2026-05-20,1,activity_type_selected,8442,86.4,86.47,
+exercise_logging_session,2026-05-20,2,duration_entered,7853,80.37,93.02,
+exercise_logging_session,2026-05-20,3,entry_saved,7096,72.62,90.36,
+exercise_logging_session,2026-05-20,4,dashboard_returned,6625,67.8,93.36,
+exercise_logging_session,2026-05-20,5,repeat_of_previous_session,6925,70.87,104.53,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-05-27,0,log_exercise_opened,9713,103.11,100.0,
+exercise_logging_session,2026-05-27,1,activity_type_selected,8262,87.71,85.06,
+exercise_logging_session,2026-05-27,2,duration_entered,7326,77.77,88.67,
+exercise_logging_session,2026-05-27,3,entry_saved,6785,72.03,92.62,
+exercise_logging_session,2026-05-27,4,dashboard_returned,6532,69.34,96.27,
+exercise_logging_session,2026-05-27,5,repeat_of_previous_session,6879,73.03,105.31,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-06-03,0,log_exercise_opened,8411,96.07,100.0,
+exercise_logging_session,2026-06-03,1,activity_type_selected,7601,86.82,90.37,
+exercise_logging_session,2026-06-03,2,duration_entered,7210,82.35,94.86,
+exercise_logging_session,2026-06-03,3,entry_saved,6463,73.82,89.64,
+exercise_logging_session,2026-06-03,4,dashboard_returned,6003,68.57,92.88,
+exercise_logging_session,2026-06-03,5,repeat_of_previous_session,6482,74.04,107.98,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-06-10,0,log_exercise_opened,8895,99.35,100.0,
+exercise_logging_session,2026-06-10,1,activity_type_selected,7859,87.78,88.35,
+exercise_logging_session,2026-06-10,2,duration_entered,7239,80.86,92.11,
+exercise_logging_session,2026-06-10,3,entry_saved,6760,75.51,93.38,
+exercise_logging_session,2026-06-10,4,dashboard_returned,6363,71.07,94.13,
+exercise_logging_session,2026-06-10,5,repeat_of_previous_session,6609,73.82,103.87,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-06-17,0,log_exercise_opened,8122,98.01,100.0,
+exercise_logging_session,2026-06-17,1,activity_type_selected,7476,90.21,92.05,
+exercise_logging_session,2026-06-17,2,duration_entered,6751,81.46,90.3,
+exercise_logging_session,2026-06-17,3,entry_saved,5951,71.81,88.15,
+exercise_logging_session,2026-06-17,4,dashboard_returned,5704,68.83,95.85,
+exercise_logging_session,2026-06-17,5,repeat_of_previous_session,6038,72.86,105.86,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-06-24,0,log_exercise_opened,8973,103.15,100.0,
+exercise_logging_session,2026-06-24,1,activity_type_selected,7713,88.67,85.96,
+exercise_logging_session,2026-06-24,2,duration_entered,7021,80.71,91.03,
+exercise_logging_session,2026-06-24,3,entry_saved,6513,74.87,92.76,
+exercise_logging_session,2026-06-24,4,dashboard_returned,5851,67.26,89.84,
+exercise_logging_session,2026-06-24,5,repeat_of_previous_session,6352,73.02,108.56,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-07-01,0,log_exercise_opened,9546,98.42,100.0,
+exercise_logging_session,2026-07-01,1,activity_type_selected,8676,89.45,90.89,
+exercise_logging_session,2026-07-01,2,duration_entered,8097,83.48,93.33,
+exercise_logging_session,2026-07-01,3,entry_saved,7278,75.04,89.89,
+exercise_logging_session,2026-07-01,4,dashboard_returned,6515,67.17,89.52,
+exercise_logging_session,2026-07-01,5,repeat_of_previous_session,6712,69.2,103.02,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-07-08,0,log_exercise_opened,9141,99.68,100.0,
+exercise_logging_session,2026-07-08,1,activity_type_selected,8001,87.25,87.53,
+exercise_logging_session,2026-07-08,2,duration_entered,7275,79.33,90.93,
+exercise_logging_session,2026-07-08,3,entry_saved,6786,74.0,93.28,
+exercise_logging_session,2026-07-08,4,dashboard_returned,6454,70.38,95.11,
+exercise_logging_session,2026-07-08,5,repeat_of_previous_session,6339,69.13,98.22,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-07-15,0,log_exercise_opened,9305,102.95,100.0,
+exercise_logging_session,2026-07-15,1,activity_type_selected,7884,87.23,84.73,
+exercise_logging_session,2026-07-15,2,duration_entered,7579,83.86,96.13,
+exercise_logging_session,2026-07-15,3,entry_saved,6541,72.37,86.3,
+exercise_logging_session,2026-07-15,4,dashboard_returned,6008,66.47,91.85,
+exercise_logging_session,2026-07-15,5,repeat_of_previous_session,6636,73.42,110.45,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-07-22,0,log_exercise_opened,7982,96.52,100.0,
+exercise_logging_session,2026-07-22,1,activity_type_selected,7510,90.81,94.09,
+exercise_logging_session,2026-07-22,2,duration_entered,6887,83.28,91.7,
+exercise_logging_session,2026-07-22,3,entry_saved,6376,77.1,92.58,
+exercise_logging_session,2026-07-22,4,dashboard_returned,5616,67.91,88.08,
+exercise_logging_session,2026-07-22,5,repeat_of_previous_session,5859,70.85,104.33,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-07-29,0,log_exercise_opened,9034,101.64,100.0,
+exercise_logging_session,2026-07-29,1,activity_type_selected,7785,87.59,86.17,
+exercise_logging_session,2026-07-29,2,duration_entered,7271,81.81,93.4,
+exercise_logging_session,2026-07-29,3,entry_saved,6465,72.74,88.91,
+exercise_logging_session,2026-07-29,4,dashboard_returned,5878,66.13,90.92,
+exercise_logging_session,2026-07-29,5,repeat_of_previous_session,6123,68.89,104.17,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-08-05,0,log_exercise_opened,8643,97.89,100.0,
+exercise_logging_session,2026-08-05,1,activity_type_selected,7859,89.01,90.93,
+exercise_logging_session,2026-08-05,2,duration_entered,7371,83.49,93.79,
+exercise_logging_session,2026-08-05,3,entry_saved,6758,76.54,91.68,
+exercise_logging_session,2026-08-05,4,dashboard_returned,6279,71.12,92.91,
+exercise_logging_session,2026-08-05,5,repeat_of_previous_session,6085,68.92,96.91,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-08-12,0,log_exercise_opened,9294,98.37,100.0,
+exercise_logging_session,2026-08-12,1,activity_type_selected,8279,87.63,89.08,
+exercise_logging_session,2026-08-12,2,duration_entered,7427,78.61,89.71,
+exercise_logging_session,2026-08-12,3,entry_saved,6883,72.85,92.68,
+exercise_logging_session,2026-08-12,4,dashboard_returned,6521,69.02,94.74,
+exercise_logging_session,2026-08-12,5,repeat_of_previous_session,6894,72.97,105.72,71% of sessions duplicate the previous one — no plan to follow
+exercise_logging_session,2026-08-19,0,log_exercise_opened,8752,103.37,100.0,
+exercise_logging_session,2026-08-19,1,activity_type_selected,7227,85.35,82.58,
+exercise_logging_session,2026-08-19,2,duration_entered,6617,78.15,91.56,
+exercise_logging_session,2026-08-19,3,entry_saved,6306,74.48,95.3,
+exercise_logging_session,2026-08-19,4,dashboard_returned,5949,70.26,94.34,
+exercise_logging_session,2026-08-19,5,repeat_of_previous_session,6096,72.0,102.47,71% of sessions duplicate the previous one — no plan to follow
+premium_upgrade,2026-04-01,0,premium_surface_seen,6685,100.74,100.0,
+premium_upgrade,2026-04-01,1,subscription_page_opened,1392,20.98,20.82,
+premium_upgrade,2026-04-01,2,upgrade_tapped,667,10.05,47.92,
+premium_upgrade,2026-04-01,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-04-01,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-04-08,0,premium_surface_seen,7032,101.52,100.0,
+premium_upgrade,2026-04-08,1,subscription_page_opened,1475,21.29,20.98,
+premium_upgrade,2026-04-08,2,upgrade_tapped,743,10.73,50.37,
+premium_upgrade,2026-04-08,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-04-08,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-04-15,0,premium_surface_seen,7052,103.9,100.0,
+premium_upgrade,2026-04-15,1,subscription_page_opened,1496,22.04,21.21,
+premium_upgrade,2026-04-15,2,upgrade_tapped,689,10.15,46.06,
+premium_upgrade,2026-04-15,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-04-15,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-04-22,0,premium_surface_seen,6931,97.41,100.0,
+premium_upgrade,2026-04-22,1,subscription_page_opened,1466,20.6,21.15,
+premium_upgrade,2026-04-22,2,upgrade_tapped,745,10.47,50.82,
+premium_upgrade,2026-04-22,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-04-22,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-04-29,0,premium_surface_seen,7156,101.88,100.0,
+premium_upgrade,2026-04-29,1,subscription_page_opened,1476,21.01,20.63,
+premium_upgrade,2026-04-29,2,upgrade_tapped,726,10.34,49.19,
+premium_upgrade,2026-04-29,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-04-29,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-05-06,0,premium_surface_seen,7004,101.35,100.0,
+premium_upgrade,2026-05-06,1,subscription_page_opened,1491,21.57,21.29,
+premium_upgrade,2026-05-06,2,upgrade_tapped,706,10.22,47.35,
+premium_upgrade,2026-05-06,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-05-06,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-05-13,0,premium_surface_seen,6290,101.47,100.0,
+premium_upgrade,2026-05-13,1,subscription_page_opened,1306,21.07,20.76,
+premium_upgrade,2026-05-13,2,upgrade_tapped,644,10.39,49.31,
+premium_upgrade,2026-05-13,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-05-13,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-05-20,0,premium_surface_seen,7028,99.66,100.0,
+premium_upgrade,2026-05-20,1,subscription_page_opened,1486,21.07,21.14,
+premium_upgrade,2026-05-20,2,upgrade_tapped,727,10.31,48.92,
+premium_upgrade,2026-05-20,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-05-20,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-05-27,0,premium_surface_seen,6046,96.67,100.0,
+premium_upgrade,2026-05-27,1,subscription_page_opened,1306,20.88,21.6,
+premium_upgrade,2026-05-27,2,upgrade_tapped,652,10.43,49.92,
+premium_upgrade,2026-05-27,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-05-27,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-06-03,0,premium_surface_seen,6727,103.57,100.0,
+premium_upgrade,2026-06-03,1,subscription_page_opened,1390,21.4,20.66,
+premium_upgrade,2026-06-03,2,upgrade_tapped,689,10.61,49.57,
+premium_upgrade,2026-06-03,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-06-03,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-06-10,0,premium_surface_seen,6862,97.04,100.0,
+premium_upgrade,2026-06-10,1,subscription_page_opened,1472,20.82,21.45,
+premium_upgrade,2026-06-10,2,upgrade_tapped,763,10.79,51.83,
+premium_upgrade,2026-06-10,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-06-10,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-06-17,0,premium_surface_seen,6531,97.62,100.0,
+premium_upgrade,2026-06-17,1,subscription_page_opened,1386,20.72,21.22,
+premium_upgrade,2026-06-17,2,upgrade_tapped,721,10.78,52.02,
+premium_upgrade,2026-06-17,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-06-17,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-06-24,0,premium_surface_seen,6481,97.24,100.0,
+premium_upgrade,2026-06-24,1,subscription_page_opened,1438,21.58,22.19,
+premium_upgrade,2026-06-24,2,upgrade_tapped,688,10.32,47.84,
+premium_upgrade,2026-06-24,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-06-24,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-07-01,0,premium_surface_seen,6897,102.57,100.0,
+premium_upgrade,2026-07-01,1,subscription_page_opened,1478,21.98,21.43,
+premium_upgrade,2026-07-01,2,upgrade_tapped,710,10.56,48.04,
+premium_upgrade,2026-07-01,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-07-01,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-07-08,0,premium_surface_seen,6944,98.33,100.0,
+premium_upgrade,2026-07-08,1,subscription_page_opened,1517,21.48,21.85,
+premium_upgrade,2026-07-08,2,upgrade_tapped,711,10.07,46.87,
+premium_upgrade,2026-07-08,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-07-08,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-07-15,0,premium_surface_seen,6884,96.48,100.0,
+premium_upgrade,2026-07-15,1,subscription_page_opened,1517,21.26,22.04,
+premium_upgrade,2026-07-15,2,upgrade_tapped,719,10.08,47.4,
+premium_upgrade,2026-07-15,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-07-15,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-07-22,0,premium_surface_seen,6460,96.15,100.0,
+premium_upgrade,2026-07-22,1,subscription_page_opened,1371,20.4,21.22,
+premium_upgrade,2026-07-22,2,upgrade_tapped,674,10.03,49.16,
+premium_upgrade,2026-07-22,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-07-22,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-07-29,0,premium_surface_seen,6235,97.04,100.0,
+premium_upgrade,2026-07-29,1,subscription_page_opened,1340,20.86,21.49,
+premium_upgrade,2026-07-29,2,upgrade_tapped,651,10.13,48.58,
+premium_upgrade,2026-07-29,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-07-29,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-08-05,0,premium_surface_seen,6274,98.28,100.0,
+premium_upgrade,2026-08-05,1,subscription_page_opened,1338,20.96,21.33,
+premium_upgrade,2026-08-05,2,upgrade_tapped,657,10.29,49.1,
+premium_upgrade,2026-08-05,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-08-05,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-08-12,0,premium_surface_seen,7214,103.16,100.0,
+premium_upgrade,2026-08-12,1,subscription_page_opened,1429,20.43,19.81,
+premium_upgrade,2026-08-12,2,upgrade_tapped,750,10.73,52.48,
+premium_upgrade,2026-08-12,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-08-12,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+premium_upgrade,2026-08-19,0,premium_surface_seen,6196,98.38,100.0,
+premium_upgrade,2026-08-19,1,subscription_page_opened,1368,21.72,22.08,
+premium_upgrade,2026-08-19,2,upgrade_tapped,671,10.65,49.05,
+premium_upgrade,2026-08-19,3,checkout_started,0,0.0,0.0,hard zero: handleUpgrade shows a placeholder toast
+premium_upgrade,2026-08-19,4,subscription_active,0,0.0,100.0,"hard zero: no billing provider, no tier claim writer"
+history_view,2026-04-01,0,history_opened,2863,96.76,100.0,
+history_view,2026-04-01,1,week_data_rendered,1839,62.15,64.23,
+history_view,2026-04-01,2,range_change_attempted,1199,40.52,65.2,
+history_view,2026-04-01,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-04-01,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-04-01,5,history_abandoned_before_render,892,30.15,100.0,
+history_view,2026-04-08,0,history_opened,3093,100.68,100.0,
+history_view,2026-04-08,1,week_data_rendered,1875,61.04,60.62,
+history_view,2026-04-08,2,range_change_attempted,1179,38.38,62.88,
+history_view,2026-04-08,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-04-08,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-04-08,5,history_abandoned_before_render,950,30.92,100.0,
+history_view,2026-04-15,0,history_opened,3315,102.85,100.0,
+history_view,2026-04-15,1,week_data_rendered,1993,61.84,60.12,
+history_view,2026-04-15,2,range_change_attempted,1235,38.32,61.97,
+history_view,2026-04-15,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-04-15,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-04-15,5,history_abandoned_before_render,986,30.59,100.0,
+history_view,2026-04-22,0,history_opened,3281,102.79,100.0,
+history_view,2026-04-22,1,week_data_rendered,1903,59.62,58.0,
+history_view,2026-04-22,2,range_change_attempted,1303,40.82,68.47,
+history_view,2026-04-22,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-04-22,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-04-22,5,history_abandoned_before_render,1015,31.8,100.0,
+history_view,2026-04-29,0,history_opened,3308,101.5,100.0,
+history_view,2026-04-29,1,week_data_rendered,2008,61.61,60.7,
+history_view,2026-04-29,2,range_change_attempted,1345,41.27,66.98,
+history_view,2026-04-29,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-04-29,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-04-29,5,history_abandoned_before_render,1024,31.42,100.0,
+history_view,2026-05-06,0,history_opened,3315,96.48,100.0,
+history_view,2026-05-06,1,week_data_rendered,2178,63.39,65.7,
+history_view,2026-05-06,2,range_change_attempted,1320,38.42,60.61,
+history_view,2026-05-06,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-05-06,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-05-06,5,history_abandoned_before_render,1042,30.33,100.0,
+history_view,2026-05-13,0,history_opened,2944,100.17,100.0,
+history_view,2026-05-13,1,week_data_rendered,1755,59.71,59.61,
+history_view,2026-05-13,2,range_change_attempted,1169,39.78,66.61,
+history_view,2026-05-13,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-05-13,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-05-13,5,history_abandoned_before_render,883,30.04,100.0,
+history_view,2026-05-20,0,history_opened,3442,100.58,100.0,
+history_view,2026-05-20,1,week_data_rendered,2127,62.16,61.8,
+history_view,2026-05-20,2,range_change_attempted,1387,40.53,65.21,
+history_view,2026-05-20,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-05-20,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-05-20,5,history_abandoned_before_render,1065,31.12,100.0,
+history_view,2026-05-27,0,history_opened,3420,100.18,100.0,
+history_view,2026-05-27,1,week_data_rendered,2092,61.28,61.17,
+history_view,2026-05-27,2,range_change_attempted,1410,41.3,67.4,
+history_view,2026-05-27,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-05-27,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-05-27,5,history_abandoned_before_render,1076,31.52,100.0,
+history_view,2026-06-03,0,history_opened,3251,97.31,100.0,
+history_view,2026-06-03,1,week_data_rendered,1988,59.5,61.15,
+history_view,2026-06-03,2,range_change_attempted,1277,38.22,64.24,
+history_view,2026-06-03,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-06-03,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-06-03,5,history_abandoned_before_render,1069,32.0,100.0,
+history_view,2026-06-10,0,history_opened,3408,98.04,100.0,
+history_view,2026-06-10,1,week_data_rendered,2044,58.8,59.98,
+history_view,2026-06-10,2,range_change_attempted,1335,38.41,65.31,
+history_view,2026-06-10,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-06-10,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-06-10,5,history_abandoned_before_render,1079,31.04,100.0,
+history_view,2026-06-17,0,history_opened,3414,99.85,100.0,
+history_view,2026-06-17,1,week_data_rendered,2174,63.59,63.68,
+history_view,2026-06-17,2,range_change_attempted,1413,41.33,65.0,
+history_view,2026-06-17,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-06-17,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-06-17,5,history_abandoned_before_render,1069,31.27,100.0,
+history_view,2026-06-24,0,history_opened,3266,101.49,100.0,
+history_view,2026-06-24,1,week_data_rendered,2009,62.43,61.51,
+history_view,2026-06-24,2,range_change_attempted,1282,39.84,63.81,
+history_view,2026-06-24,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-06-24,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-06-24,5,history_abandoned_before_render,971,30.17,100.0,
+history_view,2026-07-01,0,history_opened,3374,98.0,100.0,
+history_view,2026-07-01,1,week_data_rendered,2180,63.32,64.61,
+history_view,2026-07-01,2,range_change_attempted,1422,41.3,65.23,
+history_view,2026-07-01,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-07-01,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-07-01,5,history_abandoned_before_render,1060,30.79,100.0,
+history_view,2026-07-08,0,history_opened,3382,101.68,100.0,
+history_view,2026-07-08,1,week_data_rendered,2110,63.44,62.39,
+history_view,2026-07-08,2,range_change_attempted,1271,38.21,60.24,
+history_view,2026-07-08,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-07-08,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-07-08,5,history_abandoned_before_render,1022,30.73,100.0,
+history_view,2026-07-15,0,history_opened,3124,98.36,100.0,
+history_view,2026-07-15,1,week_data_rendered,1945,61.24,62.26,
+history_view,2026-07-15,2,range_change_attempted,1289,40.59,66.27,
+history_view,2026-07-15,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-07-15,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-07-15,5,history_abandoned_before_render,972,30.6,100.0,
+history_view,2026-07-22,0,history_opened,3460,100.12,100.0,
+history_view,2026-07-22,1,week_data_rendered,2110,61.05,60.98,
+history_view,2026-07-22,2,range_change_attempted,1406,40.68,66.64,
+history_view,2026-07-22,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-07-22,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-07-22,5,history_abandoned_before_render,1079,31.22,100.0,
+history_view,2026-07-29,0,history_opened,3430,103.5,100.0,
+history_view,2026-07-29,1,week_data_rendered,2015,60.8,58.75,
+history_view,2026-07-29,2,range_change_attempted,1317,39.74,65.36,
+history_view,2026-07-29,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-07-29,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-07-29,5,history_abandoned_before_render,1029,31.05,100.0,
+history_view,2026-08-05,0,history_opened,3375,103.65,100.0,
+history_view,2026-08-05,1,week_data_rendered,2042,62.71,60.5,
+history_view,2026-08-05,2,range_change_attempted,1317,40.45,64.5,
+history_view,2026-08-05,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-08-05,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-08-05,5,history_abandoned_before_render,1050,32.25,100.0,
+history_view,2026-08-12,0,history_opened,3020,98.95,100.0,
+history_view,2026-08-12,1,week_data_rendered,1834,60.09,60.73,
+history_view,2026-08-12,2,range_change_attempted,1187,38.89,64.72,
+history_view,2026-08-12,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-08-12,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-08-12,5,history_abandoned_before_render,939,30.77,100.0,
+history_view,2026-08-19,0,history_opened,3562,101.68,100.0,
+history_view,2026-08-19,1,week_data_rendered,2181,62.26,61.23,
+history_view,2026-08-19,2,range_change_attempted,1443,41.19,66.16,
+history_view,2026-08-19,3,range_change_succeeded,0,0.0,0.0,hard zero: exerciseEntries takes one required AWSDate
+history_view,2026-08-19,4,report_export_attempted,0,0.0,100.0,hard zero: no periodic report or export path exists
+history_view,2026-08-19,5,history_abandoned_before_render,1075,30.69,100.0,

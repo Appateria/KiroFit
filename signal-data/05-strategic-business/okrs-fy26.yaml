@@ -1,0 +1,255 @@
+# Kiro Fit — FY26 objectives and key results
+# signal_class: strategic
+# owner: product leadership
+# last_reviewed: 2026-08-24
+# Used by the Signal Scoring Engine for the "strategic alignment" factor.
+# alignment_weight is the multiplier applied to signals mapped to this OKR.
+
+fiscal_year: FY26
+current_quarter: Q3
+quarter_window: [2026-07-01, 2026-09-30]
+
+objectives:
+  - id: O1
+    title: Coach the user, don't just record them
+    owner: pm_rowan
+    quarter: Q3
+    alignment_weight: 1.00
+    rationale: >
+      The product records activity but never tells a user what to do next. 71% of
+      logged sessions repeat the previous session verbatim, and the single most
+      common support question is "what should I do this week?". A generated plan
+      plus a periodic progress readout are the two capabilities users ask for by
+      name and competitors already ship.
+    key_results:
+      - id: O1-KR1
+        statement: Users can generate a structured multi-week exercise plan from their profile and history
+        baseline: none
+        target: shipped
+        current: none
+        status: not_started
+        blocked_by_themes: [exercise_plan_generation]
+      - id: O1-KR2
+        statement: Weekly and monthly progress reports available over a user-selected date range
+        baseline: none
+        target: shipped
+        current: none
+        status: not_started
+        blocked_by_themes: [progress_reports_periodic, history_range_limit]
+      - id: O1-KR3
+        statement: W4 retention of the activity-logging cohort at or above 28%
+        baseline: 19%
+        target: 28%
+        current: 19%
+        status: at_risk
+        blocked_by_themes: [exercise_plan_generation, progress_reports_periodic, reminders_missing]
+      - id: O1-KR4
+        statement: Plan adherence measurable — share of planned sessions actually logged
+        baseline: unmeasurable
+        target: 45%
+        current: unmeasurable
+        status: not_started
+        blocked_by_themes: [exercise_plan_generation, instrumentation_gap]
+
+  - id: O2
+    title: Earn the right to be trusted with a user's data
+    owner: eng_lead_dana
+    quarter: Q3
+    alignment_weight: 0.95
+    rationale: >
+      The product cannot correct, delete or export a user's own data. This is
+      simultaneously the top consumer complaint, a compliance obligation and a
+      pen-test finding.
+    key_results:
+      - id: O2-KR1
+        statement: Users can rectify or remove any activity record they have logged
+        baseline: not possible
+        target: shipped
+        current: not started
+        status: not_started
+        blocked_by_themes: [gdpr_dsar]
+      - id: O2-KR2
+        statement: Guest sign-up data loss rate below 0.5% of synced entries
+        baseline: 39%
+        target: 0.5%
+        current: 39%
+        status: at_risk
+        blocked_by_themes: [guest_sync_loss, guest_sync_duplicates, offline_mode]
+      - id: O2-KR3
+        statement: Self-serve export and account deletion available
+        baseline: none
+        target: shipped
+        current: none
+        status: not_started
+        blocked_by_themes: [data_export_missing, gdpr_dsar]
+      - id: O2-KR4
+        statement: Zero open high-severity pen-test findings
+        baseline: 2 open (F-01, F-02)
+        target: 0
+        current: 2 open
+        status: at_risk
+        blocked_by_themes: [public_profile_pii]
+      - id: O2-KR5
+        statement: Height and weight captured, stored and displayed in the user's chosen unit system
+        baseline: metric only
+        target: metric + imperial, round-trip safe
+        current: metric only
+        status: not_started
+        blocked_by_themes: [unit_system_imperial]
+
+  - id: O3
+    title: Turn demonstrated purchase intent into revenue
+    owner: pm_rowan
+    quarter: Q3
+    alignment_weight: 0.90
+    rationale: >
+      9,877 distinct users tapped Upgrade into a placeholder toast. Free-to-paid
+      conversion is structurally 0% because there is no checkout and no tier claim.
+    key_results:
+      - id: O3-KR1
+        statement: Working subscription checkout with entitlement write-back
+        baseline: none
+        target: shipped
+        current: none
+        status: not_started
+        blocked_by_themes: [billing_missing]
+      - id: O3-KR2
+        statement: At least two advertised premium capabilities actually shipped
+        baseline: 0 of 6
+        target: 2 of 6
+        current: 0 of 6
+        status: not_started
+        blocked_by_themes: [analytics_missing, data_export_missing, history_range_limit, custom_activities]
+      - id: O3-KR3
+        statement: Free-to-paid conversion at or above 2.0%
+        baseline: 0.0%
+        target: 2.0%
+        current: 0.0%
+        status: not_started
+        blocked_by_themes: [billing_missing, analytics_missing]
+
+  - id: O4
+    title: Unblock the corporate wellness segment
+    owner: ae_marisol
+    quarter: Q3
+    alignment_weight: 0.85
+    rationale: >
+      Corporate cohorts retain 2-3x better than consumer. Two accounts totalling
+      $19.4k ARR are gated on non-product requirements with hard dates.
+    key_results:
+      - id: O4-KR1
+        statement: SAML/OIDC SSO available for corporate accounts
+        baseline: none
+        target: shipped by 2026-10-15
+        current: none
+        status: at_risk
+        blocked_by_themes: [sso_required]
+      - id: O4-KR2
+        statement: De-identified cohort participation export (monthly CSV)
+        baseline: none
+        target: shipped by 2026-11-01
+        current: none
+        status: not_started
+        blocked_by_themes: [data_export_missing]
+      - id: O4-KR3
+        statement: WCAG 2.2 AA on primary screens with a published ACR
+        baseline: serious axe violations
+        target: 0 serious violations, ACR published by 2026-12-01
+        current: serious violations open
+        status: at_risk
+        blocked_by_themes: [accessibility_a11y, dark_mode_contrast]
+      - id: O4-KR4
+        statement: Expansion to 4200 seats at Helios signed
+        baseline: 240 seats
+        target: 4200 seats
+        current: 240 seats
+        status: at_risk
+        blocked_by_themes: [sso_required, data_export_missing, accessibility_a11y]
+
+  # Standing charter, not a one-quarter push. Recorded here so the Signal Scoring
+  # Engine gives alignment lift to signals that propose an AI-shaped solution, and
+  # so the cost discipline is auditable rather than folklore. See ADR-010.
+  - id: O6
+    title: Use generative and agentic AI where it is the cost-effective way to add customer value
+    owner: product_leadership
+    quarter: Q3
+    alignment_weight: 0.80
+    rationale: >
+      Two of the capabilities users ask for by name — an exercise plan and a
+      readable progress report — are natural-language generation problems over data
+      the product already holds. Hand-authoring plan templates and report prose is
+      the more expensive path and ages badly. The charter is deliberately
+      conditional: AI where it beats the alternative on cost per unit of customer
+      value, not AI as a default. Every AI capability carries a documented
+      cost/benefit and a non-AI fallback so a price change or model regression
+      cannot take a feature offline.
+    key_results:
+      - id: O6-KR1
+        statement: Plan generation and report narratives delivered through a managed model rather than bespoke rule engines
+        baseline: none
+        target: 2 capabilities
+        current: none
+        status: not_started
+        blocked_by_themes: [genai_charter, exercise_plan_generation, progress_reports_periodic]
+      - id: O6-KR2
+        statement: Inference cost per monthly active user under $0.04, measured and alarmed
+        baseline: not measured
+        target: <$0.04
+        current: not measured
+        status: not_started
+        blocked_by_themes: [genai_charter, observability_gap]
+      - id: O6-KR3
+        statement: Every shipped AI capability has a written cost/benefit note and a deterministic fallback path
+        baseline: no policy
+        target: policy enforced in definition of done
+        current: no policy
+        status: not_started
+        blocked_by_themes: [genai_charter]
+
+  - id: O5
+    title: See problems before customers report them
+    owner: platform_eng
+    quarter: Q3
+    alignment_weight: 0.60
+    rationale: >
+      Every incident this quarter was discovered from support tickets or social media.
+      Mean time to detect was 4.6 days excluding INC-2026-041.
+    key_results:
+      - id: O5-KR1
+        statement: Alarms on AppSync 5xx, throttling and Lambda errors
+        baseline: none
+        target: shipped
+        current: none
+        status: not_started
+        blocked_by_themes: [observability_gap]
+      - id: O5-KR2
+        statement: Mean time to detect under 30 minutes
+        baseline: 4.6 days
+        target: 30 minutes
+        current: 4.6 days
+        status: not_started
+        blocked_by_themes: [observability_gap, instrumentation_gap]
+
+# Explicit non-goals for Q3 — signals mapping only to these get no alignment lift.
+non_goals:
+  - id: NG1
+    statement: Native iOS/Android store presence
+    reason: >
+      Requires signing, CI, privacy manifests and review cycles. Web push covers the
+      reminder use case at ~50% of the value for ~10% of the cost this quarter.
+    revisit: FY27-Q1
+    themes: [native_mobile_apps]
+  - id: NG3
+    statement: Community and challenges
+    reason: >
+      No in-product behavioral demand; enterprise buyers actively object to individual
+      leaderboards on HR grounds.
+    revisit: FY27-Q2
+    themes: [community_challenges]
+  - id: NG4
+    statement: Full offline-first architecture
+    reason: >
+      A local draft/outbox for the compose path is in scope under O2-KR2; a general
+      offline-first rewrite is not.
+    revisit: FY27-Q1
+    themes: [offline_mode]

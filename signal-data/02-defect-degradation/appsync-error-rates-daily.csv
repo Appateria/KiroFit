@@ -1,0 +1,1481 @@
+date,operation,operation_type,requests,errors,error_rate_pct,note
+2026-04-01,Query.exerciseEntries,query,5039,22,0.437,per-date fan-out
+2026-04-01,Query.healthProfile,query,2124,6,0.282,read path
+2026-04-01,Query.me,query,2328,4,0.172,read path
+2026-04-01,Query.profile,query,478,0,0.0,api-key readable
+2026-04-01,Query.myPreferences,query,1140,2,0.175,read path
+2026-04-01,Mutation.logExercise,mutation,3180,31,0.975,guest sync replay
+2026-04-01,Mutation.saveHealthProfile,mutation,506,5,0.988,goal writes
+2026-04-01,Mutation.updateProfile,mutation,367,3,0.817,profile writes
+2026-04-01,Mutation.requestProfilePhotoUpload,mutation,240,21,8.75,HEIC rejections
+2026-04-01,Mutation.confirmProfilePhotoUpload,mutation,185,8,4.324,HEIC rejections
+2026-04-02,Query.exerciseEntries,query,4427,21,0.474,per-date fan-out
+2026-04-02,Query.healthProfile,query,2246,8,0.356,read path
+2026-04-02,Query.me,query,2136,3,0.14,read path
+2026-04-02,Query.profile,query,475,0,0.0,api-key readable
+2026-04-02,Query.myPreferences,query,1394,3,0.215,read path
+2026-04-02,Mutation.logExercise,mutation,3309,33,0.997,guest sync replay
+2026-04-02,Mutation.saveHealthProfile,mutation,564,6,1.064,goal writes
+2026-04-02,Mutation.updateProfile,mutation,361,3,0.831,profile writes
+2026-04-02,Mutation.requestProfilePhotoUpload,mutation,257,20,7.782,HEIC rejections
+2026-04-02,Mutation.confirmProfilePhotoUpload,mutation,167,7,4.192,HEIC rejections
+2026-04-03,Query.exerciseEntries,query,5682,24,0.422,per-date fan-out
+2026-04-03,Query.healthProfile,query,2072,7,0.338,read path
+2026-04-03,Query.me,query,2318,4,0.173,read path
+2026-04-03,Query.profile,query,539,0,0.0,api-key readable
+2026-04-03,Query.myPreferences,query,1232,3,0.244,read path
+2026-04-03,Mutation.logExercise,mutation,3519,46,1.307,guest sync replay
+2026-04-03,Mutation.saveHealthProfile,mutation,625,6,0.96,goal writes
+2026-04-03,Mutation.updateProfile,mutation,378,3,0.794,profile writes
+2026-04-03,Mutation.requestProfilePhotoUpload,mutation,212,19,8.962,HEIC rejections
+2026-04-03,Mutation.confirmProfilePhotoUpload,mutation,163,7,4.294,HEIC rejections
+2026-04-04,Query.exerciseEntries,query,4143,24,0.579,per-date fan-out
+2026-04-04,Query.healthProfile,query,1826,5,0.274,read path
+2026-04-04,Query.me,query,1731,4,0.231,read path
+2026-04-04,Query.profile,query,393,0,0.0,api-key readable
+2026-04-04,Query.myPreferences,query,1095,3,0.274,read path
+2026-04-04,Mutation.logExercise,mutation,2697,26,0.964,guest sync replay
+2026-04-04,Mutation.saveHealthProfile,mutation,444,4,0.901,goal writes
+2026-04-04,Mutation.updateProfile,mutation,369,2,0.542,profile writes
+2026-04-04,Mutation.requestProfilePhotoUpload,mutation,160,13,8.125,HEIC rejections
+2026-04-04,Mutation.confirmProfilePhotoUpload,mutation,155,6,3.871,HEIC rejections
+2026-04-05,Query.exerciseEntries,query,4441,22,0.495,per-date fan-out
+2026-04-05,Query.healthProfile,query,1728,5,0.289,read path
+2026-04-05,Query.me,query,2088,4,0.192,read path
+2026-04-05,Query.profile,query,360,0,0.0,api-key readable
+2026-04-05,Query.myPreferences,query,1113,2,0.18,read path
+2026-04-05,Mutation.logExercise,mutation,2815,35,1.243,guest sync replay
+2026-04-05,Mutation.saveHealthProfile,mutation,518,4,0.772,goal writes
+2026-04-05,Mutation.updateProfile,mutation,342,2,0.585,profile writes
+2026-04-05,Mutation.requestProfilePhotoUpload,mutation,192,15,7.812,HEIC rejections
+2026-04-05,Mutation.confirmProfilePhotoUpload,mutation,129,5,3.876,HEIC rejections
+2026-04-06,Query.exerciseEntries,query,5720,29,0.507,per-date fan-out
+2026-04-06,Query.healthProfile,query,1950,5,0.256,read path
+2026-04-06,Query.me,query,2756,7,0.254,read path
+2026-04-06,Query.profile,query,591,1,0.169,api-key readable
+2026-04-06,Query.myPreferences,query,1371,3,0.219,read path
+2026-04-06,Mutation.logExercise,mutation,3002,30,0.999,guest sync replay
+2026-04-06,Mutation.saveHealthProfile,mutation,620,6,0.968,goal writes
+2026-04-06,Mutation.updateProfile,mutation,447,3,0.671,profile writes
+2026-04-06,Mutation.requestProfilePhotoUpload,mutation,253,18,7.115,HEIC rejections
+2026-04-06,Mutation.confirmProfilePhotoUpload,mutation,200,8,4.0,HEIC rejections
+2026-04-07,Query.exerciseEntries,query,5526,23,0.416,per-date fan-out
+2026-04-07,Query.healthProfile,query,2479,8,0.323,read path
+2026-04-07,Query.me,query,2203,5,0.227,read path
+2026-04-07,Query.profile,query,548,0,0.0,api-key readable
+2026-04-07,Query.myPreferences,query,1461,3,0.205,read path
+2026-04-07,Mutation.logExercise,mutation,3547,42,1.184,guest sync replay
+2026-04-07,Mutation.saveHealthProfile,mutation,685,5,0.73,goal writes
+2026-04-07,Mutation.updateProfile,mutation,463,4,0.864,profile writes
+2026-04-07,Mutation.requestProfilePhotoUpload,mutation,270,18,6.667,HEIC rejections
+2026-04-07,Mutation.confirmProfilePhotoUpload,mutation,204,9,4.412,HEIC rejections
+2026-04-08,Query.exerciseEntries,query,4756,25,0.526,per-date fan-out
+2026-04-08,Query.healthProfile,query,2443,8,0.327,read path
+2026-04-08,Query.me,query,2727,5,0.183,read path
+2026-04-08,Query.profile,query,542,1,0.185,api-key readable
+2026-04-08,Query.myPreferences,query,1200,3,0.25,read path
+2026-04-08,Mutation.logExercise,mutation,3601,39,1.083,guest sync replay
+2026-04-08,Mutation.saveHealthProfile,mutation,700,5,0.714,goal writes
+2026-04-08,Mutation.updateProfile,mutation,480,5,1.042,profile writes
+2026-04-08,Mutation.requestProfilePhotoUpload,mutation,266,19,7.143,HEIC rejections
+2026-04-08,Mutation.confirmProfilePhotoUpload,mutation,179,8,4.469,HEIC rejections
+2026-04-09,Query.exerciseEntries,query,6213,34,0.547,per-date fan-out
+2026-04-09,Query.healthProfile,query,2277,7,0.307,read path
+2026-04-09,Query.me,query,2776,5,0.18,read path
+2026-04-09,Query.profile,query,566,1,0.177,api-key readable
+2026-04-09,Query.myPreferences,query,1232,3,0.244,read path
+2026-04-09,Mutation.logExercise,mutation,2997,37,1.235,guest sync replay
+2026-04-09,Mutation.saveHealthProfile,mutation,626,5,0.799,goal writes
+2026-04-09,Mutation.updateProfile,mutation,430,3,0.698,profile writes
+2026-04-09,Mutation.requestProfilePhotoUpload,mutation,227,19,8.37,HEIC rejections
+2026-04-09,Mutation.confirmProfilePhotoUpload,mutation,172,7,4.07,HEIC rejections
+2026-04-10,Query.exerciseEntries,query,5285,28,0.53,per-date fan-out
+2026-04-10,Query.healthProfile,query,2109,7,0.332,read path
+2026-04-10,Query.me,query,2667,5,0.187,read path
+2026-04-10,Query.profile,query,492,0,0.0,api-key readable
+2026-04-10,Query.myPreferences,query,1407,4,0.284,read path
+2026-04-10,Mutation.logExercise,mutation,3827,47,1.228,guest sync replay
+2026-04-10,Mutation.saveHealthProfile,mutation,665,6,0.902,goal writes
+2026-04-10,Mutation.updateProfile,mutation,488,3,0.615,profile writes
+2026-04-10,Mutation.requestProfilePhotoUpload,mutation,242,19,7.851,HEIC rejections
+2026-04-10,Mutation.confirmProfilePhotoUpload,mutation,186,7,3.763,HEIC rejections
+2026-04-11,Query.exerciseEntries,query,4544,25,0.55,per-date fan-out
+2026-04-11,Query.healthProfile,query,2031,7,0.345,read path
+2026-04-11,Query.me,query,2258,5,0.221,read path
+2026-04-11,Query.profile,query,496,0,0.0,api-key readable
+2026-04-11,Query.myPreferences,query,1023,3,0.293,read path
+2026-04-11,Mutation.logExercise,mutation,2547,32,1.256,guest sync replay
+2026-04-11,Mutation.saveHealthProfile,mutation,480,5,1.042,goal writes
+2026-04-11,Mutation.updateProfile,mutation,371,3,0.809,profile writes
+2026-04-11,Mutation.requestProfilePhotoUpload,mutation,208,18,8.654,HEIC rejections
+2026-04-11,Mutation.confirmProfilePhotoUpload,mutation,173,7,4.046,HEIC rejections
+2026-04-12,Query.exerciseEntries,query,3932,19,0.483,per-date fan-out
+2026-04-12,Query.healthProfile,query,1872,6,0.321,read path
+2026-04-12,Query.me,query,2200,4,0.182,read path
+2026-04-12,Query.profile,query,442,0,0.0,api-key readable
+2026-04-12,Query.myPreferences,query,1208,3,0.248,read path
+2026-04-12,Mutation.logExercise,mutation,3016,31,1.028,guest sync replay
+2026-04-12,Mutation.saveHealthProfile,mutation,570,6,1.053,goal writes
+2026-04-12,Mutation.updateProfile,mutation,312,3,0.962,profile writes
+2026-04-12,Mutation.requestProfilePhotoUpload,mutation,190,14,7.368,HEIC rejections
+2026-04-12,Mutation.confirmProfilePhotoUpload,mutation,166,7,4.217,HEIC rejections
+2026-04-13,Query.exerciseEntries,query,5068,23,0.454,per-date fan-out
+2026-04-13,Query.healthProfile,query,2311,7,0.303,read path
+2026-04-13,Query.me,query,2598,6,0.231,read path
+2026-04-13,Query.profile,query,610,0,0.0,api-key readable
+2026-04-13,Query.myPreferences,query,1563,3,0.192,read path
+2026-04-13,Mutation.logExercise,mutation,3586,40,1.115,guest sync replay
+2026-04-13,Mutation.saveHealthProfile,mutation,674,5,0.742,goal writes
+2026-04-13,Mutation.updateProfile,mutation,513,5,0.975,profile writes
+2026-04-13,Mutation.requestProfilePhotoUpload,mutation,284,25,8.803,HEIC rejections
+2026-04-13,Mutation.confirmProfilePhotoUpload,mutation,221,7,3.167,HEIC rejections
+2026-04-14,Query.exerciseEntries,query,6176,31,0.502,per-date fan-out
+2026-04-14,Query.healthProfile,query,2379,6,0.252,read path
+2026-04-14,Query.me,query,2872,5,0.174,read path
+2026-04-14,Query.profile,query,567,0,0.0,api-key readable
+2026-04-14,Query.myPreferences,query,1631,5,0.307,read path
+2026-04-14,Mutation.logExercise,mutation,3913,45,1.15,guest sync replay
+2026-04-14,Mutation.saveHealthProfile,mutation,598,5,0.836,goal writes
+2026-04-14,Mutation.updateProfile,mutation,511,5,0.978,profile writes
+2026-04-14,Mutation.requestProfilePhotoUpload,mutation,259,23,8.88,HEIC rejections
+2026-04-14,Mutation.confirmProfilePhotoUpload,mutation,197,9,4.569,HEIC rejections
+2026-04-15,Query.exerciseEntries,query,5894,26,0.441,per-date fan-out
+2026-04-15,Query.healthProfile,query,2337,6,0.257,read path
+2026-04-15,Query.me,query,2794,7,0.251,read path
+2026-04-15,Query.profile,query,516,0,0.0,api-key readable
+2026-04-15,Query.myPreferences,query,1450,4,0.276,read path
+2026-04-15,Mutation.logExercise,mutation,3553,47,1.323,guest sync replay
+2026-04-15,Mutation.saveHealthProfile,mutation,669,7,1.046,goal writes
+2026-04-15,Mutation.updateProfile,mutation,434,4,0.922,profile writes
+2026-04-15,Mutation.requestProfilePhotoUpload,mutation,286,24,8.392,HEIC rejections
+2026-04-15,Mutation.confirmProfilePhotoUpload,mutation,232,8,3.448,HEIC rejections
+2026-04-16,Query.exerciseEntries,query,5971,34,0.569,per-date fan-out
+2026-04-16,Query.healthProfile,query,2785,7,0.251,read path
+2026-04-16,Query.me,query,2666,6,0.225,read path
+2026-04-16,Query.profile,query,558,1,0.179,api-key readable
+2026-04-16,Query.myPreferences,query,1715,4,0.233,read path
+2026-04-16,Mutation.logExercise,mutation,3590,42,1.17,guest sync replay
+2026-04-16,Mutation.saveHealthProfile,mutation,613,5,0.816,goal writes
+2026-04-16,Mutation.updateProfile,mutation,460,4,0.87,profile writes
+2026-04-16,Mutation.requestProfilePhotoUpload,mutation,274,24,8.759,HEIC rejections
+2026-04-16,Mutation.confirmProfilePhotoUpload,mutation,205,10,4.878,HEIC rejections
+2026-04-17,Query.exerciseEntries,query,6080,32,0.526,per-date fan-out
+2026-04-17,Query.healthProfile,query,2337,7,0.3,read path
+2026-04-17,Query.me,query,2799,7,0.25,read path
+2026-04-17,Query.profile,query,641,1,0.156,api-key readable
+2026-04-17,Query.myPreferences,query,1725,5,0.29,read path
+2026-04-17,Mutation.logExercise,mutation,3400,42,1.235,guest sync replay
+2026-04-17,Mutation.saveHealthProfile,mutation,658,5,0.76,goal writes
+2026-04-17,Mutation.updateProfile,mutation,437,4,0.915,profile writes
+2026-04-17,Mutation.requestProfilePhotoUpload,mutation,259,19,7.336,HEIC rejections
+2026-04-17,Mutation.confirmProfilePhotoUpload,mutation,209,9,4.306,HEIC rejections
+2026-04-18,Query.exerciseEntries,query,5439,29,0.533,per-date fan-out
+2026-04-18,Query.healthProfile,query,1931,6,0.311,read path
+2026-04-18,Query.me,query,2017,4,0.198,read path
+2026-04-18,Query.profile,query,511,0,0.0,api-key readable
+2026-04-18,Query.myPreferences,query,1136,2,0.176,read path
+2026-04-18,Mutation.logExercise,mutation,3199,36,1.125,guest sync replay
+2026-04-18,Mutation.saveHealthProfile,mutation,622,5,0.804,goal writes
+2026-04-18,Mutation.updateProfile,mutation,395,4,1.013,profile writes
+2026-04-18,Mutation.requestProfilePhotoUpload,mutation,208,13,6.25,HEIC rejections
+2026-04-18,Mutation.confirmProfilePhotoUpload,mutation,195,6,3.077,HEIC rejections
+2026-04-19,Query.exerciseEntries,query,4640,24,0.517,per-date fan-out
+2026-04-19,Query.healthProfile,query,1912,5,0.262,read path
+2026-04-19,Query.me,query,2033,4,0.197,read path
+2026-04-19,Query.profile,query,471,0,0.0,api-key readable
+2026-04-19,Query.myPreferences,query,1059,2,0.189,read path
+2026-04-19,Mutation.logExercise,mutation,3340,38,1.138,guest sync replay
+2026-04-19,Mutation.saveHealthProfile,mutation,497,4,0.805,goal writes
+2026-04-19,Mutation.updateProfile,mutation,339,2,0.59,profile writes
+2026-04-19,Mutation.requestProfilePhotoUpload,mutation,220,18,8.182,HEIC rejections
+2026-04-19,Mutation.confirmProfilePhotoUpload,mutation,181,6,3.315,HEIC rejections
+2026-04-20,Query.exerciseEntries,query,6779,28,0.413,per-date fan-out
+2026-04-20,Query.healthProfile,query,2357,7,0.297,read path
+2026-04-20,Query.me,query,3116,8,0.257,read path
+2026-04-20,Query.profile,query,689,1,0.145,api-key readable
+2026-04-20,Query.myPreferences,query,1584,3,0.189,read path
+2026-04-20,Mutation.logExercise,mutation,3923,52,1.326,guest sync replay
+2026-04-20,Mutation.saveHealthProfile,mutation,758,7,0.923,goal writes
+2026-04-20,Mutation.updateProfile,mutation,486,3,0.617,profile writes
+2026-04-20,Mutation.requestProfilePhotoUpload,mutation,245,20,8.163,HEIC rejections
+2026-04-20,Mutation.confirmProfilePhotoUpload,mutation,206,9,4.369,HEIC rejections
+2026-04-21,Query.exerciseEntries,query,6017,27,0.449,per-date fan-out
+2026-04-21,Query.healthProfile,query,2610,9,0.345,read path
+2026-04-21,Query.me,query,3073,6,0.195,read path
+2026-04-21,Query.profile,query,650,1,0.154,api-key readable
+2026-04-21,Query.myPreferences,query,1393,3,0.215,read path
+2026-04-21,Mutation.logExercise,mutation,3810,45,1.181,guest sync replay
+2026-04-21,Mutation.saveHealthProfile,mutation,822,7,0.852,goal writes
+2026-04-21,Mutation.updateProfile,mutation,527,4,0.759,profile writes
+2026-04-21,Mutation.requestProfilePhotoUpload,mutation,307,24,7.818,HEIC rejections
+2026-04-21,Mutation.confirmProfilePhotoUpload,mutation,250,11,4.4,HEIC rejections
+2026-04-22,Query.exerciseEntries,query,5878,24,0.408,per-date fan-out
+2026-04-22,Query.healthProfile,query,2816,7,0.249,read path
+2026-04-22,Query.me,query,2999,7,0.233,read path
+2026-04-22,Query.profile,query,708,1,0.141,api-key readable
+2026-04-22,Query.myPreferences,query,1389,3,0.216,read path
+2026-04-22,Mutation.logExercise,mutation,3551,48,1.352,guest sync replay
+2026-04-22,Mutation.saveHealthProfile,mutation,686,6,0.875,goal writes
+2026-04-22,Mutation.updateProfile,mutation,504,4,0.794,profile writes
+2026-04-22,Mutation.requestProfilePhotoUpload,mutation,278,19,6.835,HEIC rejections
+2026-04-22,Mutation.confirmProfilePhotoUpload,mutation,215,9,4.186,HEIC rejections
+2026-04-23,Query.exerciseEntries,query,5924,27,0.456,per-date fan-out
+2026-04-23,Query.healthProfile,query,3035,10,0.329,read path
+2026-04-23,Query.me,query,3298,7,0.212,read path
+2026-04-23,Query.profile,query,614,1,0.163,api-key readable
+2026-04-23,Query.myPreferences,query,1404,4,0.285,read path
+2026-04-23,Mutation.logExercise,mutation,4126,48,1.163,guest sync replay
+2026-04-23,Mutation.saveHealthProfile,mutation,681,6,0.881,goal writes
+2026-04-23,Mutation.updateProfile,mutation,566,5,0.883,profile writes
+2026-04-23,Mutation.requestProfilePhotoUpload,mutation,260,18,6.923,HEIC rejections
+2026-04-23,Mutation.confirmProfilePhotoUpload,mutation,248,12,4.839,HEIC rejections
+2026-04-24,Query.exerciseEntries,query,5974,26,0.435,per-date fan-out
+2026-04-24,Query.healthProfile,query,2654,9,0.339,read path
+2026-04-24,Query.me,query,2865,5,0.175,read path
+2026-04-24,Query.profile,query,687,1,0.146,api-key readable
+2026-04-24,Query.myPreferences,query,1560,4,0.256,read path
+2026-04-24,Mutation.logExercise,mutation,4147,42,1.013,guest sync replay
+2026-04-24,Mutation.saveHealthProfile,mutation,691,7,1.013,goal writes
+2026-04-24,Mutation.updateProfile,mutation,480,4,0.833,profile writes
+2026-04-24,Mutation.requestProfilePhotoUpload,mutation,327,28,8.563,HEIC rejections
+2026-04-24,Mutation.confirmProfilePhotoUpload,mutation,208,7,3.365,HEIC rejections
+2026-04-25,Query.exerciseEntries,query,5212,30,0.576,per-date fan-out
+2026-04-25,Query.healthProfile,query,2118,7,0.331,read path
+2026-04-25,Query.me,query,2139,5,0.234,read path
+2026-04-25,Query.profile,query,540,1,0.185,api-key readable
+2026-04-25,Query.myPreferences,query,1307,3,0.23,read path
+2026-04-25,Mutation.logExercise,mutation,3531,48,1.359,guest sync replay
+2026-04-25,Mutation.saveHealthProfile,mutation,572,6,1.049,goal writes
+2026-04-25,Mutation.updateProfile,mutation,450,4,0.889,profile writes
+2026-04-25,Mutation.requestProfilePhotoUpload,mutation,233,20,8.584,HEIC rejections
+2026-04-25,Mutation.confirmProfilePhotoUpload,mutation,162,7,4.321,HEIC rejections
+2026-04-26,Query.exerciseEntries,query,4689,20,0.427,per-date fan-out
+2026-04-26,Query.healthProfile,query,2110,7,0.332,read path
+2026-04-26,Query.me,query,2584,5,0.193,read path
+2026-04-26,Query.profile,query,534,1,0.187,api-key readable
+2026-04-26,Query.myPreferences,query,1308,3,0.229,read path
+2026-04-26,Mutation.logExercise,mutation,2961,30,1.013,guest sync replay
+2026-04-26,Mutation.saveHealthProfile,mutation,656,5,0.762,goal writes
+2026-04-26,Mutation.updateProfile,mutation,368,3,0.815,profile writes
+2026-04-26,Mutation.requestProfilePhotoUpload,mutation,248,21,8.468,HEIC rejections
+2026-04-26,Mutation.confirmProfilePhotoUpload,mutation,180,8,4.444,HEIC rejections
+2026-04-27,Query.exerciseEntries,query,6472,36,0.556,per-date fan-out
+2026-04-27,Query.healthProfile,query,2603,8,0.307,read path
+2026-04-27,Query.me,query,3016,6,0.199,read path
+2026-04-27,Query.profile,query,650,1,0.154,api-key readable
+2026-04-27,Query.myPreferences,query,1463,4,0.273,read path
+2026-04-27,Mutation.logExercise,mutation,3879,48,1.237,guest sync replay
+2026-04-27,Mutation.saveHealthProfile,mutation,685,5,0.73,goal writes
+2026-04-27,Mutation.updateProfile,mutation,515,5,0.971,profile writes
+2026-04-27,Mutation.requestProfilePhotoUpload,mutation,298,25,8.389,HEIC rejections
+2026-04-27,Mutation.confirmProfilePhotoUpload,mutation,252,10,3.968,HEIC rejections
+2026-04-28,Query.exerciseEntries,query,6414,28,0.437,per-date fan-out
+2026-04-28,Query.healthProfile,query,2999,10,0.333,read path
+2026-04-28,Query.me,query,3345,8,0.239,read path
+2026-04-28,Query.profile,query,647,1,0.155,api-key readable
+2026-04-28,Query.myPreferences,query,1760,4,0.227,read path
+2026-04-28,Mutation.logExercise,mutation,3581,48,1.34,guest sync replay
+2026-04-28,Mutation.saveHealthProfile,mutation,753,6,0.797,goal writes
+2026-04-28,Mutation.updateProfile,mutation,502,4,0.797,profile writes
+2026-04-28,Mutation.requestProfilePhotoUpload,mutation,347,26,7.493,HEIC rejections
+2026-04-28,Mutation.confirmProfilePhotoUpload,mutation,214,9,4.206,HEIC rejections
+2026-04-29,Query.exerciseEntries,query,6125,33,0.539,per-date fan-out
+2026-04-29,Query.healthProfile,query,2446,8,0.327,read path
+2026-04-29,Query.me,query,2943,5,0.17,read path
+2026-04-29,Query.profile,query,714,1,0.14,api-key readable
+2026-04-29,Query.myPreferences,query,1744,4,0.229,read path
+2026-04-29,Mutation.logExercise,mutation,4404,55,1.249,guest sync replay
+2026-04-29,Mutation.saveHealthProfile,mutation,902,8,0.887,goal writes
+2026-04-29,Mutation.updateProfile,mutation,476,4,0.84,profile writes
+2026-04-29,Mutation.requestProfilePhotoUpload,mutation,294,27,9.184,HEIC rejections
+2026-04-29,Mutation.confirmProfilePhotoUpload,mutation,213,9,4.225,HEIC rejections
+2026-04-30,Query.exerciseEntries,query,7437,35,0.471,per-date fan-out
+2026-04-30,Query.healthProfile,query,3227,9,0.279,read path
+2026-04-30,Query.me,query,3359,7,0.208,read path
+2026-04-30,Query.profile,query,721,1,0.139,api-key readable
+2026-04-30,Query.myPreferences,query,1677,5,0.298,read path
+2026-04-30,Mutation.logExercise,mutation,4613,47,1.019,guest sync replay
+2026-04-30,Mutation.saveHealthProfile,mutation,789,7,0.887,goal writes
+2026-04-30,Mutation.updateProfile,mutation,541,5,0.924,profile writes
+2026-04-30,Mutation.requestProfilePhotoUpload,mutation,335,23,6.866,HEIC rejections
+2026-04-30,Mutation.confirmProfilePhotoUpload,mutation,240,8,3.333,HEIC rejections
+2026-05-01,Query.exerciseEntries,query,7761,42,0.541,per-date fan-out
+2026-05-01,Query.healthProfile,query,2658,9,0.339,read path
+2026-05-01,Query.me,query,2920,6,0.205,read path
+2026-05-01,Query.profile,query,770,1,0.13,api-key readable
+2026-05-01,Query.myPreferences,query,1580,4,0.253,read path
+2026-05-01,Mutation.logExercise,mutation,4286,55,1.283,guest sync replay
+2026-05-01,Mutation.saveHealthProfile,mutation,703,6,0.853,goal writes
+2026-05-01,Mutation.updateProfile,mutation,536,5,0.933,profile writes
+2026-05-01,Mutation.requestProfilePhotoUpload,mutation,332,27,8.133,HEIC rejections
+2026-05-01,Mutation.confirmProfilePhotoUpload,mutation,234,9,3.846,HEIC rejections
+2026-05-02,Query.exerciseEntries,query,5313,23,0.433,per-date fan-out
+2026-05-02,Query.healthProfile,query,2350,7,0.298,read path
+2026-05-02,Query.me,query,2406,4,0.166,read path
+2026-05-02,Query.profile,query,555,0,0.0,api-key readable
+2026-05-02,Query.myPreferences,query,1190,2,0.168,read path
+2026-05-02,Mutation.logExercise,mutation,3296,43,1.305,guest sync replay
+2026-05-02,Mutation.saveHealthProfile,mutation,605,5,0.826,goal writes
+2026-05-02,Mutation.updateProfile,mutation,470,3,0.638,profile writes
+2026-05-02,Mutation.requestProfilePhotoUpload,mutation,214,19,8.879,HEIC rejections
+2026-05-02,Mutation.confirmProfilePhotoUpload,mutation,170,8,4.706,HEIC rejections
+2026-05-03,Query.exerciseEntries,query,5788,34,0.587,per-date fan-out
+2026-05-03,Query.healthProfile,query,1989,6,0.302,read path
+2026-05-03,Query.me,query,2384,5,0.21,read path
+2026-05-03,Query.profile,query,604,1,0.166,api-key readable
+2026-05-03,Query.myPreferences,query,1498,4,0.267,read path
+2026-05-03,Mutation.logExercise,mutation,3846,47,1.222,guest sync replay
+2026-05-03,Mutation.saveHealthProfile,mutation,610,6,0.984,goal writes
+2026-05-03,Mutation.updateProfile,mutation,468,3,0.641,profile writes
+2026-05-03,Mutation.requestProfilePhotoUpload,mutation,272,22,8.088,HEIC rejections
+2026-05-03,Mutation.confirmProfilePhotoUpload,mutation,199,9,4.523,HEIC rejections
+2026-05-04,Query.exerciseEntries,query,6344,34,0.536,per-date fan-out
+2026-05-04,Query.healthProfile,query,2980,10,0.336,read path
+2026-05-04,Query.me,query,3138,7,0.223,read path
+2026-05-04,Query.profile,query,735,1,0.136,api-key readable
+2026-05-04,Query.myPreferences,query,1895,5,0.264,read path
+2026-05-04,Mutation.logExercise,mutation,4880,66,1.352,guest sync replay
+2026-05-04,Mutation.saveHealthProfile,mutation,724,6,0.829,goal writes
+2026-05-04,Mutation.updateProfile,mutation,630,4,0.635,profile writes
+2026-05-04,Mutation.requestProfilePhotoUpload,mutation,359,27,7.521,HEIC rejections
+2026-05-04,Mutation.confirmProfilePhotoUpload,mutation,248,11,4.435,HEIC rejections
+2026-05-05,Query.exerciseEntries,query,7719,38,0.492,per-date fan-out
+2026-05-05,Query.healthProfile,query,2701,7,0.259,read path
+2026-05-05,Query.me,query,3747,9,0.24,read path
+2026-05-05,Query.profile,query,714,1,0.14,api-key readable
+2026-05-05,Query.myPreferences,query,1973,5,0.253,read path
+2026-05-05,Mutation.logExercise,mutation,4808,51,1.061,guest sync replay
+2026-05-05,Mutation.saveHealthProfile,mutation,736,7,0.951,goal writes
+2026-05-05,Mutation.updateProfile,mutation,544,4,0.735,profile writes
+2026-05-05,Mutation.requestProfilePhotoUpload,mutation,282,21,7.447,HEIC rejections
+2026-05-05,Mutation.confirmProfilePhotoUpload,mutation,254,12,4.724,HEIC rejections
+2026-05-06,Query.exerciseEntries,query,8310,39,0.469,per-date fan-out
+2026-05-06,Query.healthProfile,query,3355,9,0.268,read path
+2026-05-06,Query.me,query,3321,6,0.181,read path
+2026-05-06,Query.profile,query,625,1,0.16,api-key readable
+2026-05-06,Query.myPreferences,query,1986,4,0.201,read path
+2026-05-06,Mutation.logExercise,mutation,4773,63,1.32,guest sync replay
+2026-05-06,Mutation.saveHealthProfile,mutation,831,8,0.963,goal writes
+2026-05-06,Mutation.updateProfile,mutation,580,5,0.862,profile writes
+2026-05-06,Mutation.requestProfilePhotoUpload,mutation,352,26,7.386,HEIC rejections
+2026-05-06,Mutation.confirmProfilePhotoUpload,mutation,279,10,3.584,HEIC rejections
+2026-05-07,Query.exerciseEntries,query,7651,38,0.497,per-date fan-out
+2026-05-07,Query.healthProfile,query,3235,11,0.34,read path
+2026-05-07,Query.me,query,3388,6,0.177,read path
+2026-05-07,Query.profile,query,686,1,0.146,api-key readable
+2026-05-07,Query.myPreferences,query,1623,3,0.185,read path
+2026-05-07,Mutation.logExercise,mutation,5005,50,0.999,guest sync replay
+2026-05-07,Mutation.saveHealthProfile,mutation,927,10,1.079,goal writes
+2026-05-07,Mutation.updateProfile,mutation,665,6,0.902,profile writes
+2026-05-07,Mutation.requestProfilePhotoUpload,mutation,329,22,6.687,HEIC rejections
+2026-05-07,Mutation.confirmProfilePhotoUpload,mutation,276,11,3.986,HEIC rejections
+2026-05-08,Query.exerciseEntries,query,7804,35,0.448,per-date fan-out
+2026-05-08,Query.healthProfile,query,3439,12,0.349,read path
+2026-05-08,Query.me,query,3782,7,0.185,read path
+2026-05-08,Query.profile,query,648,1,0.154,api-key readable
+2026-05-08,Query.myPreferences,query,1703,5,0.294,read path
+2026-05-08,Mutation.logExercise,mutation,4454,52,1.167,guest sync replay
+2026-05-08,Mutation.saveHealthProfile,mutation,880,9,1.023,goal writes
+2026-05-08,Mutation.updateProfile,mutation,626,6,0.958,profile writes
+2026-05-08,Mutation.requestProfilePhotoUpload,mutation,376,26,6.915,HEIC rejections
+2026-05-08,Mutation.confirmProfilePhotoUpload,mutation,293,11,3.754,HEIC rejections
+2026-05-09,Query.exerciseEntries,query,5385,28,0.52,per-date fan-out
+2026-05-09,Query.healthProfile,query,2479,7,0.282,read path
+2026-05-09,Query.me,query,2573,4,0.155,read path
+2026-05-09,Query.profile,query,513,0,0.0,api-key readable
+2026-05-09,Query.myPreferences,query,1604,4,0.249,read path
+2026-05-09,Mutation.logExercise,mutation,3475,37,1.065,guest sync replay
+2026-05-09,Mutation.saveHealthProfile,mutation,594,6,1.01,goal writes
+2026-05-09,Mutation.updateProfile,mutation,415,3,0.723,profile writes
+2026-05-09,Mutation.requestProfilePhotoUpload,mutation,245,19,7.755,HEIC rejections
+2026-05-09,Mutation.confirmProfilePhotoUpload,mutation,203,7,3.448,HEIC rejections
+2026-05-10,Query.exerciseEntries,query,5519,24,0.435,per-date fan-out
+2026-05-10,Query.healthProfile,query,2654,6,0.226,read path
+2026-05-10,Query.me,query,2745,5,0.182,read path
+2026-05-10,Query.profile,query,629,1,0.159,api-key readable
+2026-05-10,Query.myPreferences,query,1336,3,0.225,read path
+2026-05-10,Mutation.logExercise,mutation,3955,47,1.188,guest sync replay
+2026-05-10,Mutation.saveHealthProfile,mutation,765,8,1.046,goal writes
+2026-05-10,Mutation.updateProfile,mutation,448,4,0.893,profile writes
+2026-05-10,Mutation.requestProfilePhotoUpload,mutation,291,21,7.216,HEIC rejections
+2026-05-10,Mutation.confirmProfilePhotoUpload,mutation,214,8,3.738,HEIC rejections
+2026-05-11,Query.exerciseEntries,query,8429,37,0.439,per-date fan-out
+2026-05-11,Query.healthProfile,query,3205,10,0.312,read path
+2026-05-11,Query.me,query,3317,6,0.181,read path
+2026-05-11,Query.profile,query,689,1,0.145,api-key readable
+2026-05-11,Query.myPreferences,query,2162,5,0.231,read path
+2026-05-11,Mutation.logExercise,mutation,4413,58,1.314,guest sync replay
+2026-05-11,Mutation.saveHealthProfile,mutation,1000,8,0.8,goal writes
+2026-05-11,Mutation.updateProfile,mutation,610,5,0.82,profile writes
+2026-05-11,Mutation.requestProfilePhotoUpload,mutation,370,27,7.297,HEIC rejections
+2026-05-11,Mutation.confirmProfilePhotoUpload,mutation,270,10,3.704,HEIC rejections
+2026-05-12,Query.exerciseEntries,query,7242,37,0.511,per-date fan-out
+2026-05-12,Query.healthProfile,query,2962,8,0.27,read path
+2026-05-12,Query.me,query,3634,8,0.22,read path
+2026-05-12,Query.profile,query,782,1,0.128,api-key readable
+2026-05-12,Query.myPreferences,query,2153,6,0.279,read path
+2026-05-12,Mutation.logExercise,mutation,4114,50,1.215,guest sync replay
+2026-05-12,Mutation.saveHealthProfile,mutation,813,8,0.984,goal writes
+2026-05-12,Mutation.updateProfile,mutation,604,4,0.662,profile writes
+2026-05-12,Mutation.requestProfilePhotoUpload,mutation,328,30,9.146,HEIC rejections
+2026-05-12,Mutation.confirmProfilePhotoUpload,mutation,242,8,3.306,HEIC rejections
+2026-05-13,Query.exerciseEntries,query,7003,38,0.543,per-date fan-out
+2026-05-13,Query.healthProfile,query,3079,10,0.325,read path
+2026-05-13,Query.me,query,4040,7,0.173,read path
+2026-05-13,Query.profile,query,733,1,0.136,api-key readable
+2026-05-13,Query.myPreferences,query,2143,5,0.233,read path
+2026-05-13,Mutation.logExercise,mutation,4545,46,1.012,guest sync replay
+2026-05-13,Mutation.saveHealthProfile,mutation,1009,10,0.991,goal writes
+2026-05-13,Mutation.updateProfile,mutation,588,4,0.68,profile writes
+2026-05-13,Mutation.requestProfilePhotoUpload,mutation,376,28,7.447,HEIC rejections
+2026-05-13,Mutation.confirmProfilePhotoUpload,mutation,240,11,4.583,HEIC rejections
+2026-05-14,Query.exerciseEntries,query,7587,38,0.501,per-date fan-out
+2026-05-14,Query.healthProfile,query,3151,8,0.254,read path
+2026-05-14,Query.me,query,4070,10,0.246,read path
+2026-05-14,Query.profile,query,805,1,0.124,api-key readable
+2026-05-14,Query.myPreferences,query,2175,6,0.276,read path
+2026-05-14,Mutation.logExercise,mutation,5247,73,1.391,guest sync replay
+2026-05-14,Mutation.saveHealthProfile,mutation,821,8,0.974,goal writes
+2026-05-14,Mutation.updateProfile,mutation,542,4,0.738,profile writes
+2026-05-14,Mutation.requestProfilePhotoUpload,mutation,353,33,9.348,HEIC rejections
+2026-05-14,Mutation.confirmProfilePhotoUpload,mutation,269,10,3.717,HEIC rejections
+2026-05-15,Query.exerciseEntries,query,8481,36,0.424,per-date fan-out
+2026-05-15,Query.healthProfile,query,3301,9,0.273,read path
+2026-05-15,Query.me,query,3276,8,0.244,read path
+2026-05-15,Query.profile,query,839,1,0.119,api-key readable
+2026-05-15,Query.myPreferences,query,1786,5,0.28,read path
+2026-05-15,Mutation.logExercise,mutation,5317,72,1.354,guest sync replay
+2026-05-15,Mutation.saveHealthProfile,mutation,997,10,1.003,goal writes
+2026-05-15,Mutation.updateProfile,mutation,665,6,0.902,profile writes
+2026-05-15,Mutation.requestProfilePhotoUpload,mutation,331,27,8.157,HEIC rejections
+2026-05-15,Mutation.confirmProfilePhotoUpload,mutation,248,11,4.435,HEIC rejections
+2026-05-16,Query.exerciseEntries,query,6255,27,0.432,per-date fan-out
+2026-05-16,Query.healthProfile,query,2579,9,0.349,read path
+2026-05-16,Query.me,query,3198,7,0.219,read path
+2026-05-16,Query.profile,query,611,0,0.0,api-key readable
+2026-05-16,Query.myPreferences,query,1571,4,0.255,read path
+2026-05-16,Mutation.logExercise,mutation,3727,39,1.046,guest sync replay
+2026-05-16,Mutation.saveHealthProfile,mutation,713,7,0.982,goal writes
+2026-05-16,Mutation.updateProfile,mutation,532,4,0.752,profile writes
+2026-05-16,Mutation.requestProfilePhotoUpload,mutation,285,26,9.123,HEIC rejections
+2026-05-16,Mutation.confirmProfilePhotoUpload,mutation,218,9,4.128,HEIC rejections
+2026-05-17,Query.exerciseEntries,query,6317,38,0.602,per-date fan-out
+2026-05-17,Query.healthProfile,query,2821,9,0.319,read path
+2026-05-17,Query.me,query,2848,6,0.211,read path
+2026-05-17,Query.profile,query,625,1,0.16,api-key readable
+2026-05-17,Query.myPreferences,query,1752,4,0.228,read path
+2026-05-17,Mutation.logExercise,mutation,3318,42,1.266,guest sync replay
+2026-05-17,Mutation.saveHealthProfile,mutation,678,7,1.032,goal writes
+2026-05-17,Mutation.updateProfile,mutation,513,5,0.975,profile writes
+2026-05-17,Mutation.requestProfilePhotoUpload,mutation,296,24,8.108,HEIC rejections
+2026-05-17,Mutation.confirmProfilePhotoUpload,mutation,212,8,3.774,HEIC rejections
+2026-05-18,Query.exerciseEntries,query,6943,42,0.605,per-date fan-out
+2026-05-18,Query.healthProfile,query,3026,10,0.33,read path
+2026-05-18,Query.me,query,3336,6,0.18,read path
+2026-05-18,Query.profile,query,881,1,0.114,api-key readable
+2026-05-18,Query.myPreferences,query,1760,4,0.227,read path
+2026-05-18,Mutation.logExercise,mutation,4882,67,1.372,guest sync replay
+2026-05-18,Mutation.saveHealthProfile,mutation,913,8,0.876,goal writes
+2026-05-18,Mutation.updateProfile,mutation,568,4,0.704,profile writes
+2026-05-18,Mutation.requestProfilePhotoUpload,mutation,313,26,8.307,HEIC rejections
+2026-05-18,Mutation.confirmProfilePhotoUpload,mutation,291,10,3.436,HEIC rejections
+2026-05-19,Query.exerciseEntries,query,8342,41,0.491,per-date fan-out
+2026-05-19,Query.healthProfile,query,3426,12,0.35,read path
+2026-05-19,Query.me,query,3572,8,0.224,read path
+2026-05-19,Query.profile,query,860,1,0.116,api-key readable
+2026-05-19,Query.myPreferences,query,1964,4,0.204,read path
+2026-05-19,Mutation.logExercise,mutation,4583,60,1.309,guest sync replay
+2026-05-19,Mutation.saveHealthProfile,mutation,802,8,0.998,goal writes
+2026-05-19,Mutation.updateProfile,mutation,585,4,0.684,profile writes
+2026-05-19,Mutation.requestProfilePhotoUpload,mutation,356,27,7.584,HEIC rejections
+2026-05-19,Mutation.confirmProfilePhotoUpload,mutation,260,9,3.462,HEIC rejections
+2026-05-20,Query.exerciseEntries,query,7971,41,0.514,per-date fan-out
+2026-05-20,Query.healthProfile,query,3014,9,0.299,read path
+2026-05-20,Query.me,query,3298,7,0.212,read path
+2026-05-20,Query.profile,query,750,1,0.133,api-key readable
+2026-05-20,Query.myPreferences,query,1975,5,0.253,read path
+2026-05-20,Mutation.logExercise,mutation,5108,58,1.135,guest sync replay
+2026-05-20,Mutation.saveHealthProfile,mutation,887,6,0.676,goal writes
+2026-05-20,Mutation.updateProfile,mutation,657,5,0.761,profile writes
+2026-05-20,Mutation.requestProfilePhotoUpload,mutation,394,70,17.766,HEIC rejections
+2026-05-20,Mutation.confirmProfilePhotoUpload,mutation,263,21,7.985,HEIC rejections
+2026-05-21,Query.exerciseEntries,query,7038,37,0.526,per-date fan-out
+2026-05-21,Query.healthProfile,query,3229,10,0.31,read path
+2026-05-21,Query.me,query,3432,6,0.175,read path
+2026-05-21,Query.profile,query,790,1,0.127,api-key readable
+2026-05-21,Query.myPreferences,query,1821,5,0.275,read path
+2026-05-21,Mutation.logExercise,mutation,5498,75,1.364,guest sync replay
+2026-05-21,Mutation.saveHealthProfile,mutation,1007,9,0.894,goal writes
+2026-05-21,Mutation.updateProfile,mutation,677,6,0.886,profile writes
+2026-05-21,Mutation.requestProfilePhotoUpload,mutation,327,53,16.208,HEIC rejections
+2026-05-21,Mutation.confirmProfilePhotoUpload,mutation,268,23,8.582,HEIC rejections
+2026-05-22,Query.exerciseEntries,query,7392,42,0.568,per-date fan-out
+2026-05-22,Query.healthProfile,query,3135,9,0.287,read path
+2026-05-22,Query.me,query,3423,8,0.234,read path
+2026-05-22,Query.profile,query,812,1,0.123,api-key readable
+2026-05-22,Query.myPreferences,query,2077,5,0.241,read path
+2026-05-22,Mutation.logExercise,mutation,4517,45,0.996,guest sync replay
+2026-05-22,Mutation.saveHealthProfile,mutation,919,8,0.871,goal writes
+2026-05-22,Mutation.updateProfile,mutation,702,6,0.855,profile writes
+2026-05-22,Mutation.requestProfilePhotoUpload,mutation,333,48,14.414,HEIC rejections
+2026-05-22,Mutation.confirmProfilePhotoUpload,mutation,289,25,8.651,HEIC rejections
+2026-05-23,Query.exerciseEntries,query,5584,30,0.537,per-date fan-out
+2026-05-23,Query.healthProfile,query,2720,7,0.257,read path
+2026-05-23,Query.me,query,2921,6,0.205,read path
+2026-05-23,Query.profile,query,626,1,0.16,api-key readable
+2026-05-23,Query.myPreferences,query,1472,4,0.272,read path
+2026-05-23,Mutation.logExercise,mutation,3843,49,1.275,guest sync replay
+2026-05-23,Mutation.saveHealthProfile,mutation,708,5,0.706,goal writes
+2026-05-23,Mutation.updateProfile,mutation,574,5,0.871,profile writes
+2026-05-23,Mutation.requestProfilePhotoUpload,mutation,255,41,16.078,HEIC rejections
+2026-05-23,Mutation.confirmProfilePhotoUpload,mutation,245,18,7.347,HEIC rejections
+2026-05-24,Query.exerciseEntries,query,6821,39,0.572,per-date fan-out
+2026-05-24,Query.healthProfile,query,2767,8,0.289,read path
+2026-05-24,Query.me,query,2956,6,0.203,read path
+2026-05-24,Query.profile,query,549,0,0.0,api-key readable
+2026-05-24,Query.myPreferences,query,1762,4,0.227,read path
+2026-05-24,Mutation.logExercise,mutation,3942,52,1.319,guest sync replay
+2026-05-24,Mutation.saveHealthProfile,mutation,846,8,0.946,goal writes
+2026-05-24,Mutation.updateProfile,mutation,457,3,0.656,profile writes
+2026-05-24,Mutation.requestProfilePhotoUpload,mutation,293,50,17.065,HEIC rejections
+2026-05-24,Mutation.confirmProfilePhotoUpload,mutation,207,18,8.696,HEIC rejections
+2026-05-25,Query.exerciseEntries,query,9434,57,0.604,per-date fan-out
+2026-05-25,Query.healthProfile,query,3798,12,0.316,read path
+2026-05-25,Query.me,query,4105,7,0.171,read path
+2026-05-25,Query.profile,query,891,1,0.112,api-key readable
+2026-05-25,Query.myPreferences,query,1820,5,0.275,read path
+2026-05-25,Mutation.logExercise,mutation,5064,70,1.382,guest sync replay
+2026-05-25,Mutation.saveHealthProfile,mutation,915,9,0.984,goal writes
+2026-05-25,Mutation.updateProfile,mutation,620,4,0.645,profile writes
+2026-05-25,Mutation.requestProfilePhotoUpload,mutation,362,49,13.536,HEIC rejections
+2026-05-25,Mutation.confirmProfilePhotoUpload,mutation,282,24,8.511,HEIC rejections
+2026-05-26,Query.exerciseEntries,query,7793,45,0.577,per-date fan-out
+2026-05-26,Query.healthProfile,query,3920,10,0.255,read path
+2026-05-26,Query.me,query,3562,7,0.197,read path
+2026-05-26,Query.profile,query,902,1,0.111,api-key readable
+2026-05-26,Query.myPreferences,query,2066,4,0.194,read path
+2026-05-26,Mutation.logExercise,mutation,4774,65,1.362,guest sync replay
+2026-05-26,Mutation.saveHealthProfile,mutation,1036,10,0.965,goal writes
+2026-05-26,Mutation.updateProfile,mutation,731,6,0.821,profile writes
+2026-05-26,Mutation.requestProfilePhotoUpload,mutation,401,58,14.464,HEIC rejections
+2026-05-26,Mutation.confirmProfilePhotoUpload,mutation,326,22,6.748,HEIC rejections
+2026-05-27,Query.exerciseEntries,query,7260,43,0.592,per-date fan-out
+2026-05-27,Query.healthProfile,query,3601,9,0.25,read path
+2026-05-27,Query.me,query,3643,8,0.22,read path
+2026-05-27,Query.profile,query,814,1,0.123,api-key readable
+2026-05-27,Query.myPreferences,query,2051,4,0.195,read path
+2026-05-27,Mutation.logExercise,mutation,4686,59,1.259,guest sync replay
+2026-05-27,Mutation.saveHealthProfile,mutation,983,10,1.017,goal writes
+2026-05-27,Mutation.updateProfile,mutation,684,6,0.877,profile writes
+2026-05-27,Mutation.requestProfilePhotoUpload,mutation,339,55,16.224,HEIC rejections
+2026-05-27,Mutation.confirmProfilePhotoUpload,mutation,261,22,8.429,HEIC rejections
+2026-05-28,Query.exerciseEntries,query,9439,53,0.562,per-date fan-out
+2026-05-28,Query.healthProfile,query,3309,11,0.332,read path
+2026-05-28,Query.me,query,3714,7,0.188,read path
+2026-05-28,Query.profile,query,767,1,0.13,api-key readable
+2026-05-28,Query.myPreferences,query,2185,6,0.275,read path
+2026-05-28,Mutation.logExercise,mutation,5265,72,1.368,guest sync replay
+2026-05-28,Mutation.saveHealthProfile,mutation,987,9,0.912,goal writes
+2026-05-28,Mutation.updateProfile,mutation,616,5,0.812,profile writes
+2026-05-28,Mutation.requestProfilePhotoUpload,mutation,344,44,12.791,HEIC rejections
+2026-05-28,Mutation.confirmProfilePhotoUpload,mutation,344,24,6.977,HEIC rejections
+2026-05-29,Query.exerciseEntries,query,9070,46,0.507,per-date fan-out
+2026-05-29,Query.healthProfile,query,3639,10,0.275,read path
+2026-05-29,Query.me,query,3580,8,0.223,read path
+2026-05-29,Query.profile,query,849,1,0.118,api-key readable
+2026-05-29,Query.myPreferences,query,2338,5,0.214,read path
+2026-05-29,Mutation.logExercise,mutation,5692,65,1.142,guest sync replay
+2026-05-29,Mutation.saveHealthProfile,mutation,963,10,1.038,goal writes
+2026-05-29,Mutation.updateProfile,mutation,746,5,0.67,profile writes
+2026-05-29,Mutation.requestProfilePhotoUpload,mutation,433,72,16.628,HEIC rejections
+2026-05-29,Mutation.confirmProfilePhotoUpload,mutation,291,18,6.186,HEIC rejections
+2026-05-30,Query.exerciseEntries,query,6352,38,0.598,per-date fan-out
+2026-05-30,Query.healthProfile,query,2906,9,0.31,read path
+2026-05-30,Query.me,query,2986,7,0.234,read path
+2026-05-30,Query.profile,query,584,0,0.0,api-key readable
+2026-05-30,Query.myPreferences,query,1573,4,0.254,read path
+2026-05-30,Mutation.logExercise,mutation,3904,45,1.153,guest sync replay
+2026-05-30,Mutation.saveHealthProfile,mutation,692,5,0.723,goal writes
+2026-05-30,Mutation.updateProfile,mutation,533,4,0.75,profile writes
+2026-05-30,Mutation.requestProfilePhotoUpload,mutation,301,45,14.95,HEIC rejections
+2026-05-30,Mutation.confirmProfilePhotoUpload,mutation,253,17,6.719,HEIC rejections
+2026-05-31,Query.exerciseEntries,query,7528,34,0.452,per-date fan-out
+2026-05-31,Query.healthProfile,query,2595,7,0.27,read path
+2026-05-31,Query.me,query,3194,5,0.157,read path
+2026-05-31,Query.profile,query,603,1,0.166,api-key readable
+2026-05-31,Query.myPreferences,query,1702,4,0.235,read path
+2026-05-31,Mutation.logExercise,mutation,4293,42,0.978,guest sync replay
+2026-05-31,Mutation.saveHealthProfile,mutation,859,7,0.815,goal writes
+2026-05-31,Mutation.updateProfile,mutation,467,3,0.642,profile writes
+2026-05-31,Mutation.requestProfilePhotoUpload,mutation,332,42,12.651,HEIC rejections
+2026-05-31,Mutation.confirmProfilePhotoUpload,mutation,249,16,6.426,HEIC rejections
+2026-06-01,Query.exerciseEntries,query,8708,46,0.528,per-date fan-out
+2026-06-01,Query.healthProfile,query,3311,9,0.272,read path
+2026-06-01,Query.me,query,3511,8,0.228,read path
+2026-06-01,Query.profile,query,956,1,0.105,api-key readable
+2026-06-01,Query.myPreferences,query,1863,5,0.268,read path
+2026-06-01,Mutation.logExercise,mutation,5026,54,1.074,guest sync replay
+2026-06-01,Mutation.saveHealthProfile,mutation,1018,10,0.982,goal writes
+2026-06-01,Mutation.updateProfile,mutation,783,5,0.639,profile writes
+2026-06-01,Mutation.requestProfilePhotoUpload,mutation,359,52,14.485,HEIC rejections
+2026-06-01,Mutation.confirmProfilePhotoUpload,mutation,293,22,7.509,HEIC rejections
+2026-06-02,Query.exerciseEntries,query,9610,58,0.604,per-date fan-out
+2026-06-02,Query.healthProfile,query,4065,13,0.32,read path
+2026-06-02,Query.me,query,4239,10,0.236,read path
+2026-06-02,Query.profile,query,902,1,0.111,api-key readable
+2026-06-02,Query.myPreferences,query,2117,5,0.236,read path
+2026-06-02,Mutation.logExercise,mutation,6005,64,1.066,guest sync replay
+2026-06-02,Mutation.saveHealthProfile,mutation,1079,12,1.112,goal writes
+2026-06-02,Mutation.updateProfile,mutation,672,5,0.744,profile writes
+2026-06-02,Mutation.requestProfilePhotoUpload,mutation,410,57,13.902,HEIC rejections
+2026-06-02,Mutation.confirmProfilePhotoUpload,mutation,268,23,8.582,HEIC rejections
+2026-06-03,Query.exerciseEntries,query,8516,39,0.458,per-date fan-out
+2026-06-03,Query.healthProfile,query,3750,13,0.347,read path
+2026-06-03,Query.me,query,4394,10,0.228,read path
+2026-06-03,Query.profile,query,864,1,0.116,api-key readable
+2026-06-03,Query.myPreferences,query,2184,4,0.183,read path
+2026-06-03,Mutation.logExercise,mutation,5258,64,1.217,guest sync replay
+2026-06-03,Mutation.saveHealthProfile,mutation,1017,9,0.885,goal writes
+2026-06-03,Mutation.updateProfile,mutation,611,6,0.982,profile writes
+2026-06-03,Mutation.requestProfilePhotoUpload,mutation,358,51,14.246,HEIC rejections
+2026-06-03,Mutation.confirmProfilePhotoUpload,mutation,277,20,7.22,HEIC rejections
+2026-06-04,Query.exerciseEntries,query,9635,52,0.54,per-date fan-out
+2026-06-04,Query.healthProfile,query,3941,13,0.33,read path
+2026-06-04,Query.me,query,3905,9,0.23,read path
+2026-06-04,Query.profile,query,852,1,0.117,api-key readable
+2026-06-04,Query.myPreferences,query,1948,4,0.205,read path
+2026-06-04,Mutation.logExercise,mutation,4917,54,1.098,guest sync replay
+2026-06-04,Mutation.saveHealthProfile,mutation,1085,8,0.737,goal writes
+2026-06-04,Mutation.updateProfile,mutation,782,6,0.767,profile writes
+2026-06-04,Mutation.requestProfilePhotoUpload,mutation,338,51,15.089,HEIC rejections
+2026-06-04,Mutation.confirmProfilePhotoUpload,mutation,296,26,8.784,HEIC rejections
+2026-06-05,Query.exerciseEntries,query,8710,49,0.563,per-date fan-out
+2026-06-05,Query.healthProfile,query,4017,13,0.324,read path
+2026-06-05,Query.me,query,3910,7,0.179,read path
+2026-06-05,Query.profile,query,886,1,0.113,api-key readable
+2026-06-05,Query.myPreferences,query,1967,6,0.305,read path
+2026-06-05,Mutation.logExercise,mutation,6054,63,1.041,guest sync replay
+2026-06-05,Mutation.saveHealthProfile,mutation,1152,9,0.781,goal writes
+2026-06-05,Mutation.updateProfile,mutation,793,5,0.631,profile writes
+2026-06-05,Mutation.requestProfilePhotoUpload,mutation,443,76,17.156,HEIC rejections
+2026-06-05,Mutation.confirmProfilePhotoUpload,mutation,299,21,7.023,HEIC rejections
+2026-06-06,Query.exerciseEntries,query,6575,34,0.517,per-date fan-out
+2026-06-06,Query.healthProfile,query,2994,10,0.334,read path
+2026-06-06,Query.me,query,3118,6,0.192,read path
+2026-06-06,Query.profile,query,725,1,0.138,api-key readable
+2026-06-06,Query.myPreferences,query,1710,4,0.234,read path
+2026-06-06,Mutation.logExercise,mutation,3634,35,0.963,guest sync replay
+2026-06-06,Mutation.saveHealthProfile,mutation,712,6,0.843,goal writes
+2026-06-06,Mutation.updateProfile,mutation,554,4,0.722,profile writes
+2026-06-06,Mutation.requestProfilePhotoUpload,mutation,316,41,12.975,HEIC rejections
+2026-06-06,Mutation.confirmProfilePhotoUpload,mutation,261,17,6.513,HEIC rejections
+2026-06-07,Query.exerciseEntries,query,6972,40,0.574,per-date fan-out
+2026-06-07,Query.healthProfile,query,2750,9,0.327,read path
+2026-06-07,Query.me,query,3167,6,0.189,read path
+2026-06-07,Query.profile,query,699,1,0.143,api-key readable
+2026-06-07,Query.myPreferences,query,1787,4,0.224,read path
+2026-06-07,Mutation.logExercise,mutation,4040,47,1.163,guest sync replay
+2026-06-07,Mutation.saveHealthProfile,mutation,718,6,0.836,goal writes
+2026-06-07,Mutation.updateProfile,mutation,552,4,0.725,profile writes
+2026-06-07,Mutation.requestProfilePhotoUpload,mutation,309,41,13.269,HEIC rejections
+2026-06-07,Mutation.confirmProfilePhotoUpload,mutation,231,21,9.091,HEIC rejections
+2026-06-08,Query.exerciseEntries,query,7917,35,0.442,per-date fan-out
+2026-06-08,Query.healthProfile,query,3827,10,0.261,read path
+2026-06-08,Query.me,query,4074,9,0.221,read path
+2026-06-08,Query.profile,query,939,1,0.106,api-key readable
+2026-06-08,Query.myPreferences,query,2302,5,0.217,read path
+2026-06-08,Mutation.logExercise,mutation,5359,63,1.176,guest sync replay
+2026-06-08,Mutation.saveHealthProfile,mutation,1105,11,0.995,goal writes
+2026-06-08,Mutation.updateProfile,mutation,784,6,0.765,profile writes
+2026-06-08,Mutation.requestProfilePhotoUpload,mutation,450,67,14.889,HEIC rejections
+2026-06-08,Mutation.confirmProfilePhotoUpload,mutation,328,29,8.841,HEIC rejections
+2026-06-09,Query.exerciseEntries,query,9442,55,0.583,per-date fan-out
+2026-06-09,Query.healthProfile,query,4007,11,0.275,read path
+2026-06-09,Query.me,query,4268,9,0.211,read path
+2026-06-09,Query.profile,query,829,1,0.121,api-key readable
+2026-06-09,Query.myPreferences,query,1994,4,0.201,read path
+2026-06-09,Mutation.logExercise,mutation,5943,63,1.06,guest sync replay
+2026-06-09,Mutation.saveHealthProfile,mutation,971,9,0.927,goal writes
+2026-06-09,Mutation.updateProfile,mutation,640,5,0.781,profile writes
+2026-06-09,Mutation.requestProfilePhotoUpload,mutation,419,67,15.99,HEIC rejections
+2026-06-09,Mutation.confirmProfilePhotoUpload,mutation,328,28,8.537,HEIC rejections
+2026-06-10,Query.exerciseEntries,query,8495,40,0.471,per-date fan-out
+2026-06-10,Query.healthProfile,query,3534,10,0.283,read path
+2026-06-10,Query.me,query,4018,9,0.224,read path
+2026-06-10,Query.profile,query,883,1,0.113,api-key readable
+2026-06-10,Query.myPreferences,query,2014,6,0.298,read path
+2026-06-10,Mutation.logExercise,mutation,5385,71,1.318,guest sync replay
+2026-06-10,Mutation.saveHealthProfile,mutation,958,7,0.731,goal writes
+2026-06-10,Mutation.updateProfile,mutation,664,4,0.602,profile writes
+2026-06-10,Mutation.requestProfilePhotoUpload,mutation,437,54,12.357,HEIC rejections
+2026-06-10,Mutation.confirmProfilePhotoUpload,mutation,321,24,7.477,HEIC rejections
+2026-06-11,Query.exerciseEntries,query,8820,47,0.533,per-date fan-out
+2026-06-11,Query.healthProfile,query,3769,12,0.318,read path
+2026-06-11,Query.me,query,4448,10,0.225,read path
+2026-06-11,Query.profile,query,858,1,0.117,api-key readable
+2026-06-11,Query.myPreferences,query,1999,5,0.25,read path
+2026-06-11,Mutation.logExercise,mutation,5002,61,1.22,guest sync replay
+2026-06-11,Mutation.saveHealthProfile,mutation,1187,9,0.758,goal writes
+2026-06-11,Mutation.updateProfile,mutation,632,6,0.949,profile writes
+2026-06-11,Mutation.requestProfilePhotoUpload,mutation,409,72,17.604,HEIC rejections
+2026-06-11,Mutation.confirmProfilePhotoUpload,mutation,324,25,7.716,HEIC rejections
+2026-06-12,Query.exerciseEntries,query,8047,41,0.51,per-date fan-out
+2026-06-12,Query.healthProfile,query,3597,10,0.278,read path
+2026-06-12,Query.me,query,4186,9,0.215,read path
+2026-06-12,Query.profile,query,1015,1,0.099,api-key readable
+2026-06-12,Query.myPreferences,query,2398,7,0.292,read path
+2026-06-12,Mutation.logExercise,mutation,5592,62,1.109,guest sync replay
+2026-06-12,Mutation.saveHealthProfile,mutation,1080,11,1.019,goal writes
+2026-06-12,Mutation.updateProfile,mutation,704,7,0.994,profile writes
+2026-06-12,Mutation.requestProfilePhotoUpload,mutation,436,67,15.367,HEIC rejections
+2026-06-12,Mutation.confirmProfilePhotoUpload,mutation,317,22,6.94,HEIC rejections
+2026-06-13,Query.exerciseEntries,query,6882,37,0.538,per-date fan-out
+2026-06-13,Query.healthProfile,query,3049,9,0.295,read path
+2026-06-13,Query.me,query,3565,6,0.168,read path
+2026-06-13,Query.profile,query,788,1,0.127,api-key readable
+2026-06-13,Query.myPreferences,query,1600,4,0.25,read path
+2026-06-13,Mutation.logExercise,mutation,4536,57,1.257,guest sync replay
+2026-06-13,Mutation.saveHealthProfile,mutation,727,6,0.825,goal writes
+2026-06-13,Mutation.updateProfile,mutation,558,4,0.717,profile writes
+2026-06-13,Mutation.requestProfilePhotoUpload,mutation,339,56,16.519,HEIC rejections
+2026-06-13,Mutation.confirmProfilePhotoUpload,mutation,276,18,6.522,HEIC rejections
+2026-06-14,Query.exerciseEntries,query,8015,45,0.561,per-date fan-out
+2026-06-14,Query.healthProfile,query,2939,8,0.272,read path
+2026-06-14,Query.me,query,3539,6,0.17,read path
+2026-06-14,Query.profile,query,763,1,0.131,api-key readable
+2026-06-14,Query.myPreferences,query,1609,4,0.249,read path
+2026-06-14,Mutation.logExercise,mutation,4642,57,1.228,guest sync replay
+2026-06-14,Mutation.saveHealthProfile,mutation,876,8,0.913,goal writes
+2026-06-14,Mutation.updateProfile,mutation,604,5,0.828,profile writes
+2026-06-14,Mutation.requestProfilePhotoUpload,mutation,361,58,16.066,HEIC rejections
+2026-06-14,Mutation.confirmProfilePhotoUpload,mutation,276,18,6.522,HEIC rejections
+2026-06-15,Query.exerciseEntries,query,9712,41,0.422,per-date fan-out
+2026-06-15,Query.healthProfile,query,4229,11,0.26,read path
+2026-06-15,Query.me,query,4631,10,0.216,read path
+2026-06-15,Query.profile,query,937,1,0.107,api-key readable
+2026-06-15,Query.myPreferences,query,1996,6,0.301,read path
+2026-06-15,Mutation.logExercise,mutation,5137,56,1.09,guest sync replay
+2026-06-15,Mutation.saveHealthProfile,mutation,1146,10,0.873,goal writes
+2026-06-15,Mutation.updateProfile,mutation,668,5,0.749,profile writes
+2026-06-15,Mutation.requestProfilePhotoUpload,mutation,395,64,16.203,HEIC rejections
+2026-06-15,Mutation.confirmProfilePhotoUpload,mutation,289,24,8.304,HEIC rejections
+2026-06-16,Query.exerciseEntries,query,10147,50,0.493,per-date fan-out
+2026-06-16,Query.healthProfile,query,3316,10,0.302,read path
+2026-06-16,Query.me,query,4399,8,0.182,read path
+2026-06-16,Query.profile,query,1002,1,0.1,api-key readable
+2026-06-16,Query.myPreferences,query,2272,7,0.308,read path
+2026-06-16,Mutation.logExercise,mutation,4969,57,1.147,guest sync replay
+2026-06-16,Mutation.saveHealthProfile,mutation,1120,11,0.982,goal writes
+2026-06-16,Mutation.updateProfile,mutation,824,7,0.85,profile writes
+2026-06-16,Mutation.requestProfilePhotoUpload,mutation,466,58,12.446,HEIC rejections
+2026-06-16,Mutation.confirmProfilePhotoUpload,mutation,326,24,7.362,HEIC rejections
+2026-06-17,Query.exerciseEntries,query,9989,43,0.43,per-date fan-out
+2026-06-17,Query.healthProfile,query,3898,13,0.334,read path
+2026-06-17,Query.me,query,3912,7,0.179,read path
+2026-06-17,Query.profile,query,967,1,0.103,api-key readable
+2026-06-17,Query.myPreferences,query,2180,6,0.275,read path
+2026-06-17,Mutation.logExercise,mutation,5018,58,1.156,guest sync replay
+2026-06-17,Mutation.saveHealthProfile,mutation,1105,8,0.724,goal writes
+2026-06-17,Mutation.updateProfile,mutation,782,6,0.767,profile writes
+2026-06-17,Mutation.requestProfilePhotoUpload,mutation,365,54,14.795,HEIC rejections
+2026-06-17,Mutation.confirmProfilePhotoUpload,mutation,374,31,8.289,HEIC rejections
+2026-06-18,Query.exerciseEntries,query,10350,61,0.589,per-date fan-out
+2026-06-18,Query.healthProfile,query,4178,11,0.263,read path
+2026-06-18,Query.me,query,4750,12,0.253,read path
+2026-06-18,Query.profile,query,896,1,0.112,api-key readable
+2026-06-18,Query.myPreferences,query,2666,6,0.225,read path
+2026-06-18,Mutation.logExercise,mutation,6052,271,4.478,guest sync replay
+2026-06-18,Mutation.saveHealthProfile,mutation,1002,10,0.998,goal writes
+2026-06-18,Mutation.updateProfile,mutation,799,7,0.876,profile writes
+2026-06-18,Mutation.requestProfilePhotoUpload,mutation,444,70,15.766,HEIC rejections
+2026-06-18,Mutation.confirmProfilePhotoUpload,mutation,301,20,6.645,HEIC rejections
+2026-06-19,Query.exerciseEntries,query,8597,46,0.535,per-date fan-out
+2026-06-19,Query.healthProfile,query,3586,10,0.279,read path
+2026-06-19,Query.me,query,4852,9,0.185,read path
+2026-06-19,Query.profile,query,934,1,0.107,api-key readable
+2026-06-19,Query.myPreferences,query,2319,6,0.259,read path
+2026-06-19,Mutation.logExercise,mutation,5504,220,3.997,guest sync replay
+2026-06-19,Mutation.saveHealthProfile,mutation,1025,11,1.073,goal writes
+2026-06-19,Mutation.updateProfile,mutation,768,6,0.781,profile writes
+2026-06-19,Mutation.requestProfilePhotoUpload,mutation,371,65,17.52,HEIC rejections
+2026-06-19,Mutation.confirmProfilePhotoUpload,mutation,367,31,8.447,HEIC rejections
+2026-06-20,Query.exerciseEntries,query,7381,39,0.528,per-date fan-out
+2026-06-20,Query.healthProfile,query,3229,9,0.279,read path
+2026-06-20,Query.me,query,3715,7,0.188,read path
+2026-06-20,Query.profile,query,660,1,0.152,api-key readable
+2026-06-20,Query.myPreferences,query,1815,5,0.275,read path
+2026-06-20,Mutation.logExercise,mutation,3861,140,3.626,guest sync replay
+2026-06-20,Mutation.saveHealthProfile,mutation,854,9,1.054,goal writes
+2026-06-20,Mutation.updateProfile,mutation,659,4,0.607,profile writes
+2026-06-20,Mutation.requestProfilePhotoUpload,mutation,340,52,15.294,HEIC rejections
+2026-06-20,Mutation.confirmProfilePhotoUpload,mutation,261,18,6.897,HEIC rejections
+2026-06-21,Query.exerciseEntries,query,7830,42,0.536,per-date fan-out
+2026-06-21,Query.healthProfile,query,3322,10,0.301,read path
+2026-06-21,Query.me,query,3120,7,0.224,read path
+2026-06-21,Query.profile,query,668,1,0.15,api-key readable
+2026-06-21,Query.myPreferences,query,1715,3,0.175,read path
+2026-06-21,Mutation.logExercise,mutation,4994,165,3.304,guest sync replay
+2026-06-21,Mutation.saveHealthProfile,mutation,951,10,1.052,goal writes
+2026-06-21,Mutation.updateProfile,mutation,648,5,0.772,profile writes
+2026-06-21,Mutation.requestProfilePhotoUpload,mutation,298,39,13.087,HEIC rejections
+2026-06-21,Mutation.confirmProfilePhotoUpload,mutation,301,27,8.97,HEIC rejections
+2026-06-22,Query.exerciseEntries,query,9603,51,0.531,per-date fan-out
+2026-06-22,Query.healthProfile,query,3951,10,0.253,read path
+2026-06-22,Query.me,query,3905,9,0.23,read path
+2026-06-22,Query.profile,query,941,1,0.106,api-key readable
+2026-06-22,Query.myPreferences,query,2526,7,0.277,read path
+2026-06-22,Mutation.logExercise,mutation,6392,297,4.646,guest sync replay
+2026-06-22,Mutation.saveHealthProfile,mutation,1007,10,0.993,goal writes
+2026-06-22,Mutation.updateProfile,mutation,715,6,0.839,profile writes
+2026-06-22,Mutation.requestProfilePhotoUpload,mutation,419,60,14.32,HEIC rejections
+2026-06-22,Mutation.confirmProfilePhotoUpload,mutation,312,23,7.372,HEIC rejections
+2026-06-23,Query.exerciseEntries,query,9938,59,0.594,per-date fan-out
+2026-06-23,Query.healthProfile,query,3530,12,0.34,read path
+2026-06-23,Query.me,query,4644,11,0.237,read path
+2026-06-23,Query.profile,query,830,1,0.12,api-key readable
+2026-06-23,Query.myPreferences,query,2083,5,0.24,read path
+2026-06-23,Mutation.logExercise,mutation,6370,304,4.772,guest sync replay
+2026-06-23,Mutation.saveHealthProfile,mutation,1038,9,0.867,goal writes
+2026-06-23,Mutation.updateProfile,mutation,761,7,0.92,profile writes
+2026-06-23,Mutation.requestProfilePhotoUpload,mutation,478,66,13.808,HEIC rejections
+2026-06-23,Mutation.confirmProfilePhotoUpload,mutation,375,24,6.4,HEIC rejections
+2026-06-24,Query.exerciseEntries,query,9541,49,0.514,per-date fan-out
+2026-06-24,Query.healthProfile,query,4452,13,0.292,read path
+2026-06-24,Query.me,query,4825,10,0.207,read path
+2026-06-24,Query.profile,query,820,1,0.122,api-key readable
+2026-06-24,Query.myPreferences,query,2137,5,0.234,read path
+2026-06-24,Mutation.logExercise,mutation,6281,216,3.439,guest sync replay
+2026-06-24,Mutation.saveHealthProfile,mutation,1056,11,1.042,goal writes
+2026-06-24,Mutation.updateProfile,mutation,670,6,0.896,profile writes
+2026-06-24,Mutation.requestProfilePhotoUpload,mutation,461,63,13.666,HEIC rejections
+2026-06-24,Mutation.confirmProfilePhotoUpload,mutation,345,25,7.246,HEIC rejections
+2026-06-25,Query.exerciseEntries,query,10256,56,0.546,per-date fan-out
+2026-06-25,Query.healthProfile,query,3747,13,0.347,read path
+2026-06-25,Query.me,query,5076,10,0.197,read path
+2026-06-25,Query.profile,query,1063,2,0.188,api-key readable
+2026-06-25,Query.myPreferences,query,2264,5,0.221,read path
+2026-06-25,Mutation.logExercise,mutation,6458,275,4.258,guest sync replay
+2026-06-25,Mutation.saveHealthProfile,mutation,1054,10,0.949,goal writes
+2026-06-25,Mutation.updateProfile,mutation,751,6,0.799,profile writes
+2026-06-25,Mutation.requestProfilePhotoUpload,mutation,413,72,17.433,HEIC rejections
+2026-06-25,Mutation.confirmProfilePhotoUpload,mutation,359,29,8.078,HEIC rejections
+2026-06-26,Query.exerciseEntries,query,10869,54,0.497,per-date fan-out
+2026-06-26,Query.healthProfile,query,3443,11,0.319,read path
+2026-06-26,Query.me,query,4364,10,0.229,read path
+2026-06-26,Query.profile,query,929,1,0.108,api-key readable
+2026-06-26,Query.myPreferences,query,2205,5,0.227,read path
+2026-06-26,Mutation.logExercise,mutation,5293,253,4.78,guest sync replay
+2026-06-26,Mutation.saveHealthProfile,mutation,1021,10,0.979,goal writes
+2026-06-26,Mutation.updateProfile,mutation,752,7,0.931,profile writes
+2026-06-26,Mutation.requestProfilePhotoUpload,mutation,390,53,13.59,HEIC rejections
+2026-06-26,Mutation.confirmProfilePhotoUpload,mutation,383,27,7.05,HEIC rejections
+2026-06-27,Query.exerciseEntries,query,7996,45,0.563,per-date fan-out
+2026-06-27,Query.healthProfile,query,2970,10,0.337,read path
+2026-06-27,Query.me,query,3942,7,0.178,read path
+2026-06-27,Query.profile,query,774,1,0.129,api-key readable
+2026-06-27,Query.myPreferences,query,1644,4,0.243,read path
+2026-06-27,Mutation.logExercise,mutation,5067,221,4.362,guest sync replay
+2026-06-27,Mutation.saveHealthProfile,mutation,990,10,1.01,goal writes
+2026-06-27,Mutation.updateProfile,mutation,605,5,0.826,profile writes
+2026-06-27,Mutation.requestProfilePhotoUpload,mutation,367,46,12.534,HEIC rejections
+2026-06-27,Mutation.confirmProfilePhotoUpload,mutation,264,19,7.197,HEIC rejections
+2026-06-28,Query.exerciseEntries,query,8586,52,0.606,per-date fan-out
+2026-06-28,Query.healthProfile,query,3516,9,0.256,read path
+2026-06-28,Query.me,query,3686,9,0.244,read path
+2026-06-28,Query.profile,query,658,1,0.152,api-key readable
+2026-06-28,Query.myPreferences,query,2043,5,0.245,read path
+2026-06-28,Mutation.logExercise,mutation,4841,209,4.317,guest sync replay
+2026-06-28,Mutation.saveHealthProfile,mutation,959,10,1.043,goal writes
+2026-06-28,Mutation.updateProfile,mutation,563,5,0.888,profile writes
+2026-06-28,Mutation.requestProfilePhotoUpload,mutation,352,60,17.045,HEIC rejections
+2026-06-28,Mutation.confirmProfilePhotoUpload,mutation,278,19,6.835,HEIC rejections
+2026-06-29,Query.exerciseEntries,query,8997,40,0.445,per-date fan-out
+2026-06-29,Query.healthProfile,query,4238,11,0.26,read path
+2026-06-29,Query.me,query,4930,10,0.203,read path
+2026-06-29,Query.profile,query,1005,1,0.1,api-key readable
+2026-06-29,Query.myPreferences,query,2558,7,0.274,read path
+2026-06-29,Mutation.logExercise,mutation,6616,307,4.64,guest sync replay
+2026-06-29,Mutation.saveHealthProfile,mutation,1207,12,0.994,goal writes
+2026-06-29,Mutation.updateProfile,mutation,891,8,0.898,profile writes
+2026-06-29,Mutation.requestProfilePhotoUpload,mutation,377,64,16.976,HEIC rejections
+2026-06-29,Mutation.confirmProfilePhotoUpload,mutation,362,25,6.906,HEIC rejections
+2026-06-30,Query.exerciseEntries,query,10472,52,0.497,per-date fan-out
+2026-06-30,Query.healthProfile,query,4129,11,0.266,read path
+2026-06-30,Query.me,query,4266,8,0.188,read path
+2026-06-30,Query.profile,query,1093,2,0.183,api-key readable
+2026-06-30,Query.myPreferences,query,2238,5,0.223,read path
+2026-06-30,Mutation.logExercise,mutation,6061,270,4.455,guest sync replay
+2026-06-30,Mutation.saveHealthProfile,mutation,1193,12,1.006,goal writes
+2026-06-30,Mutation.updateProfile,mutation,694,7,1.009,profile writes
+2026-06-30,Mutation.requestProfilePhotoUpload,mutation,406,70,17.241,HEIC rejections
+2026-06-30,Mutation.confirmProfilePhotoUpload,mutation,354,24,6.78,HEIC rejections
+2026-07-01,Query.exerciseEntries,query,10001,42,0.42,per-date fan-out
+2026-07-01,Query.healthProfile,query,3573,10,0.28,read path
+2026-07-01,Query.me,query,4259,9,0.211,read path
+2026-07-01,Query.profile,query,1032,1,0.097,api-key readable
+2026-07-01,Query.myPreferences,query,2361,7,0.296,read path
+2026-07-01,Mutation.logExercise,mutation,6553,240,3.662,guest sync replay
+2026-07-01,Mutation.saveHealthProfile,mutation,1156,12,1.038,goal writes
+2026-07-01,Mutation.updateProfile,mutation,838,8,0.955,profile writes
+2026-07-01,Mutation.requestProfilePhotoUpload,mutation,414,53,12.802,HEIC rejections
+2026-07-01,Mutation.confirmProfilePhotoUpload,mutation,358,32,8.939,HEIC rejections
+2026-07-02,Query.exerciseEntries,query,8810,53,0.602,per-date fan-out
+2026-07-02,Query.healthProfile,query,4463,12,0.269,read path
+2026-07-02,Query.me,query,4004,8,0.2,read path
+2026-07-02,Query.profile,query,1049,2,0.191,api-key readable
+2026-07-02,Query.myPreferences,query,2448,6,0.245,read path
+2026-07-02,Mutation.logExercise,mutation,6243,264,4.229,guest sync replay
+2026-07-02,Mutation.saveHealthProfile,mutation,1227,10,0.815,goal writes
+2026-07-02,Mutation.updateProfile,mutation,709,6,0.846,profile writes
+2026-07-02,Mutation.requestProfilePhotoUpload,mutation,419,58,13.842,HEIC rejections
+2026-07-02,Mutation.confirmProfilePhotoUpload,mutation,310,26,8.387,HEIC rejections
+2026-07-03,Query.exerciseEntries,query,11220,54,0.481,per-date fan-out
+2026-07-03,Query.healthProfile,query,3628,9,0.248,read path
+2026-07-03,Query.me,query,5236,10,0.191,read path
+2026-07-03,Query.profile,query,876,1,0.114,api-key readable
+2026-07-03,Query.myPreferences,query,2803,7,0.25,read path
+2026-07-03,Mutation.logExercise,mutation,5809,236,4.063,guest sync replay
+2026-07-03,Mutation.saveHealthProfile,mutation,1121,9,0.803,goal writes
+2026-07-03,Mutation.updateProfile,mutation,770,7,0.909,profile writes
+2026-07-03,Mutation.requestProfilePhotoUpload,mutation,392,60,15.306,HEIC rejections
+2026-07-03,Mutation.confirmProfilePhotoUpload,mutation,330,25,7.576,HEIC rejections
+2026-07-04,Query.exerciseEntries,query,7033,35,0.498,per-date fan-out
+2026-07-04,Query.healthProfile,query,2854,10,0.35,read path
+2026-07-04,Query.me,query,4025,9,0.224,read path
+2026-07-04,Query.profile,query,743,1,0.135,api-key readable
+2026-07-04,Query.myPreferences,query,2202,6,0.272,read path
+2026-07-04,Mutation.logExercise,mutation,4993,227,4.546,guest sync replay
+2026-07-04,Mutation.saveHealthProfile,mutation,1007,7,0.695,goal writes
+2026-07-04,Mutation.updateProfile,mutation,673,5,0.743,profile writes
+2026-07-04,Mutation.requestProfilePhotoUpload,mutation,328,56,17.073,HEIC rejections
+2026-07-04,Mutation.confirmProfilePhotoUpload,mutation,251,23,9.163,HEIC rejections
+2026-07-05,Query.exerciseEntries,query,7749,41,0.529,per-date fan-out
+2026-07-05,Query.healthProfile,query,3351,9,0.269,read path
+2026-07-05,Query.me,query,3419,6,0.175,read path
+2026-07-05,Query.profile,query,787,1,0.127,api-key readable
+2026-07-05,Query.myPreferences,query,1815,5,0.275,read path
+2026-07-05,Mutation.logExercise,mutation,5257,178,3.386,guest sync replay
+2026-07-05,Mutation.saveHealthProfile,mutation,878,7,0.797,goal writes
+2026-07-05,Mutation.updateProfile,mutation,604,5,0.828,profile writes
+2026-07-05,Mutation.requestProfilePhotoUpload,mutation,328,51,15.549,HEIC rejections
+2026-07-05,Mutation.confirmProfilePhotoUpload,mutation,272,18,6.618,HEIC rejections
+2026-07-06,Query.exerciseEntries,query,11085,67,0.604,per-date fan-out
+2026-07-06,Query.healthProfile,query,4248,14,0.33,read path
+2026-07-06,Query.me,query,4819,10,0.208,read path
+2026-07-06,Query.profile,query,1090,1,0.092,api-key readable
+2026-07-06,Query.myPreferences,query,2282,5,0.219,read path
+2026-07-06,Mutation.logExercise,mutation,5469,179,3.273,guest sync replay
+2026-07-06,Mutation.saveHealthProfile,mutation,1172,11,0.939,goal writes
+2026-07-06,Mutation.updateProfile,mutation,737,7,0.95,profile writes
+2026-07-06,Mutation.requestProfilePhotoUpload,mutation,498,81,16.265,HEIC rejections
+2026-07-06,Mutation.confirmProfilePhotoUpload,mutation,334,22,6.587,HEIC rejections
+2026-07-07,Query.exerciseEntries,query,11161,51,0.457,per-date fan-out
+2026-07-07,Query.healthProfile,query,4458,11,0.247,read path
+2026-07-07,Query.me,query,5234,12,0.229,read path
+2026-07-07,Query.profile,query,862,1,0.116,api-key readable
+2026-07-07,Query.myPreferences,query,2181,5,0.229,read path
+2026-07-07,Mutation.logExercise,mutation,5346,239,4.471,guest sync replay
+2026-07-07,Mutation.saveHealthProfile,mutation,1056,9,0.852,goal writes
+2026-07-07,Mutation.updateProfile,mutation,737,6,0.814,profile writes
+2026-07-07,Mutation.requestProfilePhotoUpload,mutation,396,53,13.384,HEIC rejections
+2026-07-07,Mutation.confirmProfilePhotoUpload,mutation,331,29,8.761,HEIC rejections
+2026-07-08,Query.exerciseEntries,query,10054,54,0.537,per-date fan-out
+2026-07-08,Query.healthProfile,query,3963,11,0.278,read path
+2026-07-08,Query.me,query,4694,9,0.192,read path
+2026-07-08,Query.profile,query,929,1,0.108,api-key readable
+2026-07-08,Query.myPreferences,query,2380,5,0.21,read path
+2026-07-08,Mutation.logExercise,mutation,6404,265,4.138,guest sync replay
+2026-07-08,Mutation.saveHealthProfile,mutation,1039,10,0.962,goal writes
+2026-07-08,Mutation.updateProfile,mutation,763,7,0.917,profile writes
+2026-07-08,Mutation.requestProfilePhotoUpload,mutation,449,57,12.695,HEIC rejections
+2026-07-08,Mutation.confirmProfilePhotoUpload,mutation,394,28,7.107,HEIC rejections
+2026-07-09,Query.exerciseEntries,query,10168,51,0.502,per-date fan-out
+2026-07-09,Query.healthProfile,query,4144,10,0.241,read path
+2026-07-09,Query.me,query,4448,9,0.202,read path
+2026-07-09,Query.profile,query,1118,1,0.089,api-key readable
+2026-07-09,Query.myPreferences,query,2234,6,0.269,read path
+2026-07-09,Mutation.logExercise,mutation,5337,199,3.729,guest sync replay
+2026-07-09,Mutation.saveHealthProfile,mutation,1273,10,0.786,goal writes
+2026-07-09,Mutation.updateProfile,mutation,794,7,0.882,profile writes
+2026-07-09,Mutation.requestProfilePhotoUpload,mutation,462,66,14.286,HEIC rejections
+2026-07-09,Mutation.confirmProfilePhotoUpload,mutation,365,24,6.575,HEIC rejections
+2026-07-10,Query.exerciseEntries,query,9931,49,0.493,per-date fan-out
+2026-07-10,Query.healthProfile,query,4158,11,0.265,read path
+2026-07-10,Query.me,query,4904,12,0.245,read path
+2026-07-10,Query.profile,query,933,1,0.107,api-key readable
+2026-07-10,Query.myPreferences,query,2488,7,0.281,read path
+2026-07-10,Mutation.logExercise,mutation,5457,243,4.453,guest sync replay
+2026-07-10,Mutation.saveHealthProfile,mutation,1322,11,0.832,goal writes
+2026-07-10,Mutation.updateProfile,mutation,743,6,0.808,profile writes
+2026-07-10,Mutation.requestProfilePhotoUpload,mutation,469,69,14.712,HEIC rejections
+2026-07-10,Mutation.confirmProfilePhotoUpload,mutation,335,23,6.866,HEIC rejections
+2026-07-11,Query.exerciseEntries,query,8035,41,0.51,per-date fan-out
+2026-07-11,Query.healthProfile,query,3675,12,0.327,read path
+2026-07-11,Query.me,query,3425,8,0.234,read path
+2026-07-11,Query.profile,query,803,1,0.125,api-key readable
+2026-07-11,Query.myPreferences,query,2186,6,0.274,read path
+2026-07-11,Mutation.logExercise,mutation,5208,178,3.418,guest sync replay
+2026-07-11,Mutation.saveHealthProfile,mutation,1047,9,0.86,goal writes
+2026-07-11,Mutation.updateProfile,mutation,644,6,0.932,profile writes
+2026-07-11,Mutation.requestProfilePhotoUpload,mutation,351,52,14.815,HEIC rejections
+2026-07-11,Mutation.confirmProfilePhotoUpload,mutation,315,20,6.349,HEIC rejections
+2026-07-12,Query.exerciseEntries,query,7039,38,0.54,per-date fan-out
+2026-07-12,Query.healthProfile,query,3659,10,0.273,read path
+2026-07-12,Query.me,query,3226,8,0.248,read path
+2026-07-12,Query.profile,query,756,1,0.132,api-key readable
+2026-07-12,Query.myPreferences,query,2255,7,0.31,read path
+2026-07-12,Mutation.logExercise,mutation,5098,214,4.198,guest sync replay
+2026-07-12,Mutation.saveHealthProfile,mutation,829,7,0.844,goal writes
+2026-07-12,Mutation.updateProfile,mutation,720,7,0.972,profile writes
+2026-07-12,Mutation.requestProfilePhotoUpload,mutation,389,61,15.681,HEIC rejections
+2026-07-12,Mutation.confirmProfilePhotoUpload,mutation,290,21,7.241,HEIC rejections
+2026-07-13,Query.exerciseEntries,query,10141,45,0.444,per-date fan-out
+2026-07-13,Query.healthProfile,query,3779,13,0.344,read path
+2026-07-13,Query.me,query,4422,8,0.181,read path
+2026-07-13,Query.profile,query,982,1,0.102,api-key readable
+2026-07-13,Query.myPreferences,query,2344,6,0.256,read path
+2026-07-13,Mutation.logExercise,mutation,6927,309,4.461,guest sync replay
+2026-07-13,Mutation.saveHealthProfile,mutation,1021,10,0.979,goal writes
+2026-07-13,Mutation.updateProfile,mutation,923,8,0.867,profile writes
+2026-07-13,Mutation.requestProfilePhotoUpload,mutation,454,70,15.419,HEIC rejections
+2026-07-13,Mutation.confirmProfilePhotoUpload,mutation,411,36,8.759,HEIC rejections
+2026-07-14,Query.exerciseEntries,query,11484,58,0.505,per-date fan-out
+2026-07-14,Query.healthProfile,query,4123,12,0.291,read path
+2026-07-14,Query.me,query,5415,10,0.185,read path
+2026-07-14,Query.profile,query,1066,1,0.094,api-key readable
+2026-07-14,Query.myPreferences,query,2256,5,0.222,read path
+2026-07-14,Mutation.logExercise,mutation,5613,248,4.418,guest sync replay
+2026-07-14,Mutation.saveHealthProfile,mutation,1101,9,0.817,goal writes
+2026-07-14,Mutation.updateProfile,mutation,898,8,0.891,profile writes
+2026-07-14,Mutation.requestProfilePhotoUpload,mutation,440,59,13.409,HEIC rejections
+2026-07-14,Mutation.confirmProfilePhotoUpload,mutation,391,27,6.905,HEIC rejections
+2026-07-15,Query.exerciseEntries,query,9104,44,0.483,per-date fan-out
+2026-07-15,Query.healthProfile,query,4722,16,0.339,read path
+2026-07-15,Query.me,query,5431,11,0.203,read path
+2026-07-15,Query.profile,query,1055,2,0.19,api-key readable
+2026-07-15,Query.myPreferences,query,2781,6,0.216,read path
+2026-07-15,Mutation.logExercise,mutation,6471,288,4.451,guest sync replay
+2026-07-15,Mutation.saveHealthProfile,mutation,1248,12,0.962,goal writes
+2026-07-15,Mutation.updateProfile,mutation,772,7,0.907,profile writes
+2026-07-15,Mutation.requestProfilePhotoUpload,mutation,420,63,15.0,HEIC rejections
+2026-07-15,Mutation.confirmProfilePhotoUpload,mutation,385,25,6.494,HEIC rejections
+2026-07-16,Query.exerciseEntries,query,9088,54,0.594,per-date fan-out
+2026-07-16,Query.healthProfile,query,3636,10,0.275,read path
+2026-07-16,Query.me,query,5020,12,0.239,read path
+2026-07-16,Query.profile,query,1146,2,0.175,api-key readable
+2026-07-16,Query.myPreferences,query,2318,5,0.216,read path
+2026-07-16,Mutation.logExercise,mutation,6232,273,4.381,guest sync replay
+2026-07-16,Mutation.saveHealthProfile,mutation,1339,13,0.971,goal writes
+2026-07-16,Mutation.updateProfile,mutation,761,6,0.788,profile writes
+2026-07-16,Mutation.requestProfilePhotoUpload,mutation,466,63,13.519,HEIC rejections
+2026-07-16,Mutation.confirmProfilePhotoUpload,mutation,351,25,7.123,HEIC rejections
+2026-07-17,Query.exerciseEntries,query,11432,55,0.481,per-date fan-out
+2026-07-17,Query.healthProfile,query,4447,16,0.36,read path
+2026-07-17,Query.me,query,4198,10,0.238,read path
+2026-07-17,Query.profile,query,1076,2,0.186,api-key readable
+2026-07-17,Query.myPreferences,query,2514,5,0.199,read path
+2026-07-17,Mutation.logExercise,mutation,6062,240,3.959,guest sync replay
+2026-07-17,Mutation.saveHealthProfile,mutation,1306,13,0.995,goal writes
+2026-07-17,Mutation.updateProfile,mutation,918,7,0.763,profile writes
+2026-07-17,Mutation.requestProfilePhotoUpload,mutation,458,67,14.629,HEIC rejections
+2026-07-17,Mutation.confirmProfilePhotoUpload,mutation,348,31,8.908,HEIC rejections
+2026-07-18,Query.exerciseEntries,query,8281,39,0.471,per-date fan-out
+2026-07-18,Query.healthProfile,query,3528,10,0.283,read path
+2026-07-18,Query.me,query,3354,7,0.209,read path
+2026-07-18,Query.profile,query,748,1,0.134,api-key readable
+2026-07-18,Query.myPreferences,query,1906,6,0.315,read path
+2026-07-18,Mutation.logExercise,mutation,4684,174,3.715,guest sync replay
+2026-07-18,Mutation.saveHealthProfile,mutation,807,7,0.867,goal writes
+2026-07-18,Mutation.updateProfile,mutation,622,5,0.804,profile writes
+2026-07-18,Mutation.requestProfilePhotoUpload,mutation,348,46,13.218,HEIC rejections
+2026-07-18,Mutation.confirmProfilePhotoUpload,mutation,304,24,7.895,HEIC rejections
+2026-07-19,Query.exerciseEntries,query,8450,37,0.438,per-date fan-out
+2026-07-19,Query.healthProfile,query,3686,12,0.326,read path
+2026-07-19,Query.me,query,4086,8,0.196,read path
+2026-07-19,Query.profile,query,858,1,0.117,api-key readable
+2026-07-19,Query.myPreferences,query,2061,6,0.291,read path
+2026-07-19,Mutation.logExercise,mutation,4679,174,3.719,guest sync replay
+2026-07-19,Mutation.saveHealthProfile,mutation,994,10,1.006,goal writes
+2026-07-19,Mutation.updateProfile,mutation,733,5,0.682,profile writes
+2026-07-19,Mutation.requestProfilePhotoUpload,mutation,337,48,14.243,HEIC rejections
+2026-07-19,Mutation.confirmProfilePhotoUpload,mutation,256,17,6.641,HEIC rejections
+2026-07-20,Query.exerciseEntries,query,11197,60,0.536,per-date fan-out
+2026-07-20,Query.healthProfile,query,4705,12,0.255,read path
+2026-07-20,Query.me,query,4166,7,0.168,read path
+2026-07-20,Query.profile,query,885,1,0.113,api-key readable
+2026-07-20,Query.myPreferences,query,2937,6,0.204,read path
+2026-07-20,Mutation.logExercise,mutation,7122,305,4.283,guest sync replay
+2026-07-20,Mutation.saveHealthProfile,mutation,1346,12,0.892,goal writes
+2026-07-20,Mutation.updateProfile,mutation,935,8,0.856,profile writes
+2026-07-20,Mutation.requestProfilePhotoUpload,mutation,495,81,16.364,HEIC rejections
+2026-07-20,Mutation.confirmProfilePhotoUpload,mutation,408,33,8.088,HEIC rejections
+2026-07-21,Query.exerciseEntries,query,11242,61,0.543,per-date fan-out
+2026-07-21,Query.healthProfile,query,4337,12,0.277,read path
+2026-07-21,Query.me,query,5328,11,0.206,read path
+2026-07-21,Query.profile,query,968,2,0.207,api-key readable
+2026-07-21,Query.myPreferences,query,2498,6,0.24,read path
+2026-07-21,Mutation.logExercise,mutation,5690,259,4.552,guest sync replay
+2026-07-21,Mutation.saveHealthProfile,mutation,1297,13,1.002,goal writes
+2026-07-21,Mutation.updateProfile,mutation,733,6,0.819,profile writes
+2026-07-21,Mutation.requestProfilePhotoUpload,mutation,452,76,16.814,HEIC rejections
+2026-07-21,Mutation.confirmProfilePhotoUpload,mutation,412,31,7.524,HEIC rejections
+2026-07-22,Query.exerciseEntries,query,10153,51,0.502,per-date fan-out
+2026-07-22,Query.healthProfile,query,4597,16,0.348,read path
+2026-07-22,Query.me,query,5028,11,0.219,read path
+2026-07-22,Query.profile,query,991,1,0.101,api-key readable
+2026-07-22,Query.myPreferences,query,2793,7,0.251,read path
+2026-07-22,Mutation.logExercise,mutation,6491,279,4.298,guest sync replay
+2026-07-22,Mutation.saveHealthProfile,mutation,1077,8,0.743,goal writes
+2026-07-22,Mutation.updateProfile,mutation,902,9,0.998,profile writes
+2026-07-22,Mutation.requestProfilePhotoUpload,mutation,486,66,13.58,HEIC rejections
+2026-07-22,Mutation.confirmProfilePhotoUpload,mutation,359,24,6.685,HEIC rejections
+2026-07-23,Query.exerciseEntries,query,9778,50,0.511,per-date fan-out
+2026-07-23,Query.healthProfile,query,4513,12,0.266,read path
+2026-07-23,Query.me,query,4273,10,0.234,read path
+2026-07-23,Query.profile,query,1097,1,0.091,api-key readable
+2026-07-23,Query.myPreferences,query,2832,7,0.247,read path
+2026-07-23,Mutation.logExercise,mutation,6811,229,3.362,guest sync replay
+2026-07-23,Mutation.saveHealthProfile,mutation,1057,9,0.851,goal writes
+2026-07-23,Mutation.updateProfile,mutation,779,6,0.77,profile writes
+2026-07-23,Mutation.requestProfilePhotoUpload,mutation,469,70,14.925,HEIC rejections
+2026-07-23,Mutation.confirmProfilePhotoUpload,mutation,339,26,7.67,HEIC rejections
+2026-07-24,Query.exerciseEntries,query,11726,61,0.52,per-date fan-out
+2026-07-24,Query.healthProfile,query,3907,13,0.333,read path
+2026-07-24,Query.me,query,4435,8,0.18,read path
+2026-07-24,Query.profile,query,963,1,0.104,api-key readable
+2026-07-24,Query.myPreferences,query,2670,7,0.262,read path
+2026-07-24,Mutation.logExercise,mutation,6471,294,4.543,guest sync replay
+2026-07-24,Mutation.saveHealthProfile,mutation,1164,12,1.031,goal writes
+2026-07-24,Mutation.updateProfile,mutation,827,6,0.726,profile writes
+2026-07-24,Mutation.requestProfilePhotoUpload,mutation,501,82,16.367,HEIC rejections
+2026-07-24,Mutation.confirmProfilePhotoUpload,mutation,418,31,7.416,HEIC rejections
+2026-07-25,Query.exerciseEntries,query,9008,46,0.511,per-date fan-out
+2026-07-25,Query.healthProfile,query,3681,10,0.272,read path
+2026-07-25,Query.me,query,3837,7,0.182,read path
+2026-07-25,Query.profile,query,788,1,0.127,api-key readable
+2026-07-25,Query.myPreferences,query,2046,4,0.196,read path
+2026-07-25,Mutation.logExercise,mutation,5601,235,4.196,guest sync replay
+2026-07-25,Mutation.saveHealthProfile,mutation,832,8,0.962,goal writes
+2026-07-25,Mutation.updateProfile,mutation,579,4,0.691,profile writes
+2026-07-25,Mutation.requestProfilePhotoUpload,mutation,365,57,15.616,HEIC rejections
+2026-07-25,Mutation.confirmProfilePhotoUpload,mutation,295,23,7.797,HEIC rejections
+2026-07-26,Query.exerciseEntries,query,8168,35,0.429,per-date fan-out
+2026-07-26,Query.healthProfile,query,3197,10,0.313,read path
+2026-07-26,Query.me,query,4024,9,0.224,read path
+2026-07-26,Query.profile,query,720,1,0.139,api-key readable
+2026-07-26,Query.myPreferences,query,2243,5,0.223,read path
+2026-07-26,Mutation.logExercise,mutation,5082,228,4.486,guest sync replay
+2026-07-26,Mutation.saveHealthProfile,mutation,1072,10,0.933,goal writes
+2026-07-26,Mutation.updateProfile,mutation,709,6,0.846,profile writes
+2026-07-26,Mutation.requestProfilePhotoUpload,mutation,399,61,15.288,HEIC rejections
+2026-07-26,Mutation.confirmProfilePhotoUpload,mutation,301,28,9.302,HEIC rejections
+2026-07-27,Query.exerciseEntries,query,10535,325,3.085,per-date fan-out
+2026-07-27,Query.healthProfile,query,4703,104,2.211,read path
+2026-07-27,Query.me,query,5420,74,1.365,read path
+2026-07-27,Query.profile,query,894,8,0.895,api-key readable
+2026-07-27,Query.myPreferences,query,2322,42,1.809,read path
+2026-07-27,Mutation.logExercise,mutation,5639,248,4.398,guest sync replay
+2026-07-27,Mutation.saveHealthProfile,mutation,1136,12,1.056,goal writes
+2026-07-27,Mutation.updateProfile,mutation,873,8,0.916,profile writes
+2026-07-27,Mutation.requestProfilePhotoUpload,mutation,438,73,16.667,HEIC rejections
+2026-07-27,Mutation.confirmProfilePhotoUpload,mutation,345,27,7.826,HEIC rejections
+2026-07-28,Query.exerciseEntries,query,9303,51,0.548,per-date fan-out
+2026-07-28,Query.healthProfile,query,4151,11,0.265,read path
+2026-07-28,Query.me,query,4390,11,0.251,read path
+2026-07-28,Query.profile,query,937,1,0.107,api-key readable
+2026-07-28,Query.myPreferences,query,2837,7,0.247,read path
+2026-07-28,Mutation.logExercise,mutation,6454,246,3.812,guest sync replay
+2026-07-28,Mutation.saveHealthProfile,mutation,1280,13,1.016,goal writes
+2026-07-28,Mutation.updateProfile,mutation,743,7,0.942,profile writes
+2026-07-28,Mutation.requestProfilePhotoUpload,mutation,523,85,16.252,HEIC rejections
+2026-07-28,Mutation.confirmProfilePhotoUpload,mutation,376,24,6.383,HEIC rejections
+2026-07-29,Query.exerciseEntries,query,11692,66,0.564,per-date fan-out
+2026-07-29,Query.healthProfile,query,4798,16,0.333,read path
+2026-07-29,Query.me,query,5579,12,0.215,read path
+2026-07-29,Query.profile,query,1095,1,0.091,api-key readable
+2026-07-29,Query.myPreferences,query,2634,7,0.266,read path
+2026-07-29,Mutation.logExercise,mutation,5674,234,4.124,guest sync replay
+2026-07-29,Mutation.saveHealthProfile,mutation,1350,15,1.111,goal writes
+2026-07-29,Mutation.updateProfile,mutation,904,8,0.885,profile writes
+2026-07-29,Mutation.requestProfilePhotoUpload,mutation,445,74,16.629,HEIC rejections
+2026-07-29,Mutation.confirmProfilePhotoUpload,mutation,373,33,8.847,HEIC rejections
+2026-07-30,Query.exerciseEntries,query,11839,50,0.422,per-date fan-out
+2026-07-30,Query.healthProfile,query,4320,15,0.347,read path
+2026-07-30,Query.me,query,4383,10,0.228,read path
+2026-07-30,Query.profile,query,1019,2,0.196,api-key readable
+2026-07-30,Query.myPreferences,query,2964,8,0.27,read path
+2026-07-30,Mutation.logExercise,mutation,5779,267,4.62,guest sync replay
+2026-07-30,Mutation.saveHealthProfile,mutation,1337,14,1.047,goal writes
+2026-07-30,Mutation.updateProfile,mutation,878,8,0.911,profile writes
+2026-07-30,Mutation.requestProfilePhotoUpload,mutation,422,67,15.877,HEIC rejections
+2026-07-30,Mutation.confirmProfilePhotoUpload,mutation,345,24,6.957,HEIC rejections
+2026-07-31,Query.exerciseEntries,query,10688,53,0.496,per-date fan-out
+2026-07-31,Query.healthProfile,query,4314,12,0.278,read path
+2026-07-31,Query.me,query,5610,12,0.214,read path
+2026-07-31,Query.profile,query,986,1,0.101,api-key readable
+2026-07-31,Query.myPreferences,query,2518,5,0.199,read path
+2026-07-31,Mutation.logExercise,mutation,7154,303,4.235,guest sync replay
+2026-07-31,Mutation.saveHealthProfile,mutation,1366,12,0.878,goal writes
+2026-07-31,Mutation.updateProfile,mutation,969,10,1.032,profile writes
+2026-07-31,Mutation.requestProfilePhotoUpload,mutation,440,75,17.045,HEIC rejections
+2026-07-31,Mutation.confirmProfilePhotoUpload,mutation,391,32,8.184,HEIC rejections
+2026-08-01,Query.exerciseEntries,query,7506,32,0.426,per-date fan-out
+2026-08-01,Query.healthProfile,query,3627,10,0.276,read path
+2026-08-01,Query.me,query,4380,10,0.228,read path
+2026-08-01,Query.profile,query,868,1,0.115,api-key readable
+2026-08-01,Query.myPreferences,query,1955,4,0.205,read path
+2026-08-01,Mutation.logExercise,mutation,4615,156,3.38,guest sync replay
+2026-08-01,Mutation.saveHealthProfile,mutation,1058,8,0.756,goal writes
+2026-08-01,Mutation.updateProfile,mutation,737,5,0.678,profile writes
+2026-08-01,Mutation.requestProfilePhotoUpload,mutation,361,62,17.175,HEIC rejections
+2026-08-01,Mutation.confirmProfilePhotoUpload,mutation,274,22,8.029,HEIC rejections
+2026-08-02,Query.exerciseEntries,query,8854,51,0.576,per-date fan-out
+2026-08-02,Query.healthProfile,query,3274,11,0.336,read path
+2026-08-02,Query.me,query,3675,7,0.19,read path
+2026-08-02,Query.profile,query,907,1,0.11,api-key readable
+2026-08-02,Query.myPreferences,query,2120,5,0.236,read path
+2026-08-02,Mutation.logExercise,mutation,5279,207,3.921,guest sync replay
+2026-08-02,Mutation.saveHealthProfile,mutation,952,7,0.735,goal writes
+2026-08-02,Mutation.updateProfile,mutation,741,5,0.675,profile writes
+2026-08-02,Mutation.requestProfilePhotoUpload,mutation,323,45,13.932,HEIC rejections
+2026-08-02,Mutation.confirmProfilePhotoUpload,mutation,274,23,8.394,HEIC rejections
+2026-08-03,Query.exerciseEntries,query,11661,70,0.6,per-date fan-out
+2026-08-03,Query.healthProfile,query,4901,15,0.306,read path
+2026-08-03,Query.me,query,5407,9,0.166,read path
+2026-08-03,Query.profile,query,941,1,0.106,api-key readable
+2026-08-03,Query.myPreferences,query,2619,6,0.229,read path
+2026-08-03,Mutation.logExercise,mutation,6121,287,4.689,guest sync replay
+2026-08-03,Mutation.saveHealthProfile,mutation,1075,9,0.837,goal writes
+2026-08-03,Mutation.updateProfile,mutation,782,6,0.767,profile writes
+2026-08-03,Mutation.requestProfilePhotoUpload,mutation,530,66,12.453,HEIC rejections
+2026-08-03,Mutation.confirmProfilePhotoUpload,mutation,402,29,7.214,HEIC rejections
+2026-08-04,Query.exerciseEntries,query,9323,52,0.558,per-date fan-out
+2026-08-04,Query.healthProfile,query,4937,17,0.344,read path
+2026-08-04,Query.me,query,4350,9,0.207,read path
+2026-08-04,Query.profile,query,1143,2,0.175,api-key readable
+2026-08-04,Query.myPreferences,query,2539,6,0.236,read path
+2026-08-04,Mutation.logExercise,mutation,6657,263,3.951,guest sync replay
+2026-08-04,Mutation.saveHealthProfile,mutation,1137,11,0.967,goal writes
+2026-08-04,Mutation.updateProfile,mutation,875,7,0.8,profile writes
+2026-08-04,Mutation.requestProfilePhotoUpload,mutation,481,67,13.929,HEIC rejections
+2026-08-04,Mutation.confirmProfilePhotoUpload,mutation,413,33,7.99,HEIC rejections
+2026-08-05,Query.exerciseEntries,query,11897,53,0.445,per-date fan-out
+2026-08-05,Query.healthProfile,query,4266,12,0.281,read path
+2026-08-05,Query.me,query,4363,10,0.229,read path
+2026-08-05,Query.profile,query,1138,2,0.176,api-key readable
+2026-08-05,Query.myPreferences,query,2509,7,0.279,read path
+2026-08-05,Mutation.logExercise,mutation,5881,271,4.608,guest sync replay
+2026-08-05,Mutation.saveHealthProfile,mutation,1172,12,1.024,goal writes
+2026-08-05,Mutation.updateProfile,mutation,795,7,0.881,profile writes
+2026-08-05,Mutation.requestProfilePhotoUpload,mutation,504,79,15.675,HEIC rejections
+2026-08-05,Mutation.confirmProfilePhotoUpload,mutation,409,32,7.824,HEIC rejections
+2026-08-06,Query.exerciseEntries,query,11628,48,0.413,per-date fan-out
+2026-08-06,Query.healthProfile,query,3862,14,0.363,read path
+2026-08-06,Query.me,query,4569,9,0.197,read path
+2026-08-06,Query.profile,query,1139,2,0.176,api-key readable
+2026-08-06,Query.myPreferences,query,2610,6,0.23,read path
+2026-08-06,Mutation.logExercise,mutation,6070,229,3.773,guest sync replay
+2026-08-06,Mutation.saveHealthProfile,mutation,1341,12,0.895,goal writes
+2026-08-06,Mutation.updateProfile,mutation,851,6,0.705,profile writes
+2026-08-06,Mutation.requestProfilePhotoUpload,mutation,434,76,17.512,HEIC rejections
+2026-08-06,Mutation.confirmProfilePhotoUpload,mutation,337,29,8.605,HEIC rejections
+2026-08-07,Query.exerciseEntries,query,11558,62,0.536,per-date fan-out
+2026-08-07,Query.healthProfile,query,4760,14,0.294,read path
+2026-08-07,Query.me,query,4430,9,0.203,read path
+2026-08-07,Query.profile,query,1085,2,0.184,api-key readable
+2026-08-07,Query.myPreferences,query,2711,8,0.295,read path
+2026-08-07,Mutation.logExercise,mutation,6695,284,4.242,guest sync replay
+2026-08-07,Mutation.saveHealthProfile,mutation,1154,10,0.867,goal writes
+2026-08-07,Mutation.updateProfile,mutation,832,7,0.841,profile writes
+2026-08-07,Mutation.requestProfilePhotoUpload,mutation,539,78,14.471,HEIC rejections
+2026-08-07,Mutation.confirmProfilePhotoUpload,mutation,387,26,6.718,HEIC rejections
+2026-08-08,Query.exerciseEntries,query,7770,33,0.425,per-date fan-out
+2026-08-08,Query.healthProfile,query,3285,9,0.274,read path
+2026-08-08,Query.me,query,3486,6,0.172,read path
+2026-08-08,Query.profile,query,794,1,0.126,api-key readable
+2026-08-08,Query.myPreferences,query,2091,6,0.287,read path
+2026-08-08,Mutation.logExercise,mutation,4758,179,3.762,guest sync replay
+2026-08-08,Mutation.saveHealthProfile,mutation,936,9,0.962,goal writes
+2026-08-08,Mutation.updateProfile,mutation,727,7,0.963,profile writes
+2026-08-08,Mutation.requestProfilePhotoUpload,mutation,396,69,17.424,HEIC rejections
+2026-08-08,Mutation.confirmProfilePhotoUpload,mutation,317,25,7.886,HEIC rejections
+2026-08-09,Query.exerciseEntries,query,7402,38,0.513,per-date fan-out
+2026-08-09,Query.healthProfile,query,3484,11,0.316,read path
+2026-08-09,Query.me,query,4060,8,0.197,read path
+2026-08-09,Query.profile,query,778,1,0.129,api-key readable
+2026-08-09,Query.myPreferences,query,2151,5,0.232,read path
+2026-08-09,Mutation.logExercise,mutation,4640,163,3.513,guest sync replay
+2026-08-09,Mutation.saveHealthProfile,mutation,1085,8,0.737,goal writes
+2026-08-09,Mutation.updateProfile,mutation,626,4,0.639,profile writes
+2026-08-09,Mutation.requestProfilePhotoUpload,mutation,349,49,14.04,HEIC rejections
+2026-08-09,Mutation.confirmProfilePhotoUpload,mutation,266,18,6.767,HEIC rejections
+2026-08-10,Query.exerciseEntries,query,10108,60,0.594,per-date fan-out
+2026-08-10,Query.healthProfile,query,5003,15,0.3,read path
+2026-08-10,Query.me,query,4680,10,0.214,read path
+2026-08-10,Query.profile,query,994,1,0.101,api-key readable
+2026-08-10,Query.myPreferences,query,2999,8,0.267,read path
+2026-08-10,Mutation.logExercise,mutation,6148,207,3.367,guest sync replay
+2026-08-10,Mutation.saveHealthProfile,mutation,1233,13,1.054,goal writes
+2026-08-10,Mutation.updateProfile,mutation,934,7,0.749,profile writes
+2026-08-10,Mutation.requestProfilePhotoUpload,mutation,480,86,17.917,HEIC rejections
+2026-08-10,Mutation.confirmProfilePhotoUpload,mutation,433,30,6.928,HEIC rejections
+2026-08-11,Query.exerciseEntries,query,12314,61,0.495,per-date fan-out
+2026-08-11,Query.healthProfile,query,4052,14,0.346,read path
+2026-08-11,Query.me,query,4508,8,0.177,read path
+2026-08-11,Query.profile,query,1016,1,0.098,api-key readable
+2026-08-11,Query.myPreferences,query,2979,9,0.302,read path
+2026-08-11,Mutation.logExercise,mutation,6404,252,3.935,guest sync replay
+2026-08-11,Mutation.saveHealthProfile,mutation,1219,12,0.984,goal writes
+2026-08-11,Mutation.updateProfile,mutation,819,6,0.733,profile writes
+2026-08-11,Mutation.requestProfilePhotoUpload,mutation,442,58,13.122,HEIC rejections
+2026-08-11,Mutation.confirmProfilePhotoUpload,mutation,429,30,6.993,HEIC rejections
+2026-08-12,Query.exerciseEntries,query,10295,61,0.593,per-date fan-out
+2026-08-12,Query.healthProfile,query,4345,14,0.322,read path
+2026-08-12,Query.me,query,5305,13,0.245,read path
+2026-08-12,Query.profile,query,977,1,0.102,api-key readable
+2026-08-12,Query.myPreferences,query,2740,6,0.219,read path
+2026-08-12,Mutation.logExercise,mutation,7465,246,3.295,guest sync replay
+2026-08-12,Mutation.saveHealthProfile,mutation,1194,11,0.921,goal writes
+2026-08-12,Mutation.updateProfile,mutation,984,7,0.711,profile writes
+2026-08-12,Mutation.requestProfilePhotoUpload,mutation,516,70,13.566,HEIC rejections
+2026-08-12,Mutation.confirmProfilePhotoUpload,mutation,386,35,9.067,HEIC rejections
+2026-08-13,Query.exerciseEntries,query,11557,49,0.424,per-date fan-out
+2026-08-13,Query.healthProfile,query,4007,14,0.349,read path
+2026-08-13,Query.me,query,5054,11,0.218,read path
+2026-08-13,Query.profile,query,929,1,0.108,api-key readable
+2026-08-13,Query.myPreferences,query,2969,9,0.303,read path
+2026-08-13,Mutation.logExercise,mutation,6463,308,4.766,guest sync replay
+2026-08-13,Mutation.saveHealthProfile,mutation,1263,9,0.713,goal writes
+2026-08-13,Mutation.updateProfile,mutation,890,6,0.674,profile writes
+2026-08-13,Mutation.requestProfilePhotoUpload,mutation,433,71,16.397,HEIC rejections
+2026-08-13,Mutation.confirmProfilePhotoUpload,mutation,416,27,6.49,HEIC rejections
+2026-08-14,Query.exerciseEntries,query,10706,55,0.514,per-date fan-out
+2026-08-14,Query.healthProfile,query,4391,11,0.251,read path
+2026-08-14,Query.me,query,4836,10,0.207,read path
+2026-08-14,Query.profile,query,992,1,0.101,api-key readable
+2026-08-14,Query.myPreferences,query,2514,6,0.239,read path
+2026-08-14,Mutation.logExercise,mutation,7211,247,3.425,guest sync replay
+2026-08-14,Mutation.saveHealthProfile,mutation,1201,10,0.833,goal writes
+2026-08-14,Mutation.updateProfile,mutation,965,7,0.725,profile writes
+2026-08-14,Mutation.requestProfilePhotoUpload,mutation,499,78,15.631,HEIC rejections
+2026-08-14,Mutation.confirmProfilePhotoUpload,mutation,376,29,7.713,HEIC rejections
+2026-08-15,Query.exerciseEntries,query,9553,46,0.482,per-date fan-out
+2026-08-15,Query.healthProfile,query,3925,11,0.28,read path
+2026-08-15,Query.me,query,4317,8,0.185,read path
+2026-08-15,Query.profile,query,855,1,0.117,api-key readable
+2026-08-15,Query.myPreferences,query,2014,6,0.298,read path
+2026-08-15,Mutation.logExercise,mutation,4975,195,3.92,guest sync replay
+2026-08-15,Mutation.saveHealthProfile,mutation,873,8,0.916,goal writes
+2026-08-15,Mutation.updateProfile,mutation,769,6,0.78,profile writes
+2026-08-15,Mutation.requestProfilePhotoUpload,mutation,327,47,14.373,HEIC rejections
+2026-08-15,Mutation.confirmProfilePhotoUpload,mutation,343,29,8.455,HEIC rejections
+2026-08-16,Query.exerciseEntries,query,9218,53,0.575,per-date fan-out
+2026-08-16,Query.healthProfile,query,3720,12,0.323,read path
+2026-08-16,Query.me,query,4298,7,0.163,read path
+2026-08-16,Query.profile,query,926,1,0.108,api-key readable
+2026-08-16,Query.myPreferences,query,2116,5,0.236,read path
+2026-08-16,Mutation.logExercise,mutation,4926,213,4.324,guest sync replay
+2026-08-16,Mutation.saveHealthProfile,mutation,998,10,1.002,goal writes
+2026-08-16,Mutation.updateProfile,mutation,657,6,0.913,profile writes
+2026-08-16,Mutation.requestProfilePhotoUpload,mutation,339,51,15.044,HEIC rejections
+2026-08-16,Mutation.confirmProfilePhotoUpload,mutation,339,24,7.08,HEIC rejections
+2026-08-17,Query.exerciseEntries,query,9954,54,0.542,per-date fan-out
+2026-08-17,Query.healthProfile,query,4116,10,0.243,read path
+2026-08-17,Query.me,query,4439,8,0.18,read path
+2026-08-17,Query.profile,query,1136,2,0.176,api-key readable
+2026-08-17,Query.myPreferences,query,2796,6,0.215,read path
+2026-08-17,Mutation.logExercise,mutation,6062,254,4.19,guest sync replay
+2026-08-17,Mutation.saveHealthProfile,mutation,1155,9,0.779,goal writes
+2026-08-17,Mutation.updateProfile,mutation,947,7,0.739,profile writes
+2026-08-17,Mutation.requestProfilePhotoUpload,mutation,424,67,15.802,HEIC rejections
+2026-08-17,Mutation.confirmProfilePhotoUpload,mutation,395,26,6.582,HEIC rejections
+2026-08-18,Query.exerciseEntries,query,10484,46,0.439,per-date fan-out
+2026-08-18,Query.healthProfile,query,4689,14,0.299,read path
+2026-08-18,Query.me,query,5428,13,0.239,read path
+2026-08-18,Query.profile,query,974,1,0.103,api-key readable
+2026-08-18,Query.myPreferences,query,2691,6,0.223,read path
+2026-08-18,Mutation.logExercise,mutation,7182,286,3.982,guest sync replay
+2026-08-18,Mutation.saveHealthProfile,mutation,1352,10,0.74,goal writes
+2026-08-18,Mutation.updateProfile,mutation,765,7,0.915,profile writes
+2026-08-18,Mutation.requestProfilePhotoUpload,mutation,424,57,13.443,HEIC rejections
+2026-08-18,Mutation.confirmProfilePhotoUpload,mutation,387,33,8.527,HEIC rejections
+2026-08-19,Query.exerciseEntries,query,9823,53,0.54,per-date fan-out
+2026-08-19,Query.healthProfile,query,4516,13,0.288,read path
+2026-08-19,Query.me,query,4579,11,0.24,read path
+2026-08-19,Query.profile,query,1115,1,0.09,api-key readable
+2026-08-19,Query.myPreferences,query,2381,6,0.252,read path
+2026-08-19,Mutation.logExercise,mutation,6320,248,3.924,guest sync replay
+2026-08-19,Mutation.saveHealthProfile,mutation,1272,13,1.022,goal writes
+2026-08-19,Mutation.updateProfile,mutation,997,7,0.702,profile writes
+2026-08-19,Mutation.requestProfilePhotoUpload,mutation,511,86,16.83,HEIC rejections
+2026-08-19,Mutation.confirmProfilePhotoUpload,mutation,362,25,6.906,HEIC rejections
+2026-08-20,Query.exerciseEntries,query,12023,64,0.532,per-date fan-out
+2026-08-20,Query.healthProfile,query,4834,14,0.29,read path
+2026-08-20,Query.me,query,5284,12,0.227,read path
+2026-08-20,Query.profile,query,1211,2,0.165,api-key readable
+2026-08-20,Query.myPreferences,query,2862,8,0.28,read path
+2026-08-20,Mutation.logExercise,mutation,5823,233,4.001,guest sync replay
+2026-08-20,Mutation.saveHealthProfile,mutation,1365,11,0.806,goal writes
+2026-08-20,Mutation.updateProfile,mutation,774,5,0.646,profile writes
+2026-08-20,Mutation.requestProfilePhotoUpload,mutation,425,56,13.176,HEIC rejections
+2026-08-20,Mutation.confirmProfilePhotoUpload,mutation,412,27,6.553,HEIC rejections
+2026-08-21,Query.exerciseEntries,query,12351,58,0.47,per-date fan-out
+2026-08-21,Query.healthProfile,query,4751,12,0.253,read path
+2026-08-21,Query.me,query,5744,13,0.226,read path
+2026-08-21,Query.profile,query,1056,1,0.095,api-key readable
+2026-08-21,Query.myPreferences,query,2563,6,0.234,read path
+2026-08-21,Mutation.logExercise,mutation,6810,273,4.009,guest sync replay
+2026-08-21,Mutation.saveHealthProfile,mutation,1406,11,0.782,goal writes
+2026-08-21,Mutation.updateProfile,mutation,920,7,0.761,profile writes
+2026-08-21,Mutation.requestProfilePhotoUpload,mutation,503,84,16.7,HEIC rejections
+2026-08-21,Mutation.confirmProfilePhotoUpload,mutation,381,29,7.612,HEIC rejections
+2026-08-22,Query.exerciseEntries,query,8186,38,0.464,per-date fan-out
+2026-08-22,Query.healthProfile,query,3681,11,0.299,read path
+2026-08-22,Query.me,query,3548,7,0.197,read path
+2026-08-22,Query.profile,query,877,1,0.114,api-key readable
+2026-08-22,Query.myPreferences,query,2126,6,0.282,read path
+2026-08-22,Mutation.logExercise,mutation,5626,201,3.573,guest sync replay
+2026-08-22,Mutation.saveHealthProfile,mutation,1055,11,1.043,goal writes
+2026-08-22,Mutation.updateProfile,mutation,614,5,0.814,profile writes
+2026-08-22,Mutation.requestProfilePhotoUpload,mutation,431,58,13.457,HEIC rejections
+2026-08-22,Mutation.confirmProfilePhotoUpload,mutation,295,27,9.153,HEIC rejections
+2026-08-23,Query.exerciseEntries,query,8791,46,0.523,per-date fan-out
+2026-08-23,Query.healthProfile,query,3195,9,0.282,read path
+2026-08-23,Query.me,query,4016,8,0.199,read path
+2026-08-23,Query.profile,query,855,1,0.117,api-key readable
+2026-08-23,Query.myPreferences,query,2036,6,0.295,read path
+2026-08-23,Mutation.logExercise,mutation,4787,212,4.429,guest sync replay
+2026-08-23,Mutation.saveHealthProfile,mutation,910,8,0.879,goal writes
+2026-08-23,Mutation.updateProfile,mutation,756,6,0.794,profile writes
+2026-08-23,Mutation.requestProfilePhotoUpload,mutation,411,63,15.328,HEIC rejections
+2026-08-23,Mutation.confirmProfilePhotoUpload,mutation,293,20,6.826,HEIC rejections
+2026-08-24,Query.exerciseEntries,query,12041,57,0.473,per-date fan-out
+2026-08-24,Query.healthProfile,query,4984,13,0.261,read path
+2026-08-24,Query.me,query,5328,11,0.206,read path
+2026-08-24,Query.profile,query,1220,2,0.164,api-key readable
+2026-08-24,Query.myPreferences,query,3075,8,0.26,read path
+2026-08-24,Mutation.logExercise,mutation,7008,277,3.953,guest sync replay
+2026-08-24,Mutation.saveHealthProfile,mutation,1335,12,0.899,goal writes
+2026-08-24,Mutation.updateProfile,mutation,780,6,0.769,profile writes
+2026-08-24,Mutation.requestProfilePhotoUpload,mutation,462,64,13.853,HEIC rejections
+2026-08-24,Mutation.confirmProfilePhotoUpload,mutation,411,38,9.246,HEIC rejections
+2026-08-25,Query.exerciseEntries,query,12265,65,0.53,per-date fan-out
+2026-08-25,Query.healthProfile,query,4947,18,0.364,read path
+2026-08-25,Query.me,query,5028,12,0.239,read path
+2026-08-25,Query.profile,query,978,1,0.102,api-key readable
+2026-08-25,Query.myPreferences,query,2881,7,0.243,read path
+2026-08-25,Mutation.logExercise,mutation,7024,312,4.442,guest sync replay
+2026-08-25,Mutation.saveHealthProfile,mutation,1185,9,0.759,goal writes
+2026-08-25,Mutation.updateProfile,mutation,847,7,0.826,profile writes
+2026-08-25,Mutation.requestProfilePhotoUpload,mutation,523,92,17.591,HEIC rejections
+2026-08-25,Mutation.confirmProfilePhotoUpload,mutation,445,29,6.517,HEIC rejections
+2026-08-26,Query.exerciseEntries,query,11505,50,0.435,per-date fan-out
+2026-08-26,Query.healthProfile,query,4951,13,0.263,read path
+2026-08-26,Query.me,query,5637,13,0.231,read path
+2026-08-26,Query.profile,query,933,1,0.107,api-key readable
+2026-08-26,Query.myPreferences,query,2567,6,0.234,read path
+2026-08-26,Mutation.logExercise,mutation,6061,206,3.399,guest sync replay
+2026-08-26,Mutation.saveHealthProfile,mutation,1337,10,0.748,goal writes
+2026-08-26,Mutation.updateProfile,mutation,818,8,0.978,profile writes
+2026-08-26,Mutation.requestProfilePhotoUpload,mutation,509,64,12.574,HEIC rejections
+2026-08-26,Mutation.confirmProfilePhotoUpload,mutation,422,39,9.242,HEIC rejections
